@@ -2,6 +2,8 @@ import logging
 import os
 import pandas as pd
 
+from tags import Tags
+
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
 
@@ -14,22 +16,22 @@ class Database:
     
     def __init__(self) -> None:
         
-        self.db = None
-        self.data_version = "Thursday, Sept. 14, 2023"
+        self.db               = None
+        self.data_version     = "Thursday, Sept. 14, 2023"
         
         # Database attributes
-        self.tables = None
-        self.pmid = None
-        self.title = None
-        self.authors = None
-        self.citation = None
-        self.first_author = None
-        self.journal_book = None
+        self.tables           = None
+        self.pmid             = None
+        self.title            = None
+        self.authors          = None
+        self.citation         = None
+        self.first_author     = None
+        self.journal_book     = None
         self.publication_year = None
-        self.create_date = None
-        self.pmcid = None
-        self.nihms_id = None
-        self.doi = None
+        self.create_date      = None
+        self.pmcid            = None
+        self.nihms_id         = None
+        self.doi              = None
         
     def load(self, tables: list):
         
@@ -74,7 +76,10 @@ class Database:
         """ If no tags then error. """
         # TODO
         self._check_db_exists()
-        # self._check_tags_exist()
+        
+    def load_tag_file(self, tags: Tags):
+        # TODO
+        ...
         
     def save(self, path: str):
         """ Write current DB to path. """
@@ -95,7 +100,7 @@ class Database:
         print("Current columns: \n", self.db.columns.to_list())
         
     def _check_db_exists(self):
-        """ Checks to see that a database is loaded. """
+        """ Checks to see that a database is loaded."""
         if self.db is not None:
             pass
         else:
@@ -115,17 +120,14 @@ class Database:
         self._check_db_exists()
         
         # Attributes
-        self.pmid = self.db["PMID"]
-        self.title = self.db["Title"]
-        self.authors = self.db["Authors"]
-        self.citation = self.db["Citation"]
-        self.first_author = self.db["First Author"]
-        self.journal_book = self.db["Journal/Book"]
+        self.pmid             = self.db["PMID"]
+        self.title            = self.db["Title"]
+        self.authors          = self.db["Authors"]
+        self.citation         = self.db["Citation"]
+        self.first_author     = self.db["First Author"]
+        self.journal_book     = self.db["Journal/Book"]
         self.publication_year = self.db["Publication Year"]
-        self.create_date = self.db["Create Date"]
-        self.pmcid = self.db["PMCID"]
-        self.nihms_id = self.db["NIHMS ID"]
-        self.doi = self.db["DOI"]
-    
-
-# Functions: load (specify tables, including ALL. Auto filter duplicates)
+        self.create_date      = self.db["Create Date"]
+        self.pmcid            = self.db["PMCID"]
+        self.nihms_id         = self.db["NIHMS ID"]
+        self.doi              = self.db["DOI"]

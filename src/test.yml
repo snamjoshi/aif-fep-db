@@ -1,0 +1,17 @@
+tag_list: ["continuous", "discrete", "Bayesian mechanics"]
+
+tags: [
+  {id: 494, tag: ["continuous", "discrete"]},
+  {id: 303, tag: ["Bayesian mechanics"]},
+  {id: 479, tag: ["discrete", "Bayesian mechanics"]},
+  {id: 802, tag: ["discrete"]}
+]
+
+# tags: {
+#   ids: [494, 303, 479, 802],
+#   tag: [
+#     ["continuous", "discrete"], 
+#     ["Bayesian mechanics"]
+#     ["discrete", "Bayesian mechanics"],
+#     ["discrete"]]
+# }

@@ -18,3 +18,4 @@ A database of publications related to active inference and the free energy princ
 * Get abstract method?
 * Tags (separate tag class?)
 * [?] Use database (`sqlite3`) instead of CSV
+* Switch to UUID instead of pmid to account for ArXiv papers, preprints, and open access papers
