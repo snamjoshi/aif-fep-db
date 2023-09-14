@@ -2,7 +2,7 @@ import logging
 import os
 import pandas as pd
 
-from tags import Tags
+from src.tags import Tags
 
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
@@ -18,10 +18,11 @@ class Database:
         
         self.db               = None
         self.data_version     = "Thursday, Sept. 14, 2023"
+        self._data_dir        = "data"
         
         # Database attributes
         self.tables           = None
-        self.pmid             = None
+        self.id               = None
         self.title            = None
         self.authors          = None
         self.citation         = None
@@ -33,7 +34,7 @@ class Database:
         self.nihms_id         = None
         self.doi              = None
         
-    def load(self, tables: list):
+    def load(self, tables: list, add_remove_history = None):
         
         LOGGER.info("Checking tables...")
         self._check_tables(tables)
@@ -43,7 +44,7 @@ class Database:
         
         LOGGER.info("Loading tables...")
         for table in tables:
-            table_path = f"../data/{table}.csv"
+            table_path = f"{self._data_dir}/{table}.csv"
             db_list.append(pd.read_csv(table_path))
         
         self.db = pd.concat(db_list).drop_duplicates()
@@ -57,10 +58,10 @@ class Database:
         self._check_db_exists()
         return self.db.sort_values(by=fields, ascending=ascending)
         
-    def drop_rows(self, pmid: list):
+    def drop_rows(self, ids: list):
         self._check_db_exists()
-        pmid = [int(p) for p in pmid]
-        return self.db[~self.db["PMID"].isin(pmid)]
+        ids = [int(p) for p in ids]
+        return self.db[~self.db["id"].isin(ids)]
         
     def select(self, fields: list):
         """ Select columns from database"""
@@ -77,10 +78,20 @@ class Database:
         # TODO
         self._check_db_exists()
         
-    def load_tag_file(self, tags: Tags):
-        # TODO: This method will convert the YAML tag dict to JSON and join it to the db.
-        # Can load as many tag files as you like. 
+    def add_paper_to_db(self, add_table: pd.DataFrame, id_type: str):
+        # TODO
+        # Check the added table to ensure all the columns are correct. 
+        # Check id column based on type: currently just ArXiv.
         ...
+        # id, title, authors, 
+        # citation, first_author, journal_book, 
+        # publication_year, create_data, pmcid,
+        # nihms_id, doi
+        
+    # def load_tag_file(self, tags: Tags):
+    #     # TODO: This method will convert the YAML tag dict to JSON and join it to the db.
+    #     # Can load as many tag files as you like. 
+    #     ...
         
     def save(self, path: str):
         """ Write current DB to path. """
@@ -110,7 +121,7 @@ class Database:
     def _check_tables(self, tables: list):
         
         # Check to see that user input tables match currently supported tables.
-        current_tables = os.listdir("../data")
+        current_tables = os.listdir(self._data_dir)
         current_tables = [table.split(".")[0] for table in current_tables]
         
         for table in tables:
@@ -120,15 +131,19 @@ class Database:
         """ Loads the table attributes """
         self._check_db_exists()
         
+        # Change format of column names
+        self.db.columns = ["id", "title", "authors", "citation", "first_author", "journal_book",
+                           "publication_year", "create_date", "pmcid", "nihms_id", "doi"]
+        
         # Attributes
-        self.pmid             = self.db["PMID"]
-        self.title            = self.db["Title"]
-        self.authors          = self.db["Authors"]
-        self.citation         = self.db["Citation"]
-        self.first_author     = self.db["First Author"]
-        self.journal_book     = self.db["Journal/Book"]
-        self.publication_year = self.db["Publication Year"]
-        self.create_date      = self.db["Create Date"]
-        self.pmcid            = self.db["PMCID"]
-        self.nihms_id         = self.db["NIHMS ID"]
-        self.doi              = self.db["DOI"]
+        self.pmid             = self.db["id"]
+        self.title            = self.db["title"]
+        self.authors          = self.db["authors"]
+        self.citation         = self.db["citation"]
+        self.first_author     = self.db["first_author"]
+        self.journal_book     = self.db["journal_book"]
+        self.publication_year = self.db["publication_year"]
+        self.create_date      = self.db["create_date"]
+        self.pmcid            = self.db["pmcid"]
+        self.nihms_id         = self.db["nihms_id"]
+        self.doi              = self.db["doi"]

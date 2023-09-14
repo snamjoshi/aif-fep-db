@@ -1,8 +1,8 @@
 import logging
 import yaml
 
-from db import Database
-from utils import validate_tag_file, write_yaml
+# from src.db import Database
+from src.utils import validate_tag_file, write_yaml
 
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
@@ -32,6 +32,9 @@ class Tags:
     def create_empty_tag_file(self, path: str):
         """ Creates an empty tag file """
         
+        if not path.endswith(".yaml"):
+            raise TypeError("Path to tag file must end in '.yaml'.")
+        
         empty_tags_dict = {
             "tag_list": [],
             "tagged_papers": []
@@ -46,20 +49,25 @@ class Tags:
     
     def load(self, path: str):
         """ Loads a user's tag file """
+        
+        if not path.endswith(".yaml"):
+            raise TypeError("Path to tag file must end in '.yaml'.")
 
         with open(path, "r") as file:
             tags = yaml.safe_load(file)
         
         validate_tag_file(tags)
-        self._load_attributes()
         
         LOGGER.info(f"YAML tag file successfully loaded from {path}.")
         
         self.tags = tags
         self.tag_file_path = path
         
-    def add_tag_to_paper(self, tag_id, tags):
+        self._load_attributes()
+        
+    def associate_tag_with_id(self, tag_id, tags):
         """ Adds a new tag to a paper in the tag file """
+        self._check_tag_exists()
         self.tags["tagged_papers"].append(
             {"id": tag_id,
              "tag": tags}
@@ -71,8 +79,9 @@ class Tags:
         # Update tag file
         write_yaml(self.tags, self.tag_file_path)
     
-    def check_tag_list(self):
+    def view_tag_list(self):
         """ Prints the current tag list """
+        self._check_tag_exists()
         print("Current tags: \n", self.tags["tag_list"])
         
     def add_to_tag_list(self, new_tags: list):
@@ -100,7 +109,7 @@ class Tags:
         
     def _check_tag_exists(self):
         """ Checks to see that a database is loaded."""
-        if self.tag is not None:
+        if self.tags is not None:
             pass
         else:
             raise KeyError("No tag YAML file is loaded. Please load the tag file first using 'Tags.load()'.")
