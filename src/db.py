@@ -78,7 +78,8 @@ class Database:
         self._check_db_exists()
         
     def load_tag_file(self, tags: Tags):
-        # TODO
+        # TODO: This method will convert the YAML tag dict to JSON and join it to the db.
+        # Can load as many tag files as you like. 
         ...
         
     def save(self, path: str):

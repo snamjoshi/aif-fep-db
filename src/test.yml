@@ -1,6 +1,6 @@
 tag_list: ["continuous", "discrete", "Bayesian mechanics"]
 
-tags: [
+tagged_papers: [
   {id: 494, tag: ["continuous", "discrete"]},
   {id: 303, tag: ["Bayesian mechanics"]},
   {id: 479, tag: ["discrete", "Bayesian mechanics"]},

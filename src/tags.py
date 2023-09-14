@@ -23,18 +23,18 @@ class Tags:
     """
     
     def __init__(self) -> None:
+        
         self.tags = None
         self.tag_file_path = None
-        
-        if self.db is None:
-            raise KeyError("No database is loaded. Please load the database first using 'Database.load()'.")
+        self.tag_list = None
+        self.tagged_papers = None
     
     def create_empty_tag_file(self, path: str):
         """ Creates an empty tag file """
         
         empty_tags_dict = {
             "tag_list": [],
-            "tags": []
+            "tagged_papers": []
         }
         
         write_yaml(empty_tags_dict, path)
@@ -51,22 +51,31 @@ class Tags:
             tags = yaml.safe_load(file)
         
         validate_tag_file(tags)
+        self._load_attributes()
+        
+        LOGGER.info(f"YAML tag file successfully loaded from {path}.")
         
         self.tags = tags
         self.tag_file_path = path
         
-    def add_tags_to_paper(self, db):
-        # May be the only function that requires the db. Remove db from init. 
-        # TODO
-        """ Add tag to database """
-        ...
+    def add_tag_to_paper(self, tag_id, tags):
+        """ Adds a new tag to a paper in the tag file """
+        self.tags["tagged_papers"].append(
+            {"id": tag_id,
+             "tag": tags}
+        )
+        self.tagged_papers = self.tags["tagged_papers"]
+        
+        LOGGER.info(f"Added {tags} to {tag_id}.")
+        
+        # Update tag file
+        write_yaml(self.tags, self.tag_file_path)
     
     def check_tag_list(self):
         """ Prints the current tag list """
         print("Current tags: \n", self.tags["tag_list"])
         
     def add_to_tag_list(self, new_tags: list):
-        # TODO
         """ Appends new tags to the list of possible tags."""
         self._check_tag_exists()
         
@@ -76,6 +85,9 @@ class Tags:
                 LOGGER.info(f"{new_tag} is already in tag list. Skipping.")
             else:
                 self.tags["tag_list"].append(new_tag)
+                self.tags_list = self.tags["tag_list"]
+                
+        LOGGER.info(f"Added {new_tags} to the tag list.")
                 
         # Update tag file
         write_yaml(self.tags, self.tag_file_path)
@@ -93,3 +105,13 @@ class Tags:
         else:
             raise KeyError("No tag YAML file is loaded. Please load the tag file first using 'Tags.load()'.")
         
+    def _load_attributes(self):
+        """ Loads the table attributes """
+        self._check_tag_exists()
+        
+        # Attributes
+        self.tag_list      = self.tags["tag_list"]
+        self.tagged_papers = self.tags["tagged_papers"]
+
+# if self.db is None:
+#     raise KeyError("No database is loaded. Please load the database first using 'Database.load()'.") 
