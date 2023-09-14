@@ -7,8 +7,9 @@ logging.basicConfig(level = logging.INFO)
 
 class Database:
     """
-    Main database class. Takes in each individual table the user specifies and joins them into
-    a single table. Includes basic helper methods for filtering, sorting, and saving.
+    Class that stores the database object and performs operations on it. Takes in each individual 
+    table the user specifies and joins them into a single table. Includes basic helper methods for
+    filtering, sorting, and saving.
     """
     
     def __init__(self) -> None:
@@ -17,6 +18,7 @@ class Database:
         self.data_version = "Thursday, Sept. 14, 2023"
         
         # Database attributes
+        self.tables = None
         self.pmid = None
         self.title = None
         self.authors = None
@@ -44,22 +46,9 @@ class Database:
         
         self.db = pd.concat(db_list).drop_duplicates()
         self._load_attributes()
+        self.tables = tables
         
         LOGGER.info(f"Tables downloaded from PubMed on {self.data_version}.")
-
-    def load_tags(self):
-        """ A tag file should consist of a PMID and a set of tags"""
-        self._check_db_exists()
-        
-    def add_tags(self):
-        # TODO
-        self._check_db_exists()
-        # Check list of available tags
-        # Functionality for adding new tags to set of possible tags
-        
-    def add_tags_interactive(self):
-        # TODO
-        self._check_db_exists()
         
     def sort(self, fields: list, ascending: bool):
         """ Sort database columns """
@@ -87,7 +76,7 @@ class Database:
         self._check_db_exists()
         # self._check_tags_exist()
         
-    def save(self, path):
+    def save(self, path: str):
         """ Write current DB to path. """
         self._check_db_exists()
         self.db.to_csv(path)
