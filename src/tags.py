@@ -102,7 +102,21 @@ class Tags:
         write_yaml(self.tags, self.tag_file_path)
         
     def add_tags_interactive(self):
-        """ Interactive tag adding mode"""
+        """ Interactive tag adding mode
+        Features:
+        - Show the title, author, and year.
+        - Pull abstract with "show abstract"
+        - Show "field" to see other fields
+        - Only includes non-tagged papers
+        - Move forward a paper
+        - Move backward a paper
+        - Prints current tags at the bottom of the output with numbers associated so it's easy to 
+          say which tag to add
+        - Saves new tags in the tag list mid-stream
+        - Add a new tag on the fly. Terminal will refresh to show the new tag added.
+        - Stop interactive mode
+        
+        """
         # May be the only function that requires the db. Remove db from init. 
         # TODO
         self._check_tag_exists()
