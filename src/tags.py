@@ -2,6 +2,7 @@ import logging
 import yaml
 
 # from src.db import Database
+from src.interactive import InteractiveTagging
 from src.utils import validate_tag_file, write_yaml
 
 LOGGER = logging.getLogger(__name__)
@@ -58,9 +59,11 @@ class Tags:
         
         self._load_attributes()
         
-    def associate_tag_with_id(self, tag_id, tags):
+    def associate_tag_with_id(self, tag_id, tags, db):
         """ Adds a new tag to a paper in the tag file """
         self._check_tag_exists()
+        
+        
         self.tags["tagged_papers"].append(
             {"id": tag_id,
              "tag": tags}
@@ -101,29 +104,14 @@ class Tags:
         # Update tag file
         write_yaml(self.tags, self.tag_file_path)
         
-    def add_tags_interactive(self):
-        """ Interactive tag adding mode
-        Features:
-        - Show the title, author, and year.
-        - Pull abstract with "show abstract"
-        - Show "field" to see other fields
-        - Only includes non-tagged papers
-        - Move forward a paper
-        - Move backward a paper
-        - Prints current tags at the bottom of the output with numbers associated so it's easy to 
-          say which tag to add
-        - Saves new tags in the tag list mid-stream
-        - Add a new tag on the fly. Terminal will refresh to show the new tag added.
-        - Stop interactive mode
-        - Progress bar / % left to add or counts out of total
-        - Notification of which tags were added
-        - Average time with tic toc to finish. Give estimate of remaning items
-        - New field in YAML tag for "category" to separate different tag files
-        
+    def add_tags_interactive(self, db, tags):
+        """ Interactive tag adding mode        
         """
         # May be the only function that requires the db. Remove db from init. 
         # TODO
         self._check_tag_exists()
+        interactive = InteractiveTagging(db, self.tags)
+        interactive.run()
         
     def _check_tag_exists(self):
         """ Checks to see that a database is loaded."""
