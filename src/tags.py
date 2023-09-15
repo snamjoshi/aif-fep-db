@@ -59,18 +59,41 @@ class Tags:
         
         self._load_attributes()
         
-    def associate_tag_with_id(self, tag_id, tags, db):
+    def associate_tag_with_id(self, tag_id: int, tags: list, db):
         """ Adds a new tag to a paper in the tag file """
         self._check_tag_exists()
         
+        tag_id = int(tag_id)
         
-        self.tags["tagged_papers"].append(
-            {"id": tag_id,
-             "tag": tags}
-        )
-        self.tagged_papers = self.tags["tagged_papers"]
-        
-        LOGGER.info(f"Added {tags} to {tag_id}.")
+        # Check to see that tag_id exists in the database
+        if tag_id in db.db["id"].tolist():
+            
+            # Check to see if tag is already in the tagged papers
+            if tag_id in [tags["id"] for tags in self.tags["tagged_papers"]]:
+                
+                # Append each new tag to the current tags
+                for tag in tags:
+                    
+                    # Pull each dict out of the tagged papers list
+                    for tag_set in self.tags["tagged_papers"]:
+                        
+                        # Only append to the tag id specified
+                        if tag_set["id"] == tag_id:
+                            tag_set["tag"].append(tag)
+                            self.tagged_papers = self.tags["tagged_papers"]
+                LOGGER.info(f"Added {tags} to {tag_id}.")
+            
+            # If id is not in tagged papers yet, add it and the tags
+            else:
+                self.tags["tagged_papers"].append(
+                {"id": tag_id,
+                "tag": tags}
+                )
+                self.tagged_papers = self.tags["tagged_papers"]
+            
+                LOGGER.info(f"Added {tags} to {tag_id}.")
+        else:
+            raise KeyError(f"The tag_id {tag_id} does not correspond to an id in the database.")
         
         # Update tag file
         write_yaml(self.tags, self.tag_file_path)

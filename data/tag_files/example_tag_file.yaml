@@ -2,4 +2,12 @@ category: Bayesian mechanics
 tag_list:
 - information geometry
 - Markov blankets
-tagged_papers: []
+tagged_papers:
+- id: 31865883
+  tag:
+  - information geometry
+- id: 35153603
+  tag:
+  - Markov blankets
+  - thermodynamics
+  - sparse coupling

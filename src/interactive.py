@@ -2,15 +2,11 @@
 
 
 
-from src.db import Database
-from src.tags import Tags
-
-
 class InteractiveTagging:
     """ Implements the user-input interactive tag loop.
     Features:
     """
-    def __init__(self, db: Database, tags: Tags) -> None:
+    def __init__(self, db, tags) -> None:
         self._run = True
         self._db = db.db
         self._tags = tags
