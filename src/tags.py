@@ -107,8 +107,7 @@ class Tags:
     def add_tags_interactive(self, db, tags):
         """ Interactive tag adding mode        
         """
-        # May be the only function that requires the db. Remove db from init. 
-        # TODO
+        # TODO Allow multiple loaded tags (categories) to tbe passed in as a list
         self._check_tag_exists()
         interactive = InteractiveTagging(db, self.tags)
         interactive.run()

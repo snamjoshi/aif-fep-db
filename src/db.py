@@ -35,7 +35,7 @@ class Database:
         self.doi              = None
         
     def load(self, tables: list, add_remove_history = None):
-        # TODO: Add a load from table verses load from file
+        # TODO: Add a load from table verses load from file. If load from file, must validate cols first.
         LOGGER.info("Checking tables...")
         self._check_tables(tables)
         
