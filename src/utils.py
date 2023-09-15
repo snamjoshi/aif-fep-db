@@ -9,11 +9,14 @@ def validate_tag_file(tag_file: dict):
     assert isinstance(tag_file, Mapping), "Tag file incorrect data type. Expected dict."
     
     # Assert number of keys in dict = 2
-    assert len(tag_file) == 2, "Tag file must only have two elements: 'tag_list' and 'tagged_papers'."
+    assert len(tag_file) == 3, "Tag file must only have three elements: 'category', 'tag_list' and 'tagged_papers'."
     
-    # Assert that the keys are "tag_list" and "tags"
+    # Assert that the keys are "category", "tag_list" and "tags"
     for tag in list(tag_file.keys()):
-        assert tag in ['tag_list', 'tagged_papers'], "Incorrect keys in tag file. Expected 'tag_list' and 'tagged_papers'."
+        assert tag in ["category", "tag_list", "tagged_papers"], "Incorrect keys in tag file. Expected 'category', 'tag_list' and 'tagged_papers'."
+    
+    # Assert that "category" is a string
+    assert isinstance(tag_file["category"], str), "Key 'category' in tag file must be a string."
     
     # Assert that "tag_list" is a list
     assert isinstance(tag_file["tag_list"], list), "Key 'tag_list' in tag file must be a list."

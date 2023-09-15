@@ -8,15 +8,6 @@ LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
 
 
-"""
-# Possibility for tag groups? One can specify the tag group when creating a tag
-# This tag group allows you to group different types of tags with similar values together
-# A tag file always has a tag list that one can choose from when adding tags
-# If tag is not there, it must be added to the tag list first.
-# Start backward from a tag file: What the structure is and load it.
-# Work backward to figure out what an empty version looks like
-# Can add any number of tag files
-"""
 class Tags:
     """
     Class that loads, and adds tags to an existing database.
@@ -26,6 +17,7 @@ class Tags:
         
         self.tags = None
         self.tag_file_path = None
+        self.category = None
         self.tag_list = None
         self.tagged_papers = None
     
@@ -36,6 +28,7 @@ class Tags:
             raise TypeError("Path to tag file must end in '.yaml'.")
         
         empty_tags_dict = {
+            "category": "",
             "tag_list": [],
             "tagged_papers": []
         }
@@ -84,6 +77,13 @@ class Tags:
         self._check_tag_exists()
         print("Current tags: \n", self.tags["tag_list"])
         
+    def set_tag_list_category(self, category_name: str):
+        self._check_tag_exists()
+        self.tags["category"] = category_name
+        self.category = self.tags["category"]
+        
+        LOGGER.info(f"Set {self.category} as the tag category.")
+        
     def add_to_tag_list(self, new_tags: list):
         """ Appends new tags to the list of possible tags."""
         self._check_tag_exists()
@@ -115,6 +115,10 @@ class Tags:
         - Saves new tags in the tag list mid-stream
         - Add a new tag on the fly. Terminal will refresh to show the new tag added.
         - Stop interactive mode
+        - Progress bar / % left to add or counts out of total
+        - Notification of which tags were added
+        - Average time with tic toc to finish. Give estimate of remaning items
+        - New field in YAML tag for "category" to separate different tag files
         
         """
         # May be the only function that requires the db. Remove db from init. 
@@ -133,6 +137,7 @@ class Tags:
         self._check_tag_exists()
         
         # Attributes
+        self.category      = self.tags["category"]
         self.tag_list      = self.tags["tag_list"]
         self.tagged_papers = self.tags["tagged_papers"]
 
