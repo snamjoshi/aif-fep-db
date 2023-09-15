@@ -27,4 +27,14 @@ def validate_tag_file(tag_file: dict):
 def write_yaml(file, path):
     with open(path, "w") as outfile:
         yaml.dump(file, outfile, default_flow_style=False)
+        
+def progress_bar(prog):
+    """ Creates a visual progress bar for the terminal """
+    prog = prog - 1
+    remainder = 100 - prog
+    
+    prog = ''.join(["="] * prog)
+    remainder = ''.join(["-"] * remainder)
+    
+    return(f"[{prog}>{remainder}]")
     
