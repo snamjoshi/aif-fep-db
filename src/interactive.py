@@ -170,6 +170,9 @@ class InteractiveTagging:
         print("\n")
         print(''.join(["*"] * 100))
         
+    def _remove_paper(self):
+        ...
+        
     def _add_tags(self):
         # [ ] Average time with tic toc to finish. Give estimate of remaning items at end of method call.
         # [ ] Prompt: Which tags to add?
