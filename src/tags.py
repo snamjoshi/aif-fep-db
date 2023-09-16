@@ -65,6 +65,7 @@ class Tags:
         
         tag_id = int(tag_id)
         
+        # TODO: Refactor this mess
         # Check to see that tag_id exists in the database
         if tag_id in db.db["id"].tolist():
             

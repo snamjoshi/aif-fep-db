@@ -3,6 +3,7 @@ import yaml
 from collections.abc import Mapping
 
 def validate_tag_file(tag_file: dict):
+    # TODO: Replace this with pydantic validation
     """ Check that the loaded tag file is valid """
     
     # Assert that tag_file is a dict
