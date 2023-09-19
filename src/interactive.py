@@ -2,6 +2,9 @@ import logging
 import math
 import pandas as pd
 
+from Bio import Entrez
+from Bio.Entrez import efetch
+
 from src.utils import progress_bar
 
 LOGGER = logging.getLogger(__name__)
@@ -28,11 +31,13 @@ class InteractiveTagging:
     def __init__(self, db, tags) -> None:
         self._run = True
         self._tags = pd.DataFrame(tags["tagged_papers"])
-        
         self._db = db.db.merge(self._tags, on='id', how='outer')
         # self._db = db[db['tag'].isnull()]
         
         self._current_paper = 0
+        
+        # Setup                                                                                                                                                                                
+        Entrez.email = 'sanjeev.namjoshi@gmail.com'  
         
         # print(self._tags)
         # print(self._db)
@@ -133,8 +138,12 @@ class InteractiveTagging:
         ...
 
     def _show_abstract(self):
-        # [ ] Pull abstract with "show abstract"
-        ...
+        
+        LOGGER.info("Pulling abstract, this may take up to a minute...")
+        paper_id = self._db.loc[self._current_paper]["id"]
+        
+        handle = efetch(db='pubmed', id=paper_id, retmode='text', rettype='abstract')
+        print(handle.read())
         
     def _show_fields(self):
         # [ ] Prompt: Which fields to show?

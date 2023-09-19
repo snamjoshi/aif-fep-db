@@ -1,0 +1,220 @@
+category: all
+tag_list:
+- information geometry
+- Markov blankets
+- neural substrate
+- discrete state space / Markov decision process
+- vision
+- saccades
+- neuroanatomy
+- review
+- core
+- reinforcement learning
+- habit learning
+- application
+- remove
+- attention
+- event related potential
+- schizophrenia
+- hallucination
+- interoceptive processing
+- social
+- exploration
+- perception
+- proprioceptive processing
+- synchrony
+- communication
+- timescales
+- theory
+- adaptation
+- precision
+- hierarchical model
+- movement
+- homeostasis / allostasis
+- animal behavior
+- sensorimotor control
+- covid-19
+- human behavior
+- morphogenesis
+- depression
+- anxiety
+- illusion
+- reflex arc
+- continuous state space / adaptive control
+- decision making
+- motivation
+- editorial
+- psychotherapy
+- emotion
+- message passing
+- linguistics
+- anticipation
+- brain-body interaction
+- consciousness
+- psychedelics
+- selfhood
+- deep active inference
+- temporal model
+tagged_papers:
+- id: 31865883
+  tag:
+  - information geometry
+- id: 35153603
+  tag:
+  - Markov blankets
+  - thermodynamics
+  - sparse coupling
+- id: 34968557
+  tag:
+  - neural substrate
+- id: 33343039
+  tag:
+  - theory
+  - discrete state space / Markov decision process
+  - review
+  - core
+- id: 30120751
+  tag:
+  - vision
+  - saccades
+  - neuroanatomy
+  - discrete state space / Markov decision process
+  - application
+- id: 27375276
+  tag:
+  - theory
+  - learning
+  - discrete state space / Markov decision process
+  - core
+  - reinforcement learning
+  - habit learning
+  - application
+- id: 34687699
+  tag:
+  - attention
+  - application
+  - event related potential
+- id: 33865502
+  tag:
+  - schizophrenia
+  - application
+  - hallucination
+  - interoceptive processing
+  - social
+- id: 34563752
+  tag:
+  - exploration
+  - perception
+  - proprioceptive processing
+  - application
+- id: 25957007
+  tag:
+  - synchrony
+  - communication
+  - social
+  - timescales
+  - application
+- id: 36619023
+  tag:
+  - application
+  - adaptation
+  - precision
+- id: 37354642
+  tag:
+  - hierarchical model
+  - vision
+  - movement
+  - application
+  - discrete state space / Markov decision process
+- id: 26365173
+  tag:
+  - homeostasis / allostasis
+  - animal behavior
+  - sensorimotor control
+  - application
+- id: 34652601
+  tag:
+  - covid-19
+  - human behavior
+  - social
+  - application
+- id: 33400903
+  tag:
+  - theory
+  - review
+  - core
+  - reinforcement learning 
+  - discrete state space / Markov decision process
+- id: 36507307
+  tag:
+  - morphogenesis
+  - application
+- id: 31067416
+  tag:
+  - interoceptive processing
+  - precision
+  - application
+  - depression
+  - anxiety
+- id: 36271279
+  tag:
+  - reinforcement learning
+  - human behavior
+  - discrete state space / Markov decision process
+  - application
+- id: 23744445
+  tag:
+  - illusion
+  - reflex arc
+  - continuous state space / adaptive control
+  - movement
+  - application
+  - proprioceptive processing
+- id: 29475638
+  tag:
+  - hierarchical model
+  - decision making
+  - motivation
+  - application
+- id: 36389542
+  tag:
+  - editorial
+  - psychotherapy
+- id: 27798257
+  tag:
+  - emotion
+  - interoceptive processing
+  - application
+- id: 32687883
+  tag:
+  - communication
+  - hierarchical model
+  - message passing
+  - social
+  - discrete state space / Markov decision process
+  - linguistics
+  - application
+- id: 35503403
+  tag:
+  - discrete state space / Markov decision process
+  - perception
+  - anticipation
+  - brain-body interaction
+- id: 35455140
+  tag:
+  - social
+  - communication
+  - human behavior
+- id: 34484808
+  tag:
+  - consciousness
+  - psychedelics
+  - selfhood
+- id: 28416414
+  tag:
+  - deep active inference
+  - temporal model
+  - saccades
+  - hierachical modeling
+  - neuroanatomy
+  - discrete state space / Markov decision process 
