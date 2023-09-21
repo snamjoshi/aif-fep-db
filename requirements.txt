@@ -1,2 +1,2 @@
-pandas
-pydantic
+pandas==1.5.1
+pydantic==1.10.7
