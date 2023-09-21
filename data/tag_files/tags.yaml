@@ -8,9 +8,11 @@ tag_list:
 - anxiety
 - application
 - attention
+- audition
 - Bethe free energy
 - brain-body interaction
 - collective behavior
+- comment / response
 - communication
 - consciousness
 - continuous state space / adaptive control
@@ -18,6 +20,7 @@ tag_list:
 - covid-19
 - decision making
 - deep active inference
+- depersonalization
 - depression
 - discrete state space / Markov decision process
 - ecological psychology
@@ -26,6 +29,7 @@ tag_list:
 - event related potential
 - explainability
 - exploration
+- goal-directed behavior
 - graphical models
 - habit learning
 - hallucination
@@ -37,20 +41,26 @@ tag_list:
 - interoceptive processing
 - linguistics
 - Markov blankets
+- meditation
 - memory
 - message passing
 - morphogenesis
 - motivation
 - movement
+- multimodal integration
+- navigation
 - neural substrate
 - neuroanatomy
+- neurocomputation
 - niche construction
 - perception
+- philosophy
 - policy pruning
 - precision
 - proprioceptive processing
 - psychedelics
 - psychotherapy
+- redundancy
 - reinforcement learning
 - reflex arc
 - remove
@@ -65,6 +75,7 @@ tag_list:
 - stress
 - structure learning
 - synchrony
+- synthetic biology
 - temporal model
 - theory
 - timescales
@@ -351,3 +362,87 @@ tagged_papers:
   - policy pruning
   - structure learning
   - sophisticated inference
+- id: 36684841
+  tag:
+  - psychotherapy
+  - memory
+- id: 24702520
+  tag:
+  - comment / response
+- id: 30627670
+  tag:
+  - discrete state space / Markov decision process
+  - audition
+  - hallucinations
+  - schizophrenia
+- id: 32732017
+  tag:
+  - audition
+  - speech recognition
+- id: 34022669
+  tag:
+  - deep active inference
+  - robotics
+- id: 35668964
+  tag:
+  - interoception
+  - psychotherapy
+- id: 30407133
+  tag:
+  - human behavior
+  - discrete state space / Markov decision process
+  - message passing
+- id: 34563472
+  tag:
+  - philosophy
+  - Markov blankets
+- id: 34210008
+  tag:
+  - collective behavior
+  - social
+- id: 25976632
+  tag:
+  - sensorimotor control
+  - vision
+  - review
+  - reflex arc
+- id: 32488244
+  tag:
+  - redundancy
+- id: 34901166
+  tag:
+  - robotics
+  - social
+  - emotion
+  - multimodal integration
+- id: 33250804
+  tag:
+  - depersonalization
+  - meditation
+  - selfhood
+  - consciousness
+- id: 30369836
+  tag:
+  - editorial
+- id: 36228614
+  tag:
+  - synthetic biology
+  - neurocomputation
+- id: 34507043
+  tag:
+  - decision making
+  - discrete state space / Markov decision process
+- id: 33562847
+  tag:
+  - social
+  - communication
+  - collective behavior
+- id: 34280254
+  tag:
+  - message passing
+  - graphical models
+  - goal-directed behavior
+- id: 35210988
+  tag:
+  - goal-directed behavior
+  - navigation
