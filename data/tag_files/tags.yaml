@@ -11,7 +11,9 @@ tag_list:
 - attachment theory
 - attention
 - audition
+- autopoiesis
 - Bayesian model reduction
+- belief formation
 - Bethe free energy
 - brain-body interaction
 - brain-computer interface
@@ -38,6 +40,8 @@ tag_list:
 - editorial
 - emotion
 - enactive inference
+- epilepsy
+- erratum
 - event related potential
 - evolution
 - explainability
@@ -50,11 +54,13 @@ tag_list:
 - hallucination
 - hierarchical model
 - homeostasis / allostasis
+- homeostatic reinforcement learning
 - human behavior
 - human-machine interface
 - illusion
 - information geometry
 - insight
+- integrated information theory
 - interoceptive processing
 - learning
 - lesions
@@ -63,8 +69,10 @@ tag_list:
 - meditation
 - memory
 - message passing
+- metabolism
 - metacognition
 - mirror-neuron
+- mood
 - morphogenesis
 - motivation
 - movement
@@ -77,6 +85,7 @@ tag_list:
 - object localization
 - organizational
 - pain
+- panic disorder
 - perception
 - philosophy
 - placebo
@@ -99,6 +108,7 @@ tag_list:
 - scene construction
 - schizophrenia
 - selfhood
+- self-regulation
 - sensorimotor control
 - signal processing
 - sleep
@@ -110,6 +120,7 @@ tag_list:
 - synthetic biology
 - temporal model
 - theory
+- theory of mind
 - timescales
 - time processing
 - tutorial
@@ -995,3 +1006,334 @@ tagged_papers:
   - depersonalization
   - interoceptive processing
   - pain
+- id: 36585542
+  tag:
+  - culture
+  - interoceptive processing
+- id: 33500908
+  tag:
+  - evolution
+  - robotics
+  - ecological psychology
+- id: 34343777
+  tag:
+  - robotics
+- id: 35967689
+  tag:
+  - philosophy
+  - selfhood
+  - consciousness
+  - stress
+- id: 31735816
+  tag:
+  - sensorimotor control
+  - brain-computer interface
+  - human-machine interface
+- id: 35490544
+  tag:
+  - depersonalization
+  - psychopathology
+  - selfhood
+  - interoceptive processing
+- id: 29478431
+  tag:
+  - mood
+  - hierarchical model
+- id: 30988668
+  tag:
+  - decision-making
+  - social
+  - policy pruning
+  - niche construction
+- id: 36845068
+  tag:
+  - erratum
+  - culture
+  - communication
+- id: 25563935
+  tag:
+  - communication
+  - synchrony
+  - theory of mind
+- id: 36201923
+  tag:
+  - comment / response
+  - Markov blankets
+- id: 36007488
+  tag:
+  - comment / response
+  - Markov blankets
+- id: 36923275
+  tag:
+  - touch
+  - psychotherapy
+  - theory of mind
+- id: 34573780
+  tag:
+  - stress
+  - organizational
+- id: 36699948
+  tag:
+  - communication
+  - culture
+  - synchrony
+  - social
+  - uncertainty
+  - niche construction
+- id: 37065269
+  tag:
+  - Bayesian mechanics
+- id: 28472391
+  tag:
+  - erratum
+  - emotion
+  - interoceptive processing
+- id: 37379731
+  tag: 
+  - comment / response
+  - hierachical model
+  - learning
+- id: 36029603
+  tag:
+  - comment / response
+  - Markov blankets
+  - philosophy
+- id: 35963034
+  tag:
+  - comment / response
+  - Markov blankets
+  - philosophy
+- id: 36150310
+  tag:
+  - comment / response
+  - Markov blankets
+  - philosophy
+- id: 36403386
+  tag:
+  - comment / response
+  - Markov blankets
+  - philosophy
+- id: 34354621
+  tag:
+  - social
+  - human behavior
+- id: 30294264
+  tag:
+  - saccades
+  - vision
+  - precision
+- id: 31558746
+  tag:
+  - attention
+  - precision
+  - autism
+  - anxiety
+- id: 35967664
+  tag:
+  - psychopathology
+  - belief formation
+  - selfhood
+- id: 33980875
+  tag:
+  - psychotherapy
+  - belief formation
+  - human behavior
+- id: 35205595
+  tag:
+  - review
+  - deep active inference
+- id: 37437406
+  tag:
+  - comment / response
+  - hierachical models
+  - learning
+- id: 37650101
+  tag:
+  - dynamic causal modeling
+  - self-regulation
+- id: 34457352
+  tag:
+  - attention
+  - metacognition
+  - hierachical model
+  - precision
+- id: 34068913
+  tag:
+  - message passing
+  - Bayesian mechanics
+  - metabolism
+- id: 26787344
+  tag:
+  - comment / response
+  - selfhood
+- id: 29643221
+  tag:
+  - niche construction
+  - evolution
+- id: 34081507
+  tag:
+  - anxiety
+  - attention
+  - panic disorder
+- id: 31395433
+  tag:
+  - reinforcement learning
+  - evolution
+  - homeostatic reinforcement learning
+  - homeostasis / allostasis
+- id: 25277283
+  tag:
+  - autism
+  - psychopathology
+  - emotion
+  - selfhood
+  - social
+- id: 33271162
+  tag:
+  - Bayesian mechanics
+  - Markov blankets
+- id: 31757602
+  tag:
+  - human-machine interface
+  - interoceptive processing
+  - emotion
+  - review
+- id: 29780343
+  tag:
+  - preocision
+  - selfhood
+  - interoceptive processing
+  - attention
+- id: 33378658
+  tag:
+  - homeostasis / allostasis
+  - reinforcement learning
+  - interoceptive processing
+- id: 32390817
+  tag:
+  - emotion
+  - review
+  - robotics
+  - human-machine interaction
+  - brain-computer interface
+- id: 35846607
+  tag:
+  - cognitive control
+  - attention
+- id: 33266972
+  tag:
+  - PID control
+  - robotics
+  - precision
+- id: 36056173
+  tag:
+  - review
+  - psychopathology
+- id: 37571656
+  tag:
+  - human-machine interaction
+- id: 24723872
+  tag:
+  - decision-making
+  - social
+  - communication
+  - psychopathology
+- id: 33013346
+  tag:
+  - social
+  - human-machine interaction
+  - robotics
+  - selfhood
+- id: 23110076
+  tag:
+  - vision
+  - psychopathology
+  - schizophrenia
+  - saccades
+- id: 34827383
+  tag:
+  - epilepsy
+  - neuroanatomy
+- id: 34496394
+  tag:
+  - review
+  - robotics
+- id: 33733149
+  tag:
+  - consciousness
+  - integrated information theory
+- id: 33746730
+  tag:
+  - vision
+  - robotics
+  - navigation
+  - deep active inference
+- id: 32083297
+  tag:
+  - reinforcement learning
+  - precision
+  - decision making
+- id: 36968746
+  tag:
+  - social
+  - communication
+  - meditation
+- id: 36937818
+  tag:
+  - hierarchical model
+  - pain
+  - neuroanatomy
+- id: 34412116
+  tag:
+  - Memory
+  - robotics
+  - vision
+  - attention
+- id: 37331687
+  tag:
+  - autopoiesis
+- id: 30982126
+  tag:
+  - saccades
+  - vision
+  - neuroanatomy
+- id: 30392827
+  tag:
+  - emotion
+  - interoceptive processing
+  - social
+- id: 30608922
+  tag:
+  - neuroanatomy
+- id: 30471869
+  tag:
+  - audition
+- id: 34106918
+  tag: 
+  - audition
+  - sensorimotor control
+- id: 34674782
+  tag:
+  - Markov blankets
+  - philosophy
+- id: 35455132
+  tag:
+  - robotics
+  - navigation
+- id: 28756189
+  tag:
+  - emotion
+  - review
+- id: 30007575
+  tag:
+  - psychopathology
+  - schizophrenia
+  - hallucinations
+- id: 34388670
+  tag:
+  - psychopathology
+  - review
+- id: 35496899
+  tag:
+  - robotics
+  - deep active inference
