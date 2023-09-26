@@ -2,8 +2,8 @@ import logging
 import math
 import pandas as pd
 
-from Bio import Entrez
-from Bio.Entrez import efetch
+# from Bio import Entrez
+# from Bio.Entrez import efetch
 
 from src.utils import progress_bar
 
