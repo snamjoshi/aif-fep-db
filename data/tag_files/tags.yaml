@@ -2,6 +2,7 @@ category: all
 tag_list:
 - adaptation
 - add
+- addiction
 - affordances
 - animal behavior
 - anticipation
@@ -15,9 +16,12 @@ tag_list:
 - Bayesian model reduction
 - belief formation
 - Bethe free energy
+- bipolar disorder
+- borderline personality disorder
 - brain-body interaction
 - brain-computer interface
 - branching-time active inference
+- child development
 - clinical psychology
 - cognitive control
 - collective behavior
@@ -25,9 +29,11 @@ tag_list:
 - communication
 - consciousness
 - continuous state space / adaptive control
+- control theory
 - core
 - covid-19
 - culture
+- cybernetics
 - decision making
 - deep active inference
 - delusion
@@ -47,6 +53,7 @@ tag_list:
 - explainability
 - exploration
 - exteroceptive processing
+- free energy of the expected future
 - generalized free energy
 - goal-directed behavior
 - graphical models
@@ -58,22 +65,29 @@ tag_list:
 - human behavior
 - human-machine interface
 - illusion
+- immune system
 - information geometry
+- information theory
 - insight
 - integrated information theory
+- intelligence
 - interoceptive processing
+- lattice theory
 - learning
 - lesions
 - linguistics
+- logic
 - Markov blankets
 - meditation
 - memory
 - message passing
 - metabolism
 - metacognition
+- military research
 - mirror-neuron
 - mood
 - morphogenesis
+- morphological computation
 - motivation
 - movement
 - multimodal integration
@@ -81,8 +95,14 @@ tag_list:
 - neural substrate
 - neuroanatomy
 - neurocomputation
+- neuroimaging
+- neuromorphic computing
+- neuronal gauge theory
 - niche construction
+- nociceptive processing
+- non-English article
 - object localization
+- obsessive-compulsive disorder
 - organizational
 - pain
 - panic disorder
@@ -92,11 +112,14 @@ tag_list:
 - policy pruning
 - precision
 - predictive processing
+- projective geometry
 - proprioceptive processing
 - psychedelics
 - psychopathology
 - psychotherapy
+- quantum mechanics
 - redundancy
+- rationality
 - reinforcement learning
 - reflex arc
 - remove
@@ -114,10 +137,12 @@ tag_list:
 - sleep
 - social
 - sophisticated inference
+- sophisticated learning
 - stress
 - structure learning
 - synchrony
 - synthetic biology
+- systems theory
 - temporal model
 - theory
 - theory of mind
@@ -125,6 +150,7 @@ tag_list:
 - time processing
 - tutorial
 - uncertainty
+- variational inference
 - vision
 tagged_papers:
 - id: 31865883
@@ -1337,3 +1363,493 @@ tagged_papers:
   tag:
   - robotics
   - deep active inference
+- id: 30897355
+  tag:
+  - pain
+  - reinforcement learning
+  - neuroanatomy
+  - precision
+- id: 24126130
+  tag:
+  - interoceptive processing
+  - exteroceptive processing
+  - brain-body interaction
+  - selfhood
+- id: 30998951
+  tag:
+  - perception
+  - clinical neuroscience
+  - hallucination
+- id: 37478889
+  tag:
+  - social
+  - schizophrenia
+  - psychopathology
+  - review
+- id: 35052115
+  tag:
+  - ecosystems
+  - synchrony
+- id: 33101153
+  tag:
+  - editorial
+  - emotion
+  - psychopathology
+- id: 34650816
+  tag:
+  - review
+  - consciousness
+- id: 36099315
+  tag:
+  - interoceptive processing
+  - exteroceptive processing
+  - halluycinations
+  - brain-body interaction
+  - reflex arcs
+- id: 33286336
+  tag:
+  - sensorimotor control
+  - robotics
+- id: 36222653
+  tag:
+  - interoceptive processing
+  - touch
+  - brain-body interaction
+- id: 28226255
+  tag:
+  - sensorimotor control
+  - saccades
+  - vision
+- id: 36170548
+  tag:
+  - review
+  - linguistics
+  - belief formation
+  - hierarchical model
+- id: 37544051
+  tag:
+  - comment / response
+  - hierarchical model
+  - learning
+  - synchrony
+- id: 35609683
+  tag:
+  - interoceptive processing
+  - stress
+  - selfhood
+  - hierarchical model
+  - emotion
+- id: 35930909
+  tag:
+  - comment / response
+  - Markov blankets
+- id: 35508120
+  tag:
+  - neuromorphic computing
+- id: 35671840
+  tag:
+  - quantum mechanics
+- id: 25018724
+  tag:
+  - habit learning
+  - Bayesian model averaging
+  - neuroanatomy
+- id: 30704846
+  tag:
+  - hierarchical model
+  - philosophy
+  - review
+  - evolution
+  - systems theory
+- id: 37520943
+  tag:
+  - interoceptive processing
+  - neuroanatomy
+  - brain-body interaction
+  - neuroimaging
+- id: 35963035
+  tag:
+  - comment / response
+  - Markov blankets
+- id: 32315695
+  tag:
+  - review
+  - belief formation
+  - stress
+  - psychopathology
+- id: 29190328
+  tag:
+  - vision
+  - neuroanatomy
+  - saccades
+  - discrete state space / Markov decision process
+- id: 26704857
+  tag:
+  - review
+  - consciousness
+  - neuroanatomy
+  - psychopathology
+- id: 33270644
+  tag:
+  - review
+  - theory
+  - tutorial
+  - variational inference
+- id: 34267621
+  tag:
+  - homeostasis / allostasis
+  - brain-body interaction
+  - interoceptive processing
+- id: 33061902
+  tag:
+  - review
+  - audition
+  - sensorimotor control
+  - neuroanatomy
+- id: 37154119
+  tag:
+  - comment / response
+  - decision-making
+- id: 35742142
+  tag:
+  - niche construction
+  - evolution
+  - touch
+  - psychotherapy
+  - attention
+- id: 33404900
+  tag:
+  - rationality
+  - philosophy
+- id: 35966370
+  tag:
+  - attention
+  - robotics
+  - precision
+- id: 24583455
+  tag:
+  - theory of mind
+  - selfhood
+  - interoceptive processing
+  - psychopathology
+  - social
+- id: 37421540
+  tag:
+  - review
+  - pain
+- id: 36621045
+  tag:
+  - review
+  - addiction
+  - reinforcement learning
+- id: 30686712
+  tag:
+  - comment / response
+  - sensorimotor control
+  - robotics
+- id: 34375413
+  tag:
+  - review
+  - neuroanatomy
+- id: 31074743
+  tag:
+  - artificial curiosity
+  - motivation
+  - learning
+  - decision-making
+- id: 24999325
+  tag:
+  - review
+  - agency
+  - neuroanatomy
+  - neuroimaging
+- id: 33629102
+  tag:
+  - social
+  - communication
+- id: 31756340
+  tag:
+  - Markov blankets
+  - hierarchical models
+  - philosophy
+  - systems theory
+- id: 32573849
+  tag:
+  - editorial
+  - philosophy
+  - predictive processing
+- id: 35002643
+  tag:
+  - decision-making
+  - human-machine interface
+  - review
+  - military research
+- id: 25267823
+  tag:
+  - rationality
+  - agency
+  - neuroanatomy
+  - precision
+  - decsion-making
+- id: 34379329
+  tag:
+  - child development
+  - sensorimotor control
+  - brain-body interaction
+- id: 31115833
+  tag:
+  - review
+  - hierarchical model
+  - systems theory
+  - philosophy
+  - Markov blankets
+  - autopoiesis
+- id: 34828082
+  tag:
+  - social
+  - uncertainty
+  - organizational
+  - emotion
+- id: 30268880
+  tag:
+  - information theory
+  - theory
+  - metabolism
+- id: 27663763
+  tag:
+  - review
+  - perception
+  - hierachical model
+  - attention
+- id: 29232684
+  tag:
+  - social
+  - autism
+  - psychopathology
+  - culture
+- id: 33471182
+  tag:
+  - Bayesian mechanics
+  - sensorimotor control
+- id: 37567075
+  tag:
+  - linguistics
+  - comment / response
+  - hierarchical model
+  - learning
+- id: 36731468
+  tag:
+  - pain
+  - precision
+  - clinical psychology
+  - agency
+- id: 37410336
+  tag:
+  - review
+  - audition
+  - psychotherapy
+  - nociceptive processing
+- id: 35987716
+  tag:
+  - non-English article
+  - mood
+  - bipolar disorder
+  - emotion
+  - interoceptive processing
+  - psychopathology
+- id: 37198090
+  tag:
+  - pain
+  - agency
+- id: 29263282
+  tag:
+  - sensorimotor control
+  - neuroanatomy
+- id: 37651760
+  tag:
+  - vision
+  - hierachical model
+  - learning
+- id: 30954404
+  tag:
+  - affordance
+  - precision
+  - neuroanatomy
+  - obsessive-compulsive disorder
+  - psychopathology
+- id: 36119714
+  tag:
+  - quantum mechanics
+  - logic
+- id: 24778372
+  tag:
+  - review
+  - mirror-neuron
+  - sensorimotor control
+  - emotion
+- id: 35250522
+  tag:
+  - proprioceptive processing
+- id: 34823914
+  tag:
+  - review
+  - schizophrenia
+  - psychopathology
+  - interoceptive processing
+  - selfhood
+  - agency
+  - hierarchical model
+- id: 36359666
+  tag:
+  - evolution
+  - autopoiesis
+  - agency
+  - review
+  - affordance
+  - morphological computation
+  - morphogenesis
+- id: 28554611
+  tag:
+  - theory
+  - consciousness
+  - agency
+  - selfhood
+  - projective geometry
+- id: 37645053
+  tag:
+  - sophisticated inference
+  - reinforcement learning
+  - sophisticated learning
+  - theory
+- id: 27118642
+  tag:
+  - review
+  - cybernetics
+  - control theory
+  - affordances
+- id: 33948044
+  tag:
+  - psychopathology
+  - immune system
+  - attention
+  - message passing
+- id: 35979924
+  tag:
+  - borderline personality disorder
+  - child development
+  - psychopathology
+  - theory of mind
+  - social
+  - belief formation
+- id: 24157198
+  tag:
+  - review
+  - neuroanatomy
+  - mirror-neuron
+- id: 28333493
+  tag:
+  - autism
+  - sensorimotor control
+  - psychopathology
+  - social
+- id: 34866668
+  tag:
+  - sensorimotor control
+  - control theory
+- id: 33400900
+  tag:
+  - theory
+  - variational inference
+  - free energy of the expected future
+- id: 30618988
+  tag:
+  - consciousness
+  - cybernetics
+  - projective geometry
+  - selfhood
+  - agency
+- id: 23750138
+  tag:
+  - hallucination
+  - schizophrenia
+  - psychopathology
+  - precision
+  - hierarchical model
+  - agency
+- id: 31518638
+  tag:
+  - audition
+  - neuroanatomy
+- id: 37633213
+  tag:
+  - comment / response
+  - hierarchical model
+  - learning
+- id: 37213925
+  tag:
+  - Bayesian mechanics
+  - information geometry
+  - neuronal gauge theory
+- id: 33497783
+  tag:
+  - review
+  - stress
+  - human behavior
+  - psychopathology
+  - hierarchical model
+  - selfhood
+  - social
+- id: 24062658
+  tag:
+  - selfhood
+  - agency
+  - interoceptive processing
+  - review
+- id: 30153441
+  tag:
+  - review
+  - intelligence
+- id: 23133414
+  tag:
+  - reinforcement learning
+  - core
+  - saccades
+  - visual
+- id: 33372237
+  tag:
+  - time
+  - hierarchical model
+  - cognitive control
+- id: 29306637
+  tag:
+  - comment / response
+  - hierarchical model
+  - Markov blankets
+  - systems theory
+- id: 34383525
+  tag:
+  - sensorimotor control 
+  - homeostasis / allostasis
+  - control theory
+- id: 30618705
+  tag:
+  - vision
+  - saccades
+- id: 37695796
+  tag:
+  - autism
+  - psychopathology
+  - saccades
+  - precision
+  - sensorimotor control
+- id: 31653478
+  tag:
+  - review
+  - pain
+  - addiction
+  - anxiety
+  - neuroanatomy
+  - psychopathology
+- id: 36906243
+  tag:
+  -
