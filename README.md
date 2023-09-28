@@ -38,3 +38,4 @@ See how to cite and download papers.
 * timestamp on website to show when data was last download from pubmed. How recent the db is.
 * Small ArXiv paper to cite later. Put this in the about section.
 * Preloaded libraries for Paperpile, Zotoro, or Mendeley?
+* Network analysis of authors and labs. 
