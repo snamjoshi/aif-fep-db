@@ -3,6 +3,7 @@ tag_list:
 - adaptation
 - add
 - addiction
+- aesthetic perception
 - affordances
 - agent-environment coupling
 - aging
@@ -57,6 +58,8 @@ tag_list:
 - empathy
 - enactive inference
 - enactivism
+- endocrinology
+- energy homeostasis principle
 - epilepsy
 - erratum
 - event related potential
@@ -176,8 +179,10 @@ tag_list:
 - translation process research
 - tutorial
 - uncertainty
+- unsupervised learning
 - variational inference
 - vision
+- world model learning
 tagged_papers:
 - id: 31865883
   tag:
@@ -2995,3 +3000,68 @@ tagged_papers:
   - systems theory
   - autopoiesis
   - psychoanalysis
+- id: 35069133
+  tag:
+  - homeostasis / allostasis
+  - energy homeostasis principle
+- id: 31221820
+  tag:
+  - review
+  - psychedelics
+- id: 29307787
+  tag:
+  - comment / response
+  - homeostasis / allostasis
+- id: 26213122
+  tag:
+  - comment / response
+  - discrete state space / Markov decision process
+- id: 35911596
+  tag:
+  - psychotherapy
+  - psychopathology
+  - aesthetic perception
+  - neuroimaging
+- id: 22586414
+  tag:
+  - philosophy
+  - predictive processing
+- id: 35738071
+  tag:
+  - comment / response
+  - Bayesian mechanics
+- id: 34284698
+  tag:
+  - psychoanalysis
+- id: 34750063
+  tag:
+  - information theory
+  - review
+  - endocrinology
+  - homeostasis / allostasis
+- id: 27895560
+  tag:
+  - systems theory
+  - philosophy
+  - information theory
+- id: 36172752
+  tag:
+  - comment / response
+  - philosophy
+  - Markov blankets
+- id: 25750630
+  tag:
+  - depression
+- id: 26690814
+  tag:
+  - neural substrate
+  - information theory
+  - unsupervised learning
+- id: 37256968
+  tag:
+  - review
+  - robotics
+- id: 34634605
+  tag:
+  - world model learning
+  - robotics
