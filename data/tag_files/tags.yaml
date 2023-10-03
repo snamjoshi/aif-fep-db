@@ -9,6 +9,7 @@ tag_list:
 - aging
 - Alzheimer's disease
 - animal behavior
+- anosognosia
 - anticipation
 - anxiety
 - apathy
@@ -38,6 +39,7 @@ tag_list:
 - control theory
 - core
 - covid-19
+- criticality
 - culture
 - cybernetics
 - decision making
@@ -50,6 +52,7 @@ tag_list:
 - dynamic causal modeling
 - eating disorder
 - ecological psychology
+- economics
 - ecosystems
 - editorial
 - embodied cognition
@@ -65,6 +68,7 @@ tag_list:
 - event related potential
 - evolution
 - existential threat
+- expected float entropy
 - expected free energy
 - explainability
 - exploration
@@ -85,6 +89,7 @@ tag_list:
 - illusion
 - immune system
 - information geometry
+- information seeking
 - information theory
 - insight
 - integrated information theory
@@ -104,6 +109,7 @@ tag_list:
 - metacognition
 - military research
 - mirror-neuron
+- mismatch negativty
 - mood
 - morphogenesis
 - morphological computation
@@ -119,6 +125,7 @@ tag_list:
 - neuronal gauge theory
 - niche construction
 - nociceptive processing
+- noise
 - non-English article
 - normativity
 - obesity
@@ -127,6 +134,7 @@ tag_list:
 - organizational
 - pain
 - panic disorder
+- path-integral formulation
 - perception
 - philosophy
 - placebo
@@ -2342,7 +2350,7 @@ tagged_papers:
   tag:
   - morphogenesis
   - Bayesian mechanics
-  - agent-environment interaction
+  - agent-environment coupling
 - id: 31401240
   tag:
   - existential threat
@@ -2477,7 +2485,7 @@ tagged_papers:
 - id: 36246500
   tag:
   - robotics
-  - agent-environment interaction
+  - agent-environment coupling
 - id: 34946007
   tag:
   - social
@@ -2516,7 +2524,7 @@ tagged_papers:
   tag:
   - ecosystems
   - systems theory
-  - agent-environment interaction
+  - agent-environment coupling
 - id: 31249516
   tag:
   - consciousness
@@ -2744,7 +2752,7 @@ tagged_papers:
   tag:
   - social
   - communication
-  - agent-environment interaction
+  - agent-environment coupling
   - culture
   - ecosystems
   - systems theory
@@ -3065,3 +3073,443 @@ tagged_papers:
   tag:
   - world model learning
   - robotics
+- id: 22023743
+  tag:
+  - editorial
+  - predictive processing
+- id: 34942581
+  tag:
+  - philosophy
+  - Markov blankets
+- id: 37251599
+  tag:
+  - synchrony
+  - self-organization
+  - sensorimotor control
+  - Markov blankets
+- id: 33240146
+  tag:
+  - economics
+- id: 20148260
+  tag:
+  - core
+  - predictive processing
+  - sensorimotor control
+  - vision
+- id: 29050920
+  tag:
+  - comment / response
+  - agent-environment coupling
+- id: 30446766
+  tag:
+  - neural substrate
+- id: 34246689
+  tag:
+  - sleep
+  - neuroanatomy
+- id: 36172768
+  tag:
+  - comment / response
+  - Markov blankets
+  - philosophy
+- id: 23658161
+  tag:
+  - precision
+  - metabolism
+  - neuroanatomy
+- id: 30655223
+  tag:
+  - philosophy
+  - niche construction
+  - ecosystems
+  - review
+- id: 28161288
+  tag:
+  - depression
+  - review
+  - psychopathology
+  - stress
+  - uncertainty
+  - social
+- id: 33049349
+  tag:
+  - predictive processing
+  - philosophy
+  - social
+- id: 22516669
+  tag:
+  - review
+  - uncertainty
+  - perception
+  - hallucination
+  - neuroanatomy
+  - pain
+- id: 30224233
+  tag:
+  - review
+  - selfhood
+  - brain-body interaction
+  - interoceptive processing
+- id: 34867580
+  tag:
+  - review
+  - adaptation
+  - human behavior
+  - information seeking
+- id: 32883601
+  tag:
+  - comment / response
+  - self-organization
+  - Markov blankets
+- id: 24899346
+  tag:
+  - non-English article
+  - mirror-neuron
+  - affordances
+  - neuroimaging
+- id: 25161615
+  tag:
+  - self-organization
+  - affordances
+  - niche construction
+  - brain-body interaction
+- id: 32291583
+  tag:
+  - consciousness
+  - representation
+  - information theory
+- id: 29867642
+  tag:
+  - selfhood
+  - psychopathology
+- id: 33627890
+  tag:
+  - Markov blankets
+  - systems theory
+- id: 27303283
+  tag:
+  - review
+  - default mode network
+  - selfhood
+  - consciousness
+- id: 30090873
+  tag:
+  - consciousness
+  - neuroanatomy
+  - selfhood
+- id: 31679788
+  tag:
+  - consciousness
+  - information theory
+  - information geometry
+  - review
+- id: 29091537
+  tag:
+  - review
+  - synchrony
+  - social
+  - mirror-neuron
+  - sensorimotor control
+- id: 33612868
+  tag:
+  - Markov blankets
+  - philosophy
+- id: 36172760
+  tag:
+  - comment / response
+  - philosophy
+- id: 28282439
+  tag:
+  - neuroanatomy
+  - memory
+- id: 33584461
+  tag:
+  - predictive processing
+  - philosophy
+  - embodied cognition
+- id: 35126062
+  tag:
+  - review
+  - Markov blankets
+  - adaptation
+- id: 31320316
+  tag:
+  - review
+  - morphogenesis
+- id: 31258246
+  tag:
+  - predictive processing
+  - representation
+- id: 36795743
+  tag:
+  - criticality
+- id: 30684520
+  tag:
+  - review
+  - systems theory
+  - human behavior
+- id: 31636594
+  tag:
+  - psychopathology
+  - memory
+  - attention
+  - stress
+- id: 36172792
+  tag:
+  - comment / response
+  - Markov blankets
+- id: 34721166
+  tag:
+  - review
+  - psychoanalysis
+  - selfhood
+- id: 33265602
+  tag:
+  - information theory
+  - unsupervised learning
+- id: 36172772
+  tag:
+  - comment / response
+  - philosophy
+- id: 36420157
+  tag:
+  - synchrony
+  - agent-environment coupling
+  - psychopathology
+- id: 33935674
+  tag:
+  - information theory
+  - default mode network
+  - autopoiesis
+- id: 34441172
+  tag:
+  - consciousness
+- id: 31555159
+  tag:
+  - psychoanalysis
+  - default mode network
+  - selfhood
+- id: 31040386
+  tag:
+  - synchrony
+  - self-organization
+- id: 32562886
+  tag:
+  - review
+  - vision
+  - memory
+- id: 34199648
+  tag:
+  - information theory
+  - synchrony
+  - criticality
+  - review
+- id: 36172755
+  tag:
+  - comment / response
+  - philosophy
+  - evolution
+- id: 33362668
+  tag:
+  - selfhood
+- id: 37424966
+  tag:
+  - psychopathology
+  - psychedelics
+- id: 33489551
+  tag:
+  - review
+  - consciousness
+  - philosophy
+  - neuroanatomy
+- id: 33732119
+  tag:
+  - neuroanatomy
+- id: 37211257
+  tag:
+  - morphology
+  - agent-environment coupling
+  - systems theory
+- id: 25642175
+  tag:
+  - empathy
+  - social
+  - psychotherapy
+- id: 35081029
+  tag:
+  - signal processing
+- id: 26375940
+  tag:
+  - review
+  - cybernetics
+  - autopoiesis
+- id: 36389215
+  tag:
+  - consciousness
+  - quantum mechanics
+- id: 28702345
+  tag:
+  - epilepsy
+  - neuroimaging
+- id: 26275633
+  tag:
+  - introceptive processing
+  - emotion
+- id: 36605522
+  tag:
+  - robotics
+  - pain
+- id: 34154800
+  tag:
+  - representation
+  - perception
+- id: 32460937
+  tag:
+  - comment / response
+  - interoceptive processing
+  - social
+  - brain-body interaction
+- id: 32739554
+  tag:
+  - nociceptive processing
+  - information theory
+  - pain
+- id: 32460938
+  tag:
+  - comment / response
+  - culture
+- id: 31824382
+  tag:
+  - social
+  - representation
+  - systems theory
+  - psychoanalysis
+  - social
+- id: 32818063
+  tag:
+  - mood
+  - depression
+  - emotion
+- id: 31142395
+  tag:
+  - philosophy
+  - culture
+  - social
+  - theory of mind
+  - psychopathology
+  - niche construction
+  - affordances
+- id: 34682030
+  tag:
+  - theory
+  - robotics
+- id: 31607878
+  tag:
+  - philosophy
+- id: 33266776
+  tag:
+  - consciousness
+  - expected float entropy
+- id: 32385232
+  tag:
+  - representation
+  - memory
+  - sensorimotor control
+- id: 34819563
+  tag:
+  - multimodal integration
+- id: 37703703
+  tag:
+  - review
+  - path-integral formulation
+  - core
+  - Markov blankets
+- id: 23436989
+  tag:
+  - mismatch negativty
+- id: 35923916
+  tag:
+  - empathy
+  - mirron-neuron
+  - selfhood
+  - social
+- id: 31976898
+  tag:
+  - signal processing
+- id: 25462794
+  tag:
+  - event-related potential
+- id: 20958797
+  tag:
+  - mirror-neuron
+  - movement
+- id: 31413788
+  tag:
+  - systems theory
+  - evolution
+  - Markov blankets
+- id: 32460942
+  tag:
+  - comment / response
+  - culture
+  - affordance
+  - social
+- id: 36172749
+  tag:
+  - comment / response
+  - Markov blankets 
+  - philosophy
+- id: 32198514
+  tag:
+  - neuroanatomy
+  - decision-making
+- id: 24137116
+  tag:
+  - philosophy
+  - default mode network
+  - selfhood
+  - consciousness
+  - mirror-neuron
+- id: 32410937
+  tag:
+  - noise
+- id: 23469983
+  tag:
+  - psychopathology
+  - anosognosia
+- id: 31607993
+  tag:
+  - psychotherapy
+  - interoceptive processing
+  - psychopathology
+  - emotion
+- id: 35221541
+  tag:
+  - collective behavior
+- id: 36172754
+  tag:
+  - comment / response
+  - Markov blankets
+- id: 20369004
+  tag:
+  - perception
+  - neuroimaging
+  - vision
+  - audition
+- id: 32386153
+  tag:
+  - attention
+  - vision
+  - reinforcement learning
+- id: 37420518
+  tag:
+  - emotion
+  - consciousness
+- id: 20631840
+  tag:
+  - neuroimaging
+  - human behavior
+  - default state network
+- id: 21230442
+  tag:
+  - information theory
