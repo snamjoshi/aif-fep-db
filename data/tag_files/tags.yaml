@@ -25,11 +25,13 @@ tag_list:
 - Bayesian model selection
 - belief formation
 - Bethe free energy
+- binocular rivalry
 - bipolar disorder
 - borderline personality disorder
 - brain-body interaction
 - brain-computer interface
 - branching-time active inference
+- cancer
 - child development
 - clinical psychology
 - cognitive control
@@ -70,6 +72,7 @@ tag_list:
 - energy homeostasis principle
 - epilepsy
 - erratum
+- ethics
 - event related potential
 - evolution
 - existential threat
@@ -81,6 +84,7 @@ tag_list:
 - forward model
 - free energy of the expected future
 - generalized free energy
+- generalized predictive coding
 - goal-directed behavior
 - graphical models
 - habit learning
@@ -100,6 +104,7 @@ tag_list:
 - integrated information theory
 - intelligence
 - interoceptive processing
+- Kikuchi's free energy
 - KL control
 - lattice theory
 - learning
@@ -155,6 +160,7 @@ tag_list:
 - psychoanalysis
 - psychogenic tremor
 - psychopathology
+- psychophysiology
 - psychotherapy
 - quantum mechanics
 - redundancy
@@ -181,6 +187,7 @@ tag_list:
 - social
 - sophisticated inference
 - sophisticated learning
+- speech
 - statistical parametric mapping
 - stress
 - structure learning
@@ -3521,7 +3528,7 @@ tagged_papers:
   tag:
   - neuroimaging
   - human behavior
-  - default state network
+  - default mode network
 - id: 21230442
   tag:
   - information theory
@@ -3905,3 +3912,535 @@ tagged_papers:
   - neuroimaging
   - dynamic causal modeling
   - Bayesian model selection
+- id: 30732842
+  tag:
+  - review
+  - meditation
+- id: 32356731
+  tag:
+  - remove
+- id: 7583624
+  tag:
+  - review
+  - schizophrenia
+  - diconnection
+  - psychopathology
+  - neuroanatomy
+- id: 26360579
+  tag:
+  - review
+  - computational psychiatry
+  - schizophrenia
+  - psychopathology
+  - autism spectrum disorder
+  - saccades
+- id: 10225335
+  tag:
+  - review
+  - schizophrenia
+  - disconnection
+  - psychopathology
+- id: 25057129
+  tag:
+  - comment / response
+  - epilepsy
+- id: 9448243
+  tag:
+  - review
+  - neuroimaging
+- id: 29400354
+  tag:
+  - psychopathology
+  - computational psychiatry
+- id: 25823866
+  tag:
+  - review
+  - neuroanatomy
+  - precision
+  - attention
+- id: 23265964
+  tag:
+  - dynamic causal modeling
+  - neuroanatomy
+  - neuroimaging
+- id: 36172762
+  tag:
+  - Markov blankets
+  - comment / response
+- id: 22609044
+  tag:
+  - review
+  - sleep
+  - consciousness
+- id: 19833961
+  tag:
+  - review
+  - neuroimaging
+  - neuroanatomy
+- id: 15709929
+  tag:
+  - neuroimaging
+  - review
+  - neuroanatomy
+- id: 15464897
+  tag:
+  - review
+  - neuroimaging
+  - theory
+- id: 20685362
+  tag:
+  - review
+  - human behavior
+  - adaptation
+  - belief formation
+- id: 22783185
+  tag:
+  - self-organization
+  - criticality
+  - synchrony
+- id: 36172786
+  tag:
+  - philosophy
+  - Markov blankets
+  - representation
+- id: 28132931
+  tag:
+  - neuroimaging
+  - theory
+- id: 32550008
+  tag:
+  - psychedelics
+  - default mode network
+  - comment / response
+- id: 23935475
+  tag:
+  - review
+  - information theory
+  - metabolism
+  - adaptation
+- id: 21416411
+  tag:
+  - comment / response
+  - neuroimaging
+  - neuroanatomy
+- id: 35856599
+  tag:
+  - agency
+  - selfhood
+  - psychoanalysis
+  - self-organization
+  - psychotherapy
+- id: 23094650
+  tag:
+  - review
+  - psychophysiology
+- id: 28018185
+  tag:
+  - self-organization
+  - Markov blankets
+  - systems theory
+  - collective behavior
+  - review
+- id: 22078508
+  tag:
+  - comment / response
+  - sensorimotor control
+  - control theory
+- id: 24862075
+  tag:
+  - review
+  - neuroimaging
+  - default mode network
+  - dynamic casual modeling
+  - criticality
+  - self-organization
+- id: 15937014
+  tag:
+  - review
+  - core
+  - perception
+  - unsupervised learning
+  - neuroanatomy
+  - neuroimaging
+  - predictive processing
+- id: 34069097
+  tag:
+  - Kikuchi's free energy
+  - autopoiesis
+  - niche construction
+  - homeostasis / allostasis
+  - cancer
+- id: 21160551
+  tag:
+  - attention
+  - uncertainty
+  - hierarchical model
+  - core
+  - generalized predictive coding
+  - Bayesian filtering
+- id: 9741993
+  tag:
+  - editorial
+  - statistical parametric mapping
+  - neuroimaging
+- id: 35859054
+  tag:
+  - dynamic causal modeling
+  - covid-19
+  - Bayesian model selection
+- id: 19181570
+  tag:
+  - review
+  - mismatch negativity
+- id: 24171746
+  tag:
+  - precision
+  - synchrony
+  - comment / response
+- id: 12052909
+  tag:
+  - review
+  - neuroimaging
+  - unsupervised learning
+  - neuroanatomy
+- id: 11501732
+  tag:
+  - review
+  - neuroimaging
+  - representation
+  - neuroanatomy
+- id: 24291888
+  tag:
+  - review
+  - non-English article
+  - statistical parametric mapping
+  - neuroimaging
+- id: 21213414
+  tag:
+  - review
+  - neuroimaging
+- id: 27179309
+  tag:
+  - memory
+  - linguistics
+  - object localization
+- id: 1402854
+  tag:
+  - review
+  - schizophrenia
+  - neuroanatomy
+  - schizophrenia
+  - psychopathology
+- id: 12450490
+  tag:
+  - review
+  - core
+  - neuroimaging
+  - unsupervised learning
+  - neuroanatomy
+- id: 10724458
+  tag:
+  - review
+  - information theory
+  - self-organization
+  - adaptation
+- id: 19649171
+  tag:
+  - perception
+  - hierarchical model
+  - speech
+- id: 19944173
+  tag:
+  - neuroimaging
+  - theory
+  - statistical parametric mapping
+- id: 18314353
+  tag:
+  - review
+  - statistical parametric mapping
+  - neuroimaging
+- id: 22229042
+  tag:
+  - core
+  - Bayesian mechanics
+  - self-organization
+  - adaptation
+  - reinforcement learning
+- id: 34345003
+  tag:
+  - erratum
+  - dynamic causal modeling
+- id: 20194141
+  tag:
+  - neural substrate
+  - psychoanalysis
+  - default mode network
+  - sleep
+  - psychedelics
+  - psychoanalysis
+  - review
+- id: 10724459
+  tag:
+  - review
+  - information theory
+  - neuroanatomy
+  - adaptation
+- id: 20408217
+  tag:
+  - editorial
+  - neuroanatomy
+  - neuroimaging
+  - theory
+- id: 35360137
+  tag:
+  - psychedelics
+  - psychotherapy
+- id: 8949263
+  tag:
+  - schizophrenia
+  - psychopathology
+  - disconnection
+- id: 19680429
+  tag:
+  - speech
+  - timescales
+- id: 12413574
+  tag:
+  - neuroanatomy
+  - neuroimaging
+- id: 24860482
+  tag:
+  - autism spectrum disorder
+  - social
+  - perception
+- id: 22843089
+  tag:
+  - embodied cognition
+  - movement
+  - selfhood
+  - saccades
+  - vision
+- id: 15588616
+  tag:
+  - neuroimaging
+  - statistical parametric mapping
+- id: 22001162
+  tag:
+  - dynamic causal modeling
+  - comment / response
+- id: 16946855
+  tag:
+  - disconnection
+  - schizophrenia
+  - psychopathology
+- id: 24273508
+  tag:
+  - theory
+  - dynamic causal modeling
+- id: 11597100
+  tag:
+  - review
+  - synchrony
+- id: 23246991
+  tag:
+  - dynamic causal modeling
+  - neuroimaging
+  - network analysis
+- id: 18649876
+  tag:
+  - binocular rivalry
+  - review
+  - perception
+  - vision
+- id: 21459150
+  tag:
+  - Bayesian model selection
+  - theory
+  - statistical parametric mapping
+  - neuroimaging
+- id: 33688613
+  tag:
+  - neuronal gauge theory
+  - Markov blankets
+  - Bayesian mechanics
+  - network analysis
+  - criticality
+  - dynamic causal modeling
+- id: 10385576
+  tag:
+  - neuroimaging
+  - theory
+- id: 33615094
+  tag:
+  - theory
+  - network analysis
+  - neuroanatomy
+- id: 32946704
+  tag:
+  - theory
+  - neuronal substrate
+- id: 10913325
+  tag:
+  - review
+  - neuroimaging
+  - theory
+- id: 2701777
+  tag:
+  - review
+  - neuroimaging
+  - neuropathology
+  - schizophrenia
+  - metabolism
+- id: 19112488
+  tag:
+  - theory of mind
+  - social
+  - communication
+  - economics
+  - human behavior
+- id: 16635579
+  tag:
+  - neuroimaging
+  - theory
+- id: 26073880
+  tag:
+  - comment / response
+  - audition
+  - motivation
+- id: 18989391
+  tag:
+  - hierarchical model
+  - Bayesian filtering
+  - unsupervised learning
+  - neuroanatomy
+- id: 22561579
+  tag:
+  - dynamic causal modeling
+  - theory
+- id: 11707080
+  tag:
+  - comment / response
+  - neuroimaging
+  - statistical parametric mapping
+- id: 22982359
+  tag:
+  - neuroimaging
+  - theory
+- id: 2259242
+  tag:
+  - metabolism
+  - review
+  - psychotherapy
+- id: 10724457
+  tag:
+  - review
+  - neural coding
+  - information theory
+  - synchrony
+- id: 22393327
+  tag:
+  - illusion
+  - perception
+- id: 19635656
+  tag:
+  - neuroanatomy
+  - perception
+  - hierarchical model
+- id: 15219588
+  tag:
+  - dynamic causal modeling
+  - theory
+  - neuroimaging
+- id: 9343600
+  tag:
+  - comment / response
+  - neuroimaging
+  - theory
+- id: 29768908
+  tag:
+  - review
+  - dynamic causal modeling
+- id: 32859474
+  tag:
+  - erratum
+  - neuroimaging
+- id: 36172779
+  tag:
+  - Markov blankets
+  - comment / response
+  - philosophy
+- id: 19146961
+  tag:
+  - neuroimaging
+  - theory
+- id: 21924363
+  tag:
+  - dynamic causal modeling
+  - neuroimaging
+- id: 14622888
+  tag:
+  - core
+  - neuroanatomy
+  - unsupervised learning
+  - information theory
+- id: 31670769
+  tag:
+  - attention
+  - sensorimotor control
+  - vision
+  - proprioceptive processing
+  - dynamic causal modeling
+  - neuroimaging
+- id: 24775164
+  tag:
+  - comment / response
+  - mirror-neuron
+  - social
+  - communication
+  - evolution
+- id: 16527453
+  tag:
+  - information theory
+  - uncertainty
+- id: 16081430
+  tag:
+  - remove
+- id: 34871706
+  tag:
+  - consciousness
+  - schizophrenia
+  - computational psychiatry
+  - ethics
+  - psychopathology
+- id: 9500830
+  tag:
+  - neuroimaging
+  - statistical parametric mapping
+  - theory
+- id: 24244118
+  tag:
+  - mismatch negativity
+  - dynamic causal modeling
+- id: 9788071
+  tag:
+  - neuroanatomy
+  - neuroimaging
+- id: 28382008
+  tag:
+  - Bayesian model selection
+  - goal-directed behavior
+- id: 33465027
+  tag:
+  - remove
+- id: 28298703
+  tag:
+  - tutorial
+  - predictive processing
+- id: 16087431
+  tag:
+  - neuroimaging
+  - editorial
+- id: 23218940
+  tag:
+  - comment / response
+  - autism spectrum disorders
