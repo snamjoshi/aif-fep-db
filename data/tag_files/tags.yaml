@@ -133,6 +133,7 @@ tag_list:
 - neural coding
 - neural substrate
 - neuroanatomy
+- neurocircuitry
 - neurocomputation
 - neuroimaging
 - neuromorphic computing
@@ -5448,3 +5449,167 @@ tagged_papers:
   - neuroimaging
   - theory
   - statistical parametric mapping
+- id: 19398015
+  tag:
+  - dynamic causal modeling
+  - neuroimaging
+- id: 12667856
+  tag:
+  - neuroimaging
+  - theory
+- id: 11771995
+  tag:
+  - statistical parametric mapping
+  - theory
+- id: 11112256
+  tag:
+  - neuroimaging
+  - neuronal populations
+- id: 10725188
+  tag:
+  - neuroimaging
+  - theory
+- id: 10493897
+  tag:
+  - neuroimaging
+  - theory
+- id: 9345501
+  tag:
+  - neuroimaging
+  - theory
+- id: 27147985
+  tag:
+  - evolution
+  - metabolism
+  - consciousness
+  - self-organization
+- id: 23177956
+  tag:
+  - predictive processing
+  - neuroanatomy
+  - neurocircuitry
+- id: 21820062
+  tag:
+  - dynamic causal modeling
+- id: 18087046
+  tag:
+  - neuronal dynamics
+  - dynamic causal modeling
+  - neuroanatomy
+  - neurocircuitry
+- id: 17888687
+  tag:
+  - neuroimaging
+  - theory
+- id: 16632378
+  tag:
+  - neuroimaging
+  - theory
+- id: 15193578
+  tag:
+  - statistical parametric mapping
+  - neuroimaging
+- id: 11870925
+  tag:
+  - neuroimaging
+  - theory
+- id: 10860794
+  tag:
+  - neuroimaging
+  - statistical parametric mapping
+  - theory
+- id: 1679543
+  tag:
+  - neuroimaging
+  - speech
+  - audition
+  - attention
+- id: 11156195
+  tag:
+  - review
+  - neuroimaging
+- id: 21238593
+  tag:
+  - dynamic causal modeling
+  - neuronal populations
+- id: 19961941
+  tag:
+  - dynamic causal modeling
+  - neuroimaging
+  - theory
+  - review
+- id: 19261714
+  tag:
+  - dynamic causal modeling
+  - mismatch negativity
+- id: 9345540
+  tag:
+  - neuroimaging
+  - statistical parametric mapping
+- id: 2347879
+  tag:
+  - neuroimaging
+  - theory
+- id: 33286288
+  tag:
+  - consciousness
+  - philosophy
+  - Markov blankets
+  - information geometry
+- id: 32818621
+  tag:
+  - dynamic causal modeling
+  - neuroimaging
+  - proprioceptive processing
+  - vision
+- id: 21396458
+  tag:
+  - theory
+  - neuroimaging
+- id: 14642484
+  tag:
+  - neuroimaging
+  - theory
+- id: 12667857
+  tag:
+  - neuroimaging
+  - theory
+- id: 9345548
+  tag:
+  - neuroimaging
+  - theory
+- id: 32335327
+  tag:
+  - vision
+  - perception
+  - dynamic causal modeling
+  - neuroimaging
+- id: 25346710
+  tag:
+  - sleep
+  - consciousness
+  - brain-machine interface
+- id: 23986240
+  tag:
+  - memory
+  - neuroimaging
+- id: 19000769
+  tag: 
+  - dynamic causal modeling
+  - neuroimaging
+- id: 17617658
+  tag:
+  - speech
+  - neuroimaging
+  - neuroanatomy
+  - multimodal integration
+- id: 15944370
+  tag:
+  - dynamic causal modeling
+  - neuroimaging
+  - neuroanatomy
+- id: 12030832
+  tag:
+  - unsupervised learning
+  - theory
+  - neuroimaging
