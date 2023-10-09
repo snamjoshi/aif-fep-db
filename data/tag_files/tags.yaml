@@ -10349,186 +10349,194 @@ tagged_papers:
   - predictive coding
   - review
   - metabolism
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
-# - id: 
-#   tag:
-#   - predictive coding
+- id: 30212753
+  tag:
+  - predictive coding
+- id: 28602353
+  tag:
+  - predictive coding
+- id: 28343741
+  tag:
+  - predictive coding
+- id: 24836978
+  tag:
+  - predictive coding
+- id: 24821771
+  tag:
+  - predictive coding
+- id: 36581168
+  tag:
+  - predictive coding
+  - review
+  - autism spectrum disorders
+- id: 36303889
+  tag:
+  - predictive coding
+- id: 34582784
+  tag:
+  - predictive coding
+- id: 33500949
+  tag:
+  - predictive coding
+- id: 29055058
+  tag:
+  - predictive coding
+- id: 36248631
+  tag:
+  - predictive coding
+- id: 35831678
+  tag:
+  - predictive coding
+- id: 34916079
+  tag:
+  - predictive coding
+- id: 30704969
+  tag:
+  - predictive coding
+  - theory
+  - review
+- id: 29618284
+  tag:
+  - predictive coding
+- id: 28506359
+  tag:
+  - predictive coding
+- id: 28174609
+  tag:
+  - predictive coding
+- id: 27667320
+  tag:
+  - predictive coding
+- id: 26903847
+  tag:
+  - predictive coding
+- id: 25451381
+  tag:
+  - predictive coding
+- id: 25161614
+  tag:
+  - predictive coding
+- id: 23630488
+  tag:
+  - predictive coding
+- id: 35990063
+  tag:
+  - predictive coding
+- id: 35012898
+  tag:
+  - predictive coding
+- id: 30344497
+  tag:
+  - predictive coding
+- id: 29379867
+  tag:
+  - predictive coding
+- id: 18290069
+  tag:
+  - predictive coding
+- id: 18285219
+  tag:
+  - predictive coding
+- id: 22485102
+  tag:
+  - predictive coding
+  - attention
+  - perception
+- id: 37310190
+  tag:
+  - predictive coding
+- id: 36251693
+  tag:
+  - predictive coding
+- id: 33551756
+  tag:
+  - predictive coding
+- id: 30811381
+  tag:
+  - predictive coding
+- id: 29566355
+  tag:
+  - predictive coding
+- id: 37467844
+  tag:
+  - predictive coding
+- id: 24920613
+  tag:
+  - predictive coding
+- id: 17010569
+  tag:
+  - predictive coding
+- id: 31798432
+  tag:
+  - predictive coding
+- id: 28424293
+  tag:
+  - predictive coding
+- id: 19398017
+  tag:
+  - predictive coding
+- id: 28238047
+  tag:
+  - predictive coding
+- id: 21097185
+  tag:
+  - predictive coding
+- id: 36092106
+  tag:
+  - predictive coding
+- id: 30296562
+  tag:
+  - predictive coding
+- id: 30030399
+  tag:
+  - predictive coding
+- id: 29617056
+  tag:
+  - predictive coding
+- id: 28810184
+  tag:
+  - predictive coding
+- id: 31058383
+  tag:
+  - predictive coding
+- id: 26404281
+  tag:
+  - predictive coding
+- id: 25217807
+  tag:
+  - predictive coding
+- id: 21228454
+  tag:
+  - predictive coding
+- id: 436411
+  tag:
+  - predictive coding
+- id: 37023719
+  tag:
+  - predictive coding
+  - attention
+- id: 35850047
+  tag:
+  - predictive coding
+- id: 35173572
+  tag:
+  - predictive coding
+- id: 33994972
+  tag:
+  - predictive coding
+- id: 32587506
+  tag:
+  - predictive coding
+  - neurocircuitry
+- id: 31806493
+  tag:
+  - predictive coding
+- id: 29564505
+  tag:
+  - predictive coding
+- id: 28900010
+  tag:
+  - predictive coding
 # - id: 
 #   tag:
 #   - predictive coding
