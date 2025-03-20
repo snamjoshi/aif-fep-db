@@ -1,6 +1,8 @@
 # aif-fep-db
 A database of publications related to active inference and the free energy principle.
 
+<!-- See: https://stackoverflow.com/questions/69723198/dash-datatable-drop-down-filter -->
+
 ## Features
 * Helper functions for filtering and sorting.
 * Removal/cleaning functions for papers that should not be in the database.
