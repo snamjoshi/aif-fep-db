@@ -38,4 +38,10 @@ See how to cite and download papers.
 * timestamp on website to show when data was last download from pubmed. How recent the db is.
 * Small ArXiv paper to cite later. Put this in the about section.
 * Preloaded libraries for Paperpile, Zotoro, or Mendeley?
-* Network analysis of authors and labs. 
+* Network analysis of authors and labs and further meta analysis
+
+https://zenodo.org/record/7093837 -- this is more towards the crowdsourcing and coherence among annotations. Later stage.
+
+https://publish.obsidian.md/active-inference/docs/guides/learning_paths/active_inference_ecological_learning_path
+
+Examples of using Learning Paths for domains

@@ -1,0 +1,372 @@
+Papers,Chapter,Notes
+Active inference as a theory of sentient behavior,1,History of predictive coding; unification
+A Neural Network Implementation for Free Energy Principle,4,Comparing AIF and Helmholtz machine
+Reverse engineering neural networks to characterise their cost functions,4,VFE minimization and cost functions.
+Surprise: a unified theory and experimental predictions,4,Many ways to interpret surprisal
+Variational approximations,4,MacKay 1992
+Canonical neural networks perform active inference,4,Neural substrate
+Cultured Cortical Neurons Can Perform Blind Source Separation According to the Free-Energy Principle,4,Neural substrate
+Emergence of associative learning in a neuromorphic inference network,4,Neural substrate
+Experimental validation of the free-energy principle with in vitro neural networks,4,Neural substrate
+In vitro neural networks minimise variational free energy,4,Neural substrate
+In vitro neurons learn and exhibit sentience when embodied in a simulated game-world,4,Neural substrate
+Linking Neuromodulated Spike-Timing Dependent Plasticity with the Free-Energy Principle,4,Neural substrate
+Noise Helps Optimization Escape From Saddle Points in the Synaptic Plasticity,4,Neural substrate
+The emergence of synchrony in networks of mutually inferring neurons,4,Neural substrate
+Active inference leads to Bayesian neurophysiology,4,Neural substrate
+A theory of cortical responses,5,
+"Active Predictive Coding: A Unifying Neural Model for Active Perception, Compositional Learning, and Hierarchical Planning",5,Active predictive coding
+Applications of the Free Energy Principle to Machine Learning and Neuroscience,5,Predictive coding
+Combining Active Inference and Hierarchical Predictive Coding: A Tutorial Introduction and Case Study,5,AIF and predictive coding
+Functional integration and inference in the brain,5,
+Implementing Predictive Processing and Active Inference: Preliminary Steps and Results,5,Active predictive coding?
+Learning and inference in the brain,5,
+Predictive coding networks for temporal prediction,5,Temporal PC
+Active inference and oculomotor pursuit: the dynamic causal modelling of eye movements,6,Notation (continuous)
+"Active inference, sensory attenuation and illusions",6,Excellent notation examples.Motor illusions
+A free energy principle for the brain,6,
+Active inference unifies intentional and conflict-resolution imperatives of motor control,6,Notation (continuous)
+"Active inference, eye movements and oculomotor delays",6,"Notation (continuous), great appendix!"
+Active strategies for multisensory conflict suppression in the virtual hand illusion,6,Notation (Laplace)
+"Dopamine, affordance and active inference",6,Great notation esp. for hiearchical models
+Hallucinations both in and out of context: An active inference account,6,Notation (continuous)
+Precision and False Perceptual Inference,6,Mostly seems to be a review of older simulations
+The computational anatomy of psychosis,6,"Notation, see also figure of the effect of the posterior shift"
+Cortical circuits for perceptual inference,6,Best continuous time notation explanation and Laplace assumption
+DEM: a variational treatment of dynamic systems,6,
+Hierarchical models in the brain,6,
+Perception and hierarchical dynamics,6,"Chapter 8, important core paper to read, good simulation setup here, maybe useful. Good continuous state space notation"
+"Predictive coding, precision and synchrony",6,
+Recognition Dynamics in the Brain under the Free Energy Principle,6,Good continuous state space notation
+Variational Bayesian identification and prediction of stochastic nonlinear dynamic causal models,6,Never seen this paper but it seems very important. Revisit. Also has some nice descriptions of stochastic processes.
+Variational filtering,6,
+Variational free energy and the Laplace approximation,6,
+Waves of prediction,6,
+A Minimal Active Inference Agent,6,Simulation
+Active inference and oculomotor pursuit: the dynamic causal modelling of eye movements,7,Notation (continuous)
+"Active inference, sensory attenuation and illusions",7,Excellent notation examples.Motor illusions
+A free energy principle for the brain,7,
+Active inference unifies intentional and conflict-resolution imperatives of motor control,7,Notation (continuous)
+"Active inference, eye movements and oculomotor delays",7,"Notation (continuous), great appendix!"
+Active strategies for multisensory conflict suppression in the virtual hand illusion,7,Notation (Laplace)
+"Dopamine, affordance and active inference",7,Great notation esp. for hiearchical models
+Hallucinations both in and out of context: An active inference account,7,Notation (continuous)
+Precision and False Perceptual Inference,7,Mostly seems to be a review of older simulations
+The computational anatomy of psychosis,7,"Notation, see also figure of the effect of the posterior shift"
+Simultaneous learning and filtering without delusions: a Bayes-optimal combination of Predictive Inference and Adaptive Filtering,7,"Cite in Chapter 7, good example of learning the forward model. Read. Motor illusions"
+How higher goals are constructed and collapse under stress: A hierarchical Bayesian control systems perspective,7,Good history of cybernetics section including set-points useful for Chapter 7
+Perceptions as hypotheses: saccades as experiments,7,"Great notation and important perspective on action and Bayesian surprise to add to Chapter 7. Will be useful to refer back to this paper for Chapter 8 because it shows how to construct the block matrices for hierarchical models. For Chapter 15, there is good info here for the equivalence section. Consideration of infomax for example and other equivalences are laid out here. Also, the extension here about salience and hidden state controls needs to be mentioned in Chapter 11."
+Computational Models of Interoception and Body Regulation,7,Nice for Chapter 7 and Chapter 8 alongside very nice visualization that I can use as inspiration in these chapters
+Computational Models of Interoception and Body Regulation,7,Nice for Chapter 7 and Chapter 8 alongside very nice visualization that I can use as inspiration in these chapters
+"Attention, uncertainty, and free-energy",7,
+Autopoiesis and Cognition: The Realization of the Living,7,Active inference is an example of self-referenced learning in which “the actions of the learner influence its own learning without any valuation process”
+Embodied skillful performance: where the action is,7,"Best diagram of forward model control, very good reference for ch 7"
+Getting ahead: forward models and their place in cognitive architecture,7,
+Learning a Forward Model of a Reflex,7,Active inference is an example of self-referenced learning in which “the actions of the learner influence its own learning without any valuation process”
+Muscleless motor synergies and actions without movements: From motor neuroscience to cognitive robotics,7,Good quote in here about action and marinettes. Quote in Chapter 7.
+"Prediction, perception and agency",7,"Good core review of active inference, great for Chapter 7."
+Predictions in the eye of the beholder: an active inference account of Watt governors,7,Cybernetics
+Predictions not commands: active inference in the motor system,7,Read closely for Chapter 7.
+Reinforcement learning or active inference?,7,
+The perceptual shaping of anticipatory actions,7,Also nice for Chapter 7
+A computational theory for the production of limb movements,7,Equilibrium point
+What is value-accumulated reward or evidence?,7,Precursor to discrete time active inference. Worth taking a closer look to see if I put this in Appendix A yet and how they try to extend continuous time action into planning.
+Active inference and oculomotor pursuit: the dynamic causal modelling of eye movements,8,Notation (continuous)
+"Active inference, sensory attenuation and illusions",8,Excellent notation examples.Motor illusions
+A free energy principle for the brain,8,
+Active inference unifies intentional and conflict-resolution imperatives of motor control,8,Notation (continuous)
+"Active inference, eye movements and oculomotor delays",8,"Notation (continuous), great appendix!"
+Active strategies for multisensory conflict suppression in the virtual hand illusion,8,Notation (Laplace)
+"Dopamine, affordance and active inference",8,Great notation esp. for hiearchical models
+Hallucinations both in and out of context: An active inference account,8,Notation (continuous)
+Precision and False Perceptual Inference,8,Mostly seems to be a review of older simulations
+The computational anatomy of psychosis,8,"Notation, see also figure of the effect of the posterior shift"
+Cortical circuits for perceptual inference,8,Best continuous time notation explanation and Laplace assumption
+DEM: a variational treatment of dynamic systems,8,
+Hierarchical models in the brain,8,
+Perception and hierarchical dynamics,8,"Chapter 8, important core paper to read, good simulation setup here, maybe useful. Good continuous state space notation"
+"Predictive coding, precision and synchrony",8,
+Recognition Dynamics in the Brain under the Free Energy Principle,8,Good continuous state space notation
+Variational Bayesian identification and prediction of stochastic nonlinear dynamic causal models,8,Never seen this paper but it seems very important. Revisit. Also has some nice descriptions of stochastic processes.
+Variational filtering,8,
+Variational free energy and the Laplace approximation,8,
+Waves of prediction,8,
+Perceptions as hypotheses: saccades as experiments,8,"Great notation and important perspective on action and Bayesian surprise to add to Chapter 7. Will be useful to refer back to this paper for Chapter 8 because it shows how to construct the block matrices for hierarchical models. For Chapter 15, there is good info here for the equivalence section. Consideration of infomax for example and other equivalences are laid out here. Also, the extension here about salience and hidden state controls needs to be mentioned in Chapter 11."
+Computational Models of Interoception and Body Regulation,8,Nice for Chapter 7 and Chapter 8 alongside very nice visualization that I can use as inspiration in these chapters
+Computational Models of Interoception and Body Regulation,8,Nice for Chapter 7 and Chapter 8 alongside very nice visualization that I can use as inspiration in these chapters
+Hierarchical disruption in the Bayesian brain: Focal epilepsy and brain networks,8,Notation - especially for chapter 11. Very important diagram of the error and state unit relationship that should be replicated in Chapter 8!
+Active inference and the anatomy of oculomotion,8,Notation (continuous). See chapter 8 again. Useful way to consider the derivatives.
+Hierarchical predictive coding in distributed pain circuits,8,"Great figure here on prediction errors, revisit for Chapter 8!"
+Reclaiming saliency: Rhythmic precision-modulated action and perception,8,Simulation. DEM notation
+A hierarchy of time-scales and the brain,8,
+Active Inference and Learning in the Cerebellum,8,Notation (continuous)
+Active inference under visuo-proprioceptive conflict: Simulation and empirical results,8,Notation (continuous)
+"Active inference, attention, and motor preparation",8,Notation (continuous)
+Canonical neural networks perform active inference,8,Recognition dynamics
+"Cerebral hierarchies: predictive processing, precision and the pulvinar",8,Notation (continuous)
+Computational Neuropsychology and Bayesian Inference,8,Hierarchical models
+Distinguishing theory from implementation in predictive coding accounts of brain function,8,
+Dynamic planning in hierarchical active inference,8,Good review on hierarchical AIF
+"Free energy, precision and learning: the role of cholinergic neuromodulation",8,Notation (continuous)
+Modeling motor control in continuous-time Active Inference: a survey,8,
+Reframing the Expected Free Energy: Four Formulations and a Unification,9,Check out
+Inferring what to do (and what not to do),9,Good notation for discrete time
+A step-by-step tutorial on active inference and its application to empirical data,9,
+Active inference and agency: optimal control without cost functions,9,
+Active inference and epistemic value,9,
+Active inference and learning,9,
+Active inference on discrete state-spaces: A synthesis,9,
+"Active Inference, Curiosity and Insight",9,
+Active Inference: A Process Theory,9,
+Cognitive effort and active inference,9,Great discrete time notation and explanation
+Computational mechanisms of curiosity and goal-directed exploration,9,Notation (discrete)
+Computational Phenotyping in Psychiatry: A Worked Example,9,Code and notation
+Contextual perception under active inference,9,Important and notation
+Deep Active Inference and Scene Construction,9,EFE derivation
+Deep temporal models and active inference,9,Hierarchical discrete example. Discussion of information gain and infomax among other things.
+"Dopamine, reward learning, and active inference",9,
+Everything is connected: Inference and attractors in delusions,9,Notation (discrete)
+"Exploration, novelty, surprise, and free energy minimization",9,
+Impulsivity and Active Inference,9,Discrete time notation including action selection types. Check out VFE and EFE equations in matrix form here.
+Introducing a Bayesian model of selective attention based on active inference,9,Notation (discrete)
+Prefrontal Computation as Active Inference,9,Good discrete notation and simulation
+pymdp: A Python library for active inference in discrete state spaces,9,Make sure cited.
+"Scene Construction, Visual Foraging, and Active Inference",9,Notation for factorial depth in discrete time models?
+Simulating lesion-dependent functional recovery mechanisms,9,Full notation for the learning update rules in discerete time active inference
+Synthetic Spatial Foraging With Active Inference in a Geocaching Task,9,Notation (discrete)
+The anatomy of choice: active inference and agency,9,
+The anatomy of choice: dopamine and decision-making,9,Mostly irrelevant but good to read to extract some useful information
+"Working memory, attention, and salience in active inference",9,"Notation for discrete time active inference, see Chapter 9. See also notation for action selection."
+Active sensing with predictive coding and uncertainty minimization,9,Discrete AIF examples
+Adaptive planning depth in human problem solving,9,Planning depth
+An Active Inference Model of the Optimism Bias,9,Optimistic agents via precision over positive outcomes
+"Generative models, linguistic communication and active inference",9,Look closely at the notation here for outcomes and states!
+Integrating cognitive map learning and active inference for planning in ambiguous environments,9,Planning under uncertainty
+Planning and navigation as active inference,9,"Great discrete time notation, look at table here for Chapter 9; also Bayesian model averaging equation"
+Slow but flexible or fast but rigid? Discrete and continuous processes compared,9,Part II intro?
+What is value-accumulated reward or evidence?,9,Precursor to discrete time active inference. Worth taking a closer look to see if I put this in Appendix A yet and how they try to extend continuous time action into planning.
+Active Inference for Autonomous Decision-Making with Contextual Multi-Armed Bandits,10,MABs
+An empirical evaluation of active inference in multi-armed bandits,10,MABs
+Inferring Hierarchical Structure in Multi-Room Maze Environments,10,Hierarchical models
+Learning Spatial and Temporal Hierarchies: Hierarchical Active Inference for navigation in Multi-Room Maze Environments,10,Hierarchical active inference
+Inferring what to do (and what not to do),10,Good notation for discrete time
+A step-by-step tutorial on active inference and its application to empirical data,10,
+Active inference and agency: optimal control without cost functions,10,
+Active inference and epistemic value,10,
+Active inference and learning,10,
+Active inference on discrete state-spaces: A synthesis,10,
+"Active Inference, Curiosity and Insight",10,
+Active Inference: A Process Theory,10,
+Cognitive effort and active inference,10,Great discrete time notation and explanation
+Computational mechanisms of curiosity and goal-directed exploration,10,Notation (discrete)
+Computational Phenotyping in Psychiatry: A Worked Example,10,Code and notation
+Contextual perception under active inference,10,Important and notation
+Deep Active Inference and Scene Construction,10,EFE derivation
+Deep temporal models and active inference,10,Hierarchical discrete example. Discussion of information gain and infomax among other things.
+"Dopamine, reward learning, and active inference",10,
+Everything is connected: Inference and attractors in delusions,10,Notation (discrete)
+"Exploration, novelty, surprise, and free energy minimization",10,
+Impulsivity and Active Inference,10,Discrete time notation including action selection types. Check out VFE and EFE equations in matrix form here.
+Introducing a Bayesian model of selective attention based on active inference,10,Notation (discrete)
+Prefrontal Computation as Active Inference,10,Good discrete notation and simulation
+pymdp: A Python library for active inference in discrete state spaces,10,Make sure cited.
+"Scene Construction, Visual Foraging, and Active Inference",10,Notation for factorial depth in discrete time models?
+Simulating lesion-dependent functional recovery mechanisms,10,Full notation for the learning update rules in discerete time active inference
+Synthetic Spatial Foraging With Active Inference in a Geocaching Task,10,Notation (discrete)
+The anatomy of choice: active inference and agency,10,
+The anatomy of choice: dopamine and decision-making,10,Mostly irrelevant but good to read to extract some useful information
+"Working memory, attention, and salience in active inference",10,"Notation for discrete time active inference, see Chapter 9. See also notation for action selection."
+Learning generative state space models for active inference,11,They start paper describing some of the current limitations with RL approaches in the real-world. Nice references here. Simulation.
+Turn-Taking Mechanisms in Imitative Interaction: Robotic Social Interaction Based on the Free Energy Principle,11,Simulation
+A Bayesian account of generalist and specialist formation under the Active Inference framework,11,Habit learning
+A Methods paper for object representation,11,Reactive control
+A mixed generative model of auditory word repetition,11,Hybrid models
+Active Inference and Behavior Trees for Reactive Action Planning and Execution in Robotics,11,
+Active Inference for Autonomous Decision-Making with Contextual Multi-Armed Bandits,11,
+"Active inference for integrated state-estimation, control, and learning",11,Cool paper because they add some tunability into AIF controllers with the tau parameter. Would make a good figure. See also the details in Chapter 15.
+Active Inference for Robotic Manipulation,11,Simulation
+An active inference implementation of phototaxis,11,Simulation
+Balancing control: a Bayesian interpretation of habitual and goal-directed behavior,11,Habit formation
+Branching Time Active Inference with Bayesian Filtering,11,Check that it is cited
+Branching Time Active Inference: empirical study and complexity class analysis,11,Check that it is cited
+Branching Time Active Inference: the theory and its generality,11,Check that it is cited
+Chance-constrained active inference,11,Self-supervised objective - do not need to reconstruct outputs of actions.
+Combining active inference and hierarchical predictive coding: a tutorial introduction and case study,11,Simulation
+Contrastive active inference,11,"One particular challenge with such discrete state-space active inference models is the fact that it is difficult to scale the model to a large number of states and quickly becomes computationally expensive. In Chapter 13 we described \textit{contrastive active inference} \citep{Mazzaglia2021-oj} a possible approach to more effecient discrete-state space active inference-based control using contrastive learning. The authors in this paper argue that since complete pixel-level visual reconstruction is expensive and may be unnecessary for many tasks, the model's complexity can be reduced if it selectively choose which observations are relevant for the decision-making task at hand. After augmenting VFE and EFE with a contrastive loss term, the model better identifies similar observations that were likely generate by the hidden state to be inferred. "
+Embodied object representation learning and recognition,11,Reactive control
+Generalized Simultaneous Localization and Mapping (G-SLAM) as unification framework for natural and artificial intelligences: towards reverse engineering the hippocampal/entorhinal system and principles of high-level cognition,11,
+Goal-directed Planning and Goal Understanding by Active Inference: Evaluation Through Simulated and Physical Robot Experiments,11,Simulation. Alternative computation of EFE
+"Investigation of the Sense of Agency in Social Cognition, Based on Frameworks of Predictive Coding and Active Inference: A Simulation Study on Multimodal Imitative Interaction",11,Simulation
+Meta-control of the exploration-exploitation dilemma emerges from probabilistic inference over a hierarchy of time scales,11,Chapter 11? The authors introduce meta-control states into the model.
+Modeling the subjective perspective of consciousness and its role in the control of behaviours,11,Simulation
+Multi-Modal and Multi-Factor Branching Time Active Inference,11,Branching time AIF
+Multimodal VAE active inference controller,11,Simulation
+Online reinforcement learning with sparse rewards through an active inference capsule,11,FEEF
+Predictive coding-based deep dynamic neural network for visuomotor learning,11,Simulation
+Prior Preference Learning from Experts: Designing a Reward with Active Inference,11,C vector learning
+The computational neurology of movement under active inference,11,Simulation of tendon reflex with a mixed generative model. Great example. Cite this simulation. Also check out the table here which lists some parameters and the resulting pathologies.
+The Discrete and Continuous Brain: From Decisions to Movement-And Back Again,11,Hybrid models
+Unbiased Active Inference for Classical Control,11,Drawback: AIC biased toward current goal prior (poor state estimation). Influences precision learning by biasing parameter convergence. False-positive fault detection. Control action not an random variable. Thus cannot minimize directly and must use the chain rule (assumes system is linear).
+"Uncertainty, epistemics and active inference",11,Excellent discrete time notation. Add to Chapter 11 - precision updating for discrete time active inference.
+Variational Inference for Predictive and Reactive Controllers,11,"The authors interpret the work in \citep{Oliver2019-uo, Pezzato2019-mx} in terms of \textit{reactive control}. They point out the fact that because continuous state-space active inference can only adaptively react to prediction errors it will have a much slower response. By separating the state-estimation and action steps the model can run them in parallel and adapt faster to environmental changes. Reactive control. Re-read this paper in more detail. It's kind of a robotics paper but really they introduce a few modifications to generalized filtering."
+Perceptions as hypotheses: saccades as experiments,11,"Great notation and important perspective on action and Bayesian surprise to add to Chapter 7. Will be useful to refer back to this paper for Chapter 8 because it shows how to construct the block matrices for hierarchical models. For Chapter 15, there is good info here for the equivalence section. Consideration of infomax for example and other equivalences are laid out here. Also, the extension here about salience and hidden state controls needs to be mentioned in Chapter 11."
+Hierarchical disruption in the Bayesian brain: Focal epilepsy and brain networks,11,Notation - especially for chapter 11. Very important diagram of the error and state unit relationship that should be replicated in Chapter 8!
+Reclaiming saliency: Rhythmic precision-modulated action and perception,11,Simulation. DEM notation
+Reframing the Expected Free Energy: Four Formulations and a Unification,11,Check out
+Inferring what to do (and what not to do),11,Good notation for discrete time
+MULAN: Evaluation and ensemble statistical inference for functional connectivity,12,Maybe chapter 16?
+A Factor Graph Description of Deep Temporal Active Inference,12,
+A Unified View of Algorithms for Path Planning Using Probabilistic Inference on Factor Graphs,12,
+Active Inference and Epistemic Value in Graphical Models,12,Look very important
+Active inference for robot control: a factor graph approach,12,
+"Active Inference, Belief Propagation, and the Bethe Approximation",12,
+"Neuronal message passing using Mean-field, Bethe, and Marginal approximations",12,
+Realising Active Inference in Variational Message Passing: the Outcome-blind Certainty Seeker,12,Make sure cited.
+Simulating Active Inference Processes by Message Passing,12,
+The Anatomy of Inference: Generative Models and Brain Structure,12,
+The graphical brain: Belief propagation and active inference,12,
+Toward Design of Synthetic Active Inference Agents by Mere Mortals,12,Factor graph approaches to AIF
+Learning generative state space models for active inference,13,They start paper describing some of the current limitations with RL approaches in the real-world. Nice references here. Simulation.
+A Bayesian Account of the Sensory-Motor Interactions Underlying Symptoms of Tourette Syndrome,13,Read. Motor illusions
+A novel model of divergent predictive perception,13,Dysfunction
+A predictive processing theory of sensorimotor contingencies: Explaining the puzzle of perceptual presence and its absence in synesthesia,13,Read. Motor illusions
+Active inference and the two-step task,13,Cite. Decision-making and impulsivity
+Active inference on OpenAI gym: a paradigm for computational investigations into psychiatric illness,13,Cite. Decision-making and impulsivity
+"Active inference, morphogenesis, and computational psychiatry",13,Psychopathology
+An Active Inference Approach to Dissecting Reasons for Nonadherence to Antidepressants,13,Habit formation
+Being curious about the answers to questions: novelty search with learned attention,13,Curiosity
+Caching mechanisms for habit formation in active inference,13,Habit formation
+Can the Predictive Processing Framework Explain the Persistence of Delusional Beliefs?,13,Neuropathology
+Can You Tickle Yourself If You Swap Bodies with Someone Else?,13,Read. Motor illusions
+Dopamine Role in Learning and Action Inference,13,Cite. Decision-making and impulsivity
+Embodied decisions as active inference,13,Decision-making
+Enacting proprioceptive predictions in the rubber hand illusion,13,Read. Auditory hallucinations
+Flexible intentions: an active inference theory,13,Read. Decision-making and impulsivity. Notation (discrete)
+How preferences enslave attention: calling into question the endogenous/exogenous distinction from an active inference perspective,13,Attention
+Imprecise action selection in substance use disorder: evidence for active learning impairments when solving the explore-exploit dilemma,13,Habit formation
+Inference of affordances and active motor control in simulated agents,13,Read
+Insight and the selection of ideas,13,Insight
+"Is interesting knowledge a reward? An integrative model of emotion, reward and appraisal frameworks of epistemic curiosity.",13,Curiosity
+Learning action-oriented models through active inference,13,Goal-directed behavior
+"Model averaging, optimal inference, and habit formation",13,Habit formation
+On Predictive Planning and Counterfactual Learning in Active Inference,13,Decision-making
+Predictive coding explains binocular rivalry: an epistemological review ,13,Cite. Visual illusions
+"Preferences need inferences: Learning, valuation, and curiosity in aesthetic experience",13,Curiosity
+Spatial and Temporal Hierarchy for Autonomous Navigation Using Active Inference in Minigrid Environment,13,Goal-directed behavior
+Symmetry and complexity in object-centric deep active inference models,13,
+The control of epistemic curiosity in the human brain,13,Curiosity
+With an eye on uncertainty: Modeling pupillary responses to environmental volatility,13,Cite. Decision-making and impulsivity
+Active inference and oculomotor pursuit: the dynamic causal modelling of eye movements,13,Notation (continuous)
+"Active inference, sensory attenuation and illusions",13,Excellent notation examples.Motor illusions
+Simultaneous learning and filtering without delusions: a Bayes-optimal combination of Predictive Inference and Adaptive Filtering,13,"Cite in Chapter 7, good example of learning the forward model. Read. Motor illusions"
+Computational Models of Interoception and Body Regulation,13,Nice for Chapter 7 and Chapter 8 alongside very nice visualization that I can use as inspiration in these chapters
+Hierarchical disruption in the Bayesian brain: Focal epilepsy and brain networks,13,Notation - especially for chapter 11. Very important diagram of the error and state unit relationship that should be replicated in Chapter 8!
+Active inference and the anatomy of oculomotion,13,Notation (continuous). See chapter 8 again. Useful way to consider the derivatives.
+Hierarchical predictive coding in distributed pain circuits,13,"Great figure here on prediction errors, revisit for Chapter 8!"
+Inferring what to do (and what not to do),13,Good notation for discrete time
+Turn-Taking Mechanisms in Imitative Interaction: Robotic Social Interaction Based on the Free Energy Principle,14,Simulation
+A Novel Adaptive Controller for Robot Manipulators based on Active Inference,14,Robotics
+Active inference and robot control: a case study,14,
+Active Inference Through Energy Minimization in Multimodal Affective Human-Robot Interaction,14,
+Active Vision for Robot Manipulators Using the Free Energy Principle,14,
+Adaptation through prediction: multisensory active inference torque control,14,"Robotics, torque controller"
+An active inference model of car following: Advantages and applications,14,Robotics
+Dynamic Expectation Maximization Algorithm for Estimation of Linear Systems with Colored Noise,14,
+Learning Policies for Continuous Control via Transition Models,14,Learning generative models
+Navigating Autonomous Vehicle on Unmarked Roads with Diffusion-Based Motion Prediction and Active Inference,14,Self-driving
+"Neuroscience-inspired perception-action in robotics: applying active inference for state estimation, control and self-perception",14,Make sure this is in the reviews
+Object-Centric Scene Representations Using Active Inference,14,Make sure cited
+Predictive Processing in Cognitive Robotics: a Review,14,Make sure cited
+Resolving uncertainty on the fly: modeling adaptive driving behavior as active inference,14,Autonomous driving
+Tactile Active Inference Reinforcement Learning for Efficient Robotic Manipulation Skill Acquisition,14,Make sure cited
+Trust as Extended Control: Human-Machine Interactions as Active Inference,14,
+World Models and Predictive Coding for Cognitive and Developmental Robotics: Frontiers and Challenges,14,Make sure cited
+Active inference as a theory of sentient behavior,15,History of predictive coding; unification
+MULAN: Evaluation and ensemble statistical inference for functional connectivity,15,Maybe chapter 16?
+Retrospective surprise: A computational component for active inference,15,Not sure where to put it
+‘Through others we become ourselves’: The dialectics of predictive coding and active inference,15,Social interaction
+A Bayesian perspective on classical control,15,Equivalence
+Active Inference and Reinforcement Learning: A unified inference on continuous state and action spaces under partial observability,15,Reinforcement learning
+Active Inference as a Framework for Brain-Computer Interfaces,15,Cybernetics - brain computer interfaces
+Active Inference as a Model of Agency,15,Agency and RL
+Active Inference Demonstrated with Artificial Spin Ice,15,
+Active Inference for Adaptive BCI: application to the P300 Speller,15,Cybernetics - brain computer interfaces
+Active Inference for Stochastic Control,15,Compare to RL
+Active Inference in Hebbian Learning Networks,15,Deep AIF
+Active Inference in String Diagrams: A Categorical Account of Predictive Processing and Free Energy,15,Category theory
+Active inference models do not contradict folk psychology,15,Emotion
+Active Inference on the Edge: A Design Study,15,Federated AIF? Belief sharing?
+Active Inference or Control as Inference? A Unifying View,15,Equivalence
+Active Inference-Based Optimization of Discriminative Neural Network Classifiers,15,Deep AIF
+"Active inference, Bayesian optimal design, and expected utility",15,Bayesian optimal design
+"Active inference, stressors, and psychological trauma: A neuroethological model of (mal)adaptive explore-exploit dynamics in ecological context",15,Allostasis (maybe?)
+Adaptive oscillators support Bayesian prediction in temporal processing,15,Coordinated behavior
+AFA-PredNet: The action modulation within predictive coding,15,Deep AIF
+"All thinking is ""wishful"" thinking",15,"This one is important for answering some of the higher order questions about belief updating and motivation. The related papers are ""Hierarchical active inference: a theory of motivated control"" and ""Active Inference, homeostatic regulation and adaptive behavioral control"". In Chapter 16 it may be important to build up some of the grander theories."
+Allostasis as a core feature of hierarchical gradients in the human brain,15,Interoceptive inference
+Allostatic interoceptive overload across psychiatric and neurological conditions,15,Allostasis
+An Overview of the Free Energy Principle and Related Research,15,RL
+Anomaly Detection via Controlled Sensing and Deep Active Inference,15,Deep AIF
+Bayesian policy selection using active inference,15,RL v. AIF
+Being a beast machine: The origins of selfhood in control-oriented interoceptive inference,15,Already cited?
+Bidirectional Interaction between Visual and Motor Generative Models using Predictive Coding and Active Inference,15,"Robotics, motor control"
+Blockchain-Based Decentralized Knowledge Marketplace Using Active Inference,15,
+Capsule Networks as Generative Models,15,Deep AIF
+Collective behavior from surprise minimization,15,Collective behavior
+Compositional Active Inference I: Bayesian Lenses. Statistical Games,15,Category theory
+Compositional Active Inference II: Polynomial Dynamics. Approximate Inference Doctrines,15,Category theory
+"Correction: Hybrid predictive coding: Inferring, fast and slow",15,Deep AIF and Deep PC
+Deep active inference agents using Monte-Carlo methods,15,Deep AIF
+Deep Active Inference for Partially Observable MDPs,15,Vs RL
+Deep Active Inference for Pixel-Based Discrete Control: Evaluation on the Car Racing Problem,15,Vs RL
+Deriving time-averaged active inference from control principles,15,Optimal control theory
+Designing explainable artificial intelligence with active inference: A framework for transparent introspection and decision-making,15,Introspection and selfhood
+Disentangling Shape and Pose for Object-Centric Deep Active Inference Models,15,Deep AIF
+Forgetting ourselves in flow: an active inference account of flow states and how we experience ourselves within them,15,Selfhood
+Hybrid Active Inference,15,Cybernetics
+"I like therefore I can, and I can therefore I like: the role of self-efficacy and affect in active inference of allostasis",15,Homeostasis
+Kalman filters as the steady-state solution of gradient descent on variational free energy,15,Equivalence
+Learning Generative Models for Active Inference using Tensor Networks,15,Deep AIF
+Mathematical Foundations for a Compositional Account of the Bayesian Brain,15,Category theory
+Neural dynamics under active inference: plausibility and efficiency of information processing,15,Effeciency. May already be cited.
+Object-based active inference,15,Deep AIF
+"On Kalman-Bucy filters, linear quadratic control and active inference",15,Equivalence
+On Solving a Stochastic Shortest-Path Markov Decision Process as Probabilistic Inference,15,RL?
+On the Relationship Between Active Inference and Control as Inference,15,Equivalence
+Planning to Learn: A Novel Algorithm for Active Learning during Model-Based Planning,15,Equivalency. Comparison to Bayes-adaptive RL
+Predictive Coding as a Neuromorphic Alternative to Backpropagation: A Critical Evaluation,15,PC and backprop
+Predictive Minds: LLMs As Atypical Active Inference Agents,15,LLMs
+Predictive Motor Control Based on a Generative Adversarial Network,15,Deep AIF
+Reinforcement Learning through Active Inference,15,Equivalence
+Resonating Minds -- Emergent Collaboration Through Hierarchical Active Inference,15,Collective behavior
+Shared Protentions in Multi-Agent Active Inference,15,Multi agent
+"Simulating homeostatic, allostatic and goal-directed forms of interoceptive control using Active Inference",15,Interoception
+Social intelligence model with multiple internal models,15,Collective behavior
+Spin glass systems as collective active inference,15,Collective behavior
+Successor Representation Active Inference,15,RL: Successor representation
+"The cognitive neuroscience of self-awareness: Current framework, clinical implications, and future research directions",15,Selfhood
+The Free Energy Principle for Perception and Action: A Deep Learning Perspective,15,Deep AIF
+The Homeostatic Logic of Reward,15,Homeostasis
+The modularity of action and perception revisited using control theory and active inference,15,Equivalence
+The Role of Valence and Meta-awareness in Mirror Self-recognition Using Hierarchical Active Inference,15,Book 2
+Towards Understanding Persons and their Personalities with Cybernetic Big 5 Theory and the Free Energy Principle and Active Inference (FEP-AI) Framework,15,"Review, check out, emotions"
+An information-theoretic perspective on the costs of cognition,15,Information theory
+Interactive inference: a multi-agent model of cooperative joint actions,15,Multi-agent
+On efficient computation in active inference,15,Deep AIF
+Perceptions as hypotheses: saccades as experiments,15,"Great notation and important perspective on action and Bayesian surprise to add to Chapter 7. Will be useful to refer back to this paper for Chapter 8 because it shows how to construct the block matrices for hierarchical models. For Chapter 15, there is good info here for the equivalence section. Consideration of infomax for example and other equivalences are laid out here. Also, the extension here about salience and hidden state controls needs to be mentioned in Chapter 11."
+Retrospective surprise: A computational component for active inference,16,Not sure where to put it
+A Free Energy Principle for Biological Systems,16,
+A probabilistic interpretation of PID controllers using active inference,16,Equivalency
+Active inference or control as inference? A unifying view,16,Equivalency
+Application of the free energy principle to estimation and control,16,Equivalency
+Deep active inference as variational policy gradients,16,Equivalency. Policy gradients
+"Free energy, value, and attractors",16,
+"On Kalman bucy filters, linear quadratic control, and active inference",16,Equivalency
+On the relationship between active inference and control as inference,16,Equivalency
+PID control as a process of active inference with linear generative models,16,Equivalency
+The free-energy principle: a unified brain theory?,16,
+"The relationship between dynamic programming and active inference: The discrete, finite-horizon case",16,Equivalency. Bellman optimality and dynamic programming
+How higher goals are constructed and collapse under stress: A hierarchical Bayesian control systems perspective,16,Good history of cybernetics section including set-points useful for Chapter 7
+What is value-accumulated reward or evidence?,A,Precursor to discrete time active inference. Worth taking a closer look to see if I put this in Appendix A yet and how they try to extend continuous time action into planning.
+Granger causality revisited,B,Return to this paper for some ideas on causality
+Reclaiming saliency: Rhythmic precision-modulated action and perception,E,Simulation. DEM notation
