@@ -1,7 +1,21 @@
 # aif-fep-db
 A database of publications related to active inference and the free energy principle.
-
 <!-- See: https://stackoverflow.com/questions/69723198/dash-datatable-drop-down-filter -->
+
+## General workflow for updating database and tags
+
+The database is designed to be easily updated either by scraping from online archives (PubMed, ArXiv, etc.) or manually adding papers to the database. A typical workflow supported by functions defined in this codebase is as follows:
+1. Add new papers to database using one of the following two options:
+   - Scraping new papers from supported online archives for a requested date range. For this option, returned papers and metadata may not all be active inference papers. The user is responsible for removing irrelevant papers.
+   - Adding papers to existing database manually. This option requires supplying specific fields.
+2. Create tags for all papers added to database. These new tags must be associated with a new or existing tag file.
+3. Add tags to the database and save the database.
+4. Launch the app to view and filter the database by tags. 
+
+## Current planned features
+* Helper functions for loading scraped tables and easily removing rows.
+* Support for books or book chapters - maybe "add papers" or "add book/chapter" entries?
+* Tag list has id associated with it which generated from a hash.
 
 ## Features
 * Helper functions for filtering and sorting.
@@ -18,6 +32,7 @@ See how to cite and download papers.
 * `squlite3` support as an alternative to CSV database
 
 ## TODO and Features
+* Support for books or book chapters - maybe "add papers" or "add book/chapter" entries?
 * Separate tags file + db. In other words, the db stays intact always. Separate file is created.
 * Tag file is now just a metadata file. 
 * Removing papers is in the tag file will the remove tag or maybe a separate section

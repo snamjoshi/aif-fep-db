@@ -1,3 +1,5 @@
+import os
+import pandas as pd
 import yaml
 
 from collections.abc import Mapping
@@ -38,4 +40,15 @@ def progress_bar(prog):
     remainder = ''.join(["-"] * remainder)
     
     return(f"[{prog}>{remainder}]")
+
+def load_tables(table_dir: str):
     
+    table_list = []
+    table_names = os.listdir(table_dir)
+    table_paths = [table_dir + "/" + table_name for table_name in table_names]
+
+    for table_path in table_paths:
+        table = pd.read_csv(table_path)
+        table_list.append(table)
+        
+    return table_list
