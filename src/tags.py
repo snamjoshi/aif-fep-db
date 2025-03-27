@@ -9,6 +9,8 @@ LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
 
 
+# TODO: IF no DOI, create a DOI using a hash of the paper information that is available.
+
 class Tags:
     """
     Class that loads, and adds tags to an existing database.

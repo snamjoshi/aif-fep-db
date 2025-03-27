@@ -3,9 +3,11 @@ import os
 import pandas as pd
 import pickle
 
+from ast import literal_eval
 from datetime import datetime
 
 from src.tags import Tags
+from src.utils import process_doi
 
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
@@ -77,14 +79,33 @@ class Database:
         
         LOGGER.info(f"Database created at {str(self.creation_time)}.")
     
-    def update_from_dict(self):
+    def update_from_dicts_list(self, entries: list):
         """ Adds new paper(s) to the database from a dict or collection of dicts. """
-        raise NotImplementedError
         
-    def update_from_CSV(self):
+        for idx, entry in enumerate(entries):
+            
+            # Check if all entries are present
+            missing_fields = self.required_attributes.difference(set(entry.keys()))
+            assert len(missing_fields) == 0, f"Entry {idx} missing attribute {missing_fields}."  
+            
+            # Process DOI
+            entry["doi"] = process_doi(doi = entry["doi"])
+            
+            # If tags are already attached, make entry untagged
+            if "tag" in self.db.columns:
+                entry["tag"] = ["untagged"]
+        
+        # Add entry dicts to database
+        new_entries_dataframe = pd.DataFrame(entries)
+        self.db = pd.concat([self.db, new_entries_dataframe], ignore_index=True)
+        
+    def update_from_CSV(self, csv_path: str):
         """ Updates an existing loaded database with new papers from a CSV file. """
-        raise NotImplementedError
-    
+        entries = pd.read_csv(csv_path, converters={"authors": literal_eval, "tag": literal_eval})
+        entries = entries.to_dict(orient="records")
+        
+        self.update_from_dicts_list(entries=entries)
+        
     def remove(self, doi_list: list):
         """ Removes paper(s) from the database based on DOI """
         

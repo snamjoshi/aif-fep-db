@@ -1,8 +1,17 @@
+import logging
 import os
 import pandas as pd
+import re
 import yaml
 
 from collections.abc import Mapping
+
+LOGGER = logging.getLogger(__name__)
+logging.basicConfig(level = logging.INFO)
+
+
+DOI_REGEX_PATTERN = r"^10\.\d{4,9}/[-._;()/:A-Z0-9]+$"
+
 
 def validate_tag_file(tag_file: dict):
     # TODO: Replace this with pydantic validation
@@ -52,3 +61,13 @@ def load_tables(table_dir: str):
         table_list.append(table)
         
     return table_list
+
+def process_doi(doi: str):
+    doi = doi.strip("https://doi.org/")
+    
+    match = re.match(DOI_REGEX_PATTERN, doi, re.IGNORECASE)
+
+    if not bool(match):
+        LOGGER.warning(f"Warning: {doi} failed DOI validation!")
+        
+    return doi
