@@ -71,32 +71,61 @@ class Tags:
         """ Detatches a loaded tag file. """
         raise NotImplementedError
         
-    def link_tags_to_doi(self, tag_dict_list: list):
+    def link_tags_to_doi(self, tag_dict_list: list, verbose: bool=True):
         """ Associates tags in the tag list with a DOI """
         
         self._check_tag_exists()
         currently_tagged = [entry["doi"] for entry in self.tags["tagged_papers"]]
-        print(currently_tagged)
+        
         # tag_id = int(tag_id)
-        tagged_papers = self.tags["tagged_papers"]
+        # tagged_papers_dict = self.tags["tagged_papers"]
         
         # Loop over each tag dict
         for entry in tag_dict_list:
             doi = entry["doi"]
             
-            # If no tagged papers yet
-            if not tagged_papers:
+            # If DOI does not existed in tagged papers already, add a new entry
+            if doi not in currently_tagged:
                 self.tags["tagged_papers"].append(
                         {"doi": entry["doi"],
                          "tags": entry["tags"]}
                         )
+                
+                if verbose:
+                    LOGGER.info(f"Added tags {entry['tags']} to DOI {entry['doi']}")
+            
+            # If DOI does exist already, append tag to existing entry
+            else:
+                
+                # Loop over tagged papers
+                for tagged in self.tags["tagged_papers"]:
+                    
+                    # Select matching DOI
+                    if tagged["doi"] == doi:
+                        
+                        # Ensure tags are not already part of the tag list for DOI
+                        # if any(tags in tagged["tags"] for tags in entry["tags"]):
+                        # if entry["tags"] not in tagged["tags"]:
+                        
+                        # Add tags to tag list if not already present
+                        LOGGER.info("Checking if any requested tags are not in the tag list...")
+                        self.add_to_tag_list(entry["tags"])
+                        
+                        # Append new tags to matching DOI
+                        new_tag_list = list(set(tagged["tags"] + entry["tags"]))
+                        tagged["tags"] = new_tag_list
+                    
+                        if verbose:
+                            LOGGER.info(f"Added tags {entry['tags']} to DOI {entry['doi']}")
+                        
+                
                 # self.tagged_papers = self.tags["tagged_papers"]
-            elif doi != currently_tagged:
-                self.tags["tagged_papers"].append(
-                        {"doi": entry["doi"],
-                         "tags": entry["tags"]}
-                        )
-                # self.tagged_papers = self.tags["tagged_papers"]
+            # elif doi not in currently_tagged:
+            #     self.tags["tagged_papers"].append(
+            #             {"doi": entry["doi"],
+            #              "tags": entry["tags"]}
+            #             )
+            #     # self.tagged_papers = self.tags["tagged_papers"]
                 
             
             # # Append 
