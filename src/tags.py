@@ -22,7 +22,6 @@ class Tags:
         self.tag_file_path = None
         self.category      = None
         self.tag_list      = None
-        self.tagged_papers = None
     
     def create(self):
         """ Creates an empty tag file """
@@ -69,16 +68,19 @@ class Tags:
         
     def detach(self):
         """ Detatches a loaded tag file. """
-        raise NotImplementedError
+        
+        self.tags          = None
+        self.tag_file_path = None
+        self.category      = None
+        self.tag_list      = None
+        
+        LOGGER.info("Tag file detached.")
         
     def link_tags_to_doi(self, tag_dict_list: list, verbose: bool=True):
         """ Associates tags in the tag list with a DOI """
         
         self._check_tag_exists()
         currently_tagged = [entry["doi"] for entry in self.tags["tagged_papers"]]
-        
-        # tag_id = int(tag_id)
-        # tagged_papers_dict = self.tags["tagged_papers"]
         
         # Loop over each tag dict
         for entry in tag_dict_list:
@@ -103,102 +105,28 @@ class Tags:
                     # Select matching DOI
                     if tagged["doi"] == doi:
                         
-                        # Ensure tags are not already part of the tag list for DOI
-                        # if any(tags in tagged["tags"] for tags in entry["tags"]):
-                        # if entry["tags"] not in tagged["tags"]:
-                        
                         # Add tags to tag list if not already present
                         LOGGER.info("Checking if any requested tags are not in the tag list...")
                         self.add_to_tag_list(entry["tags"])
                         
-                        # Append new tags to matching DOI
+                        # Append (unique) new tags to matching DOI
                         new_tag_list = list(set(tagged["tags"] + entry["tags"]))
                         tagged["tags"] = new_tag_list
                     
                         if verbose:
                             LOGGER.info(f"Added tags {entry['tags']} to DOI {entry['doi']}")
-                        
-                
-                # self.tagged_papers = self.tags["tagged_papers"]
-            # elif doi not in currently_tagged:
-            #     self.tags["tagged_papers"].append(
-            #             {"doi": entry["doi"],
-            #              "tags": entry["tags"]}
-            #             )
-            #     # self.tagged_papers = self.tags["tagged_papers"]
-                
-            
-            # # Append 
-            # for paper in self.tags["tagged_papers"]:
-                
-            #     # Check to see if DOI already has an associated tag
-            #     if doi == paper["doi"]:
-            #         paper["tags"] + entry["tags"]
-                    
-            #     # If DOI does not have an associated tag, create a new entry
-            #     else:
-            #         self.tags["tagged_papers"].append(
-            #             {"doi": entry["doi"],
-            #              "tags": entry["tags"]}
-            #             )
-            #         self.tagged_papers = self.tags["tagged_papers"]
-                    
-                    # LOGGER.info(f"Added {entry["tags"]} to {entry["doi"]}.")
-            
-            
-        #     # # Check to see if DOI already has an associated tag
-        #     # if doi in currently_tagged:
-                
-        #     #     # Append each new tag to current DOIs
-        #     #     for entry in self.tags["tagged_papers"]:
-                    
-            
-        #     # If DOI does not have an associated tag, create a new entry
-        #     else:
-        #         ...
         
-        
-        # if tag_id in db.db["id"].tolist():
-            
-        #     # Check to see if tag is already in the tagged papers
-        #     if tag_id in [tags["id"] for tags in self.tags["tagged_papers"]]:
-                
-        #         # Append each new tag to the current tags
-        #         for tag in tags:
-                    
-        #             # Pull each dict out of the tagged papers list
-        #             for tag_set in self.tags["tagged_papers"]:
-                        
-        #                 # Only append to the tag id specified
-        #                 if tag_set["id"] == tag_id:
-        #                     tag_set["tag"].append(tag)
-        #                     self.tagged_papers = self.tags["tagged_papers"]
-        #         LOGGER.info(f"Added {tags} to {tag_id}.")
-            
-        #     # If id is not in tagged papers yet, add it and the tags
-        #     else:
-        #         self.tags["tagged_papers"].append(
-        #         {"id": tag_id,
-        #         "tag": tags}
-        #         )
-        #         self.tagged_papers = self.tags["tagged_papers"]
-            
-        #         LOGGER.info(f"Added {tags} to {tag_id}.")
-        # else:
-        #     raise KeyError(f"The tag_id {tag_id} does not correspond to an id in the database.")
-        
-        # # Update tag file
-        # write_yaml(self.tags, self.tag_file_path)
-        
-    def remove_linked_tags(self):
+    def remove_entries(self, doi_list: list):
+        """ Removes one or more entries from the tagged papers list """
         raise NotImplementedError
-
-    def remove_tags(self):
-        raise NotImplementedError
-
-    def save(self, database_description: str="No description", outpath: str=None):
+                     
+    def save(self, outpath: str):
         """ Saves/exports the tag file. """
-        raise NotImplementedError
+        
+        self._check_tag_exists()
+        write_yaml(self.tags, outpath)
+        
+        LOGGER.info(f"Empty tag YAML output to {outpath}.")
     
     def view_tag_list(self):
         """ Prints the current tag list for a loaded tag file """
@@ -253,7 +181,7 @@ class Tags:
         # Attributes
         self.category      = self.tags["category"]
         self.tag_list      = self.tags["tag_list"]
-        self.tagged_papers = self.tags["tagged_papers"]
+        # self.tagged_papers = self.tags["tagged_papers"]
 
 # if self.db is None:
 #     raise KeyError("No database is loaded. Please load the database first using 'Database.load()'.") 
