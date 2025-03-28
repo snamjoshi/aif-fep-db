@@ -61,11 +61,12 @@ class Tags:
         
     def associate_tag_with_id(self, tag_id: int, tags: list, db):
         """ Adds a new tag to a paper in the tag file """
-        self._check_tag_exists()
         
+        self._check_tag_exists()
         tag_id = int(tag_id)
         
         # TODO: Refactor this mess
+        
         # Check to see that tag_id exists in the database
         if tag_id in db.db["id"].tolist():
             

@@ -16,9 +16,9 @@ The database is designed to be easily updated either by scraping from online arc
 * Helper functions for loading scraped tables and easily removing rows.
 * Support for books or book chapters - maybe "add papers" or "add book/chapter" entries?
 * Tag list has id associated with it which generated from a hash.
+* Ensure that the author field is input as a list and not a string.
 
 ## Features
-* Helper functions for filtering and sorting.
 * Removal/cleaning functions for papers that should not be in the database.
 * Custom tags to add to the database.
 

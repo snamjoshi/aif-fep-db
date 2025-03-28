@@ -13,22 +13,25 @@ logging.basicConfig(level = logging.INFO)
 
 class Tags:
     """
-    Class that loads, and adds tags to an existing database.
+    Class that loads from an existing tag file or creates a new tag file.
     """
     
     def __init__(self) -> None:
         
-        self.tags = None
+        self.tags          = None
         self.tag_file_path = None
-        self.category = None
-        self.tag_list = None
+        self.category      = None
+        self.tag_list      = None
         self.tagged_papers = None
     
-    def create_empty_tag_file(self, path: str):
+    def create(self):
         """ Creates an empty tag file """
         
-        if not path.endswith(".yaml"):
-            raise TypeError("Path to tag file must end in '.yaml'.")
+        # TODO: This file should not be able to write. Writing a tag file should be a separate 
+        # save method like the database.
+        
+        # if not path.endswith(".yaml"):
+        #     raise TypeError("Path to tag file must end in '.yaml'.")
         
         empty_tags_dict = {
             "category": "",
@@ -36,12 +39,15 @@ class Tags:
             "tagged_papers": []
         }
         
-        write_yaml(empty_tags_dict, path)
+        self.tags = empty_tags_dict
+        LOGGER.info("New tag file created.")
+        
+        # write_yaml(empty_tags_dict, path)
         
         # with open(path, "w") as outfile:
         #     yaml.dump(empty_tags_dict, outfile, default_flow_style=False)
             
-        LOGGER.info(f"Empty tag YAML output to {path}.")
+        # LOGGER.info(f"Empty tag YAML output to {path}.")
     
     def load(self, path: str):
         """ Loads a user's tag file """
@@ -61,14 +67,18 @@ class Tags:
         
         self._load_attributes()
         
-    def associate_tag_with_id(self, tag_id: int, tags: list, db):
-        """ Adds a new tag to a paper in the tag file """
-        self._check_tag_exists()
+    def detach(self):
+        """ Detatches a loaded tag file. """
+        raise NotImplementedError
         
+    def link_tags_to_doi(self, tag_dict_list: list):
+        """ Associates tags in the tag list with a DOI """
+        
+        self._check_tag_exists()
         tag_id = int(tag_id)
         
         # TODO: Refactor this mess
-        # Check to see that tag_id exists in the database
+        # Loop over each tag dict
         if tag_id in db.db["id"].tolist():
             
             # Check to see if tag is already in the tagged papers
@@ -100,13 +110,24 @@ class Tags:
         
         # Update tag file
         write_yaml(self.tags, self.tag_file_path)
+        
+    def remove_linked_tags(self):
+        raise NotImplementedError
+
+    def remove_tags(self):
+        raise NotImplementedError
+
+    def save(self, database_description: str="No description", outpath: str=None):
+        """ Saves/exports the tag file. """
+        raise NotImplementedError
     
     def view_tag_list(self):
-        """ Prints the current tag list """
+        """ Prints the current tag list for a loaded tag file """
         self._check_tag_exists()
         print("Current tags: \n", self.tags["tag_list"])
         
     def set_tag_list_category(self, category_name: str):
+        """ Allows the user to set a tag category """
         self._check_tag_exists()
         self.tags["category"] = category_name
         self.category = self.tags["category"]
@@ -127,19 +148,20 @@ class Tags:
                 
         LOGGER.info(f"Added {new_tags} to the tag list.")
                 
-        # Update tag file
-        write_yaml(self.tags, self.tag_file_path)
+        # # Update tag file
+        # write_yaml(self.tags, self.tag_file_path)
         
-    def add_tags_interactive(self, db, tags):
-        """ Interactive tag adding mode        
-        """
-        # TODO Allow multiple loaded tags (categories) to tbe passed in as a list
-        self._check_tag_exists()
-        interactive = InteractiveTagging(db, self.tags)
-        interactive.run()
+    # def add_tags_interactive(self, db, tags):
+    #     """ Interactive tag adding mode        
+    #     """
+    #     # TODO: Remove interacting tagging mode altogether... separate into a different standalone module in the interactive file?
+    #     # TODO: Allow multiple loaded tags (categories) to the passed in as a list
+    #     self._check_tag_exists()
+    #     interactive = InteractiveTagging(db, self.tags)
+    #     interactive.run()
         
     def _check_tag_exists(self):
-        """ Checks to see that a database is loaded."""
+        """ Checks to see that a tag file is loaded."""
         if self.tags is not None:
             pass
         else:

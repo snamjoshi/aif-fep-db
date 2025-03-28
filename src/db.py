@@ -94,10 +94,12 @@ class Database:
             # If tags are already attached, make entry untagged
             if "tag" in self.db.columns:
                 entry["tag"] = ["untagged"]
-        
+            
         # Add entry dicts to database
         new_entries_dataframe = pd.DataFrame(entries)
         self.db = pd.concat([self.db, new_entries_dataframe], ignore_index=True)
+        
+        LOGGER.info("Successfully added new papers to database.")
         
     def update_from_CSV(self, csv_path: str):
         """ Updates an existing loaded database with new papers from a CSV file. """
@@ -110,7 +112,9 @@ class Database:
         """ Removes paper(s) from the database based on DOI """
         
         self.db = self.db[~self.db["doi"].isin(doi_list)].reset_index(drop=True)
-    
+        
+        LOGGER.info("Specified papers have been dropped from the database.")
+        
     def save(self, database_description: str="No description", outpath: str=None):
         """ Saves/exports the database via serialization to a pickle file with metadata. 
             Note that any loaded tags are serialized as a separate object.
@@ -139,6 +143,12 @@ class Database:
         
     def attach_tags(self, tag_path: str, overwrite: bool=False):
         """ Adds tags to the database object. """
+        
+        # TODO: Deal with the edge cases:
+        # - Tag exists in tag file but not in db
+        # - Database has a row which does not match with a tag file
+        # TODO: In the above cases, indicate which DOIs where labeled as untagged
+        # OR indicate the number of tags that are not associated with DOIs in the database
         
         assert os.path.isfile(tag_path), "The specified tag file does not exist."
         # TODO: Test this.
