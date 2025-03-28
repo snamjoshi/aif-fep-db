@@ -17,6 +17,7 @@ The database is designed to be easily updated either by scraping from online arc
 * Support for books or book chapters - maybe "add papers" or "add book/chapter" entries?
 * Tag list has id associated with it which generated from a hash.
 * Ensure that the author field is input as a list and not a string.
+* If no DOI after scraping, create a DOI using a hash of the paper information that is available.
 
 ## Features
 * Removal/cleaning functions for papers that should not be in the database.

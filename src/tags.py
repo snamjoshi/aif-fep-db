@@ -9,8 +9,6 @@ LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
 
 
-# TODO: IF no DOI, create a DOI using a hash of the paper information that is available.
-
 class Tags:
     """
     Class that loads from an existing tag file or creates a new tag file.
@@ -26,12 +24,6 @@ class Tags:
     def create(self):
         """ Creates an empty tag file """
         
-        # TODO: This file should not be able to write. Writing a tag file should be a separate 
-        # save method like the database.
-        
-        # if not path.endswith(".yaml"):
-        #     raise TypeError("Path to tag file must end in '.yaml'.")
-        
         empty_tags_dict = {
             "category": "",
             "tag_list": [],
@@ -40,13 +32,6 @@ class Tags:
         
         self.tags = empty_tags_dict
         LOGGER.info("New tag file created.")
-        
-        # write_yaml(empty_tags_dict, path)
-        
-        # with open(path, "w") as outfile:
-        #     yaml.dump(empty_tags_dict, outfile, default_flow_style=False)
-            
-        # LOGGER.info(f"Empty tag YAML output to {path}.")
     
     def load(self, path: str):
         """ Loads a user's tag file """
@@ -130,11 +115,13 @@ class Tags:
     
     def view_tag_list(self):
         """ Prints the current tag list for a loaded tag file """
+        
         self._check_tag_exists()
-        print("Current tags: \n", self.tags["tag_list"])
+        LOGGER.info("Current tags: \n", self.tags["tag_list"])
         
     def set_tag_list_category(self, category_name: str):
         """ Allows the user to set a tag category """
+        
         self._check_tag_exists()
         self.tags["category"] = category_name
         self.category = self.tags["category"]
@@ -143,6 +130,7 @@ class Tags:
         
     def add_to_tag_list(self, new_tags: list):
         """ Appends new tags to the list of possible tags."""
+        
         self._check_tag_exists()
         
         # Check if tag is already in the tag list and skip if so. If not, add to tag list.
@@ -154,21 +142,10 @@ class Tags:
                 self.tags_list = self.tags["tag_list"]
                 
         LOGGER.info(f"Added {new_tags} to the tag list.")
-                
-        # # Update tag file
-        # write_yaml(self.tags, self.tag_file_path)
-        
-    # def add_tags_interactive(self, db, tags):
-    #     """ Interactive tag adding mode        
-    #     """
-    #     # TODO: Remove interacting tagging mode altogether... separate into a different standalone module in the interactive file?
-    #     # TODO: Allow multiple loaded tags (categories) to the passed in as a list
-    #     self._check_tag_exists()
-    #     interactive = InteractiveTagging(db, self.tags)
-    #     interactive.run()
         
     def _check_tag_exists(self):
         """ Checks to see that a tag file is loaded."""
+        
         if self.tags is not None:
             pass
         else:
@@ -179,9 +156,5 @@ class Tags:
         self._check_tag_exists()
         
         # Attributes
-        self.category      = self.tags["category"]
-        self.tag_list      = self.tags["tag_list"]
-        # self.tagged_papers = self.tags["tagged_papers"]
-
-# if self.db is None:
-#     raise KeyError("No database is loaded. Please load the database first using 'Database.load()'.") 
+        self.category = self.tags["category"]
+        self.tag_list = self.tags["tag_list"]

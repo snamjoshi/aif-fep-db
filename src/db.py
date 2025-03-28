@@ -48,7 +48,7 @@ class Database:
         # TODO: Add tag version 
         
     def detach(self):
-        """ Detatches a loaded database. """
+        """ Detatches a loaded database or any associated tags. """
         self.db            = None
         self.creation_time = None
         self.description   = None
@@ -151,8 +151,9 @@ class Database:
         # OR indicate the number of tags that are not associated with DOIs in the database
         
         assert os.path.isfile(tag_path), "The specified tag file does not exist."
-        # TODO: Test this.
-        # assert "tag" in self.db.columns, "Database is already tagged. To overwrite with a new set of tags use Database.attach_tags(overwrite=True)."
+        
+        if "tag" in self.db.columns:
+            raise Exception("Database is already tagged. To overwrite with a new set of tags use Database.attach_tags(overwrite=True).")
         
         if overwrite:
             # TODO: Overwrite attached tag file

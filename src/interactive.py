@@ -11,6 +11,19 @@ LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
 
 
+# TODO: Refactor into a main method.
+
+# def add_tags_interactive(self, db, tags):
+#     """ Interactive tag adding mode        
+#     """
+#     # TODO: Remove interacting tagging mode altogether... separate into a different standalone module in the interactive file?
+#     # TODO: Allow multiple loaded tags (categories) to the passed in as a list
+#     self._check_tag_exists()
+#     interactive = InteractiveTagging(db, self.tags)
+#     interactive.run()
+
+# tags.add_tags_interactive(db=database, tags=tags)
+
 """ Features to add 
 - Separate out the Interactive class so it is not called through the Tags class
 - Ability to add new tags to tag list on the fly
