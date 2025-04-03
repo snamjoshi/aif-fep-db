@@ -1,4 +1,4 @@
-from app.app import run_app
+from app import run_app
 
 app = run_app()
 

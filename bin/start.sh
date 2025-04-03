@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
-docker build -t aif-fep-db .
-docker run --name aif-fep-db -p 5000:5000 -it aif-fep-db:latest
+DOCKER_BUILDKIT=1 docker build -t aif-fep-db -f app/Dockerfile .
+docker run --rm -p 5000:5000 -it aif-fep-db:latest
