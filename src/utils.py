@@ -71,3 +71,6 @@ def process_doi(doi: str):
         LOGGER.warning(f"Warning: {doi} failed DOI validation!")
         
     return doi
+
+def split_camel_case(name):
+    return re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', name)
