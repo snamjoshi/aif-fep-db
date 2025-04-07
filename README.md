@@ -31,6 +31,9 @@ The database is designed to be easily updated either by scraping from online arc
 * CI/CD
 * Redo readme
 * Type hints, doc strings, better documentation in general.
+* Clean up the interactive database file
+* Double check outer requirements text
+* Check remaining todos
 
 ## Downloading the database
 
