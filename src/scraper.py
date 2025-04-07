@@ -1,6 +1,8 @@
 import logging
+import os
 import pandas as pd
 
+from datetime import datetime
 from typing import List, Union
 from paperscraper.arxiv import get_arxiv_papers_api
 from paperscraper.arxiv.utils import get_query_from_keywords
@@ -8,7 +10,7 @@ from paperscraper.pubmed import get_pubmed_papers
 from paperscraper.pubmed.utils import get_query_from_keywords_and_date
 
 from src.enums import Scrapers
-from src.utils import split_camel_case
+from src.utils import flatten_keywords, split_camel_case
 
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
@@ -19,24 +21,21 @@ class Scraper:
                  keywords: List[Union[str, List[str]]], 
                  start_date: str, 
                  end_date: str,
-                 archives: List[str],
-                 return_results: bool=False,
-                 outpath: str=None) -> None:
+                 archives: List[str]) -> None:
         
         self.keywords = keywords
         self.start_date = start_date
         self.end_date = end_date
         self.archives = archives
-        self._return_results = return_results
-        self.outpath = outpath
         
         self._check_archives()
     
-    def run(self):
+    def run(self, return_results: bool=False, outpath: str=None):
         """ Scrapes papers from all requested archives """
         
         df_list = []
         
+        # Loop over archive and scrape - store in df_list
         for archive in self.archives:
             if archive == "pubmed":
                 df = self._pubmed_scraper()
@@ -44,33 +43,54 @@ class Scraper:
                 df = self._arxiv_scraper()
 
             df_list.append(df)
-            
+        
+        # Concat all DataFrames into a single DataFrame
         df = pd.concat(df_list).drop_duplicates()
         
-        if self.outpath:
-            # TODO: Export to given outpath
-            ...
-        else:
-            # TODO: create timestamp and export to data folder
-            ...
-        
-        if self._return_results:
+        # If returning results, exit function early
+        if return_results:
             return df
+        
+        # If not returning results and outpath not specified
+        if not outpath:
+            creation_time = datetime.now()
+            
+            # Create file name by concating keyword list and timestamp
+            keyword_string = '__'.join(flatten_keywords(keywords=self.keywords))
+            file_name = keyword_string + "__" + str(creation_time).replace(" ", "__") + ".csv"
+
+            # Create directory
+            date = str(creation_time).split(" ")[0].replace("-", "_")
+            dir_path = os.path.join("data/tables", date)
+            os.makedirs(dir_path, exist_ok=True) 
+            
+            # Assemble outpath
+            outpath = os.path.join(dir_path, file_name)
+        
+        # Export to outpath
+        df.to_csv(outpath, index=False)
+        
+        LOGGER.info(f"Scraped tables exported to {outpath}.")
     
     def _check_archives(self):
         """ Checks if the input archives to scrape are currently supported or not. """
         
-        # TODO: Catch case where an archive is not in the list. See scraper notebook.
-        
+        archive_options = list(Scrapers.__members__)
         supported = []
         unsupported = []
         
         for archive in self.archives:
+            # Check if input archives is one of the possible options
+            if archive not in archive_options:
+                raise Exception(f"'{archive}' unrecgonized. Archive must be one of {archive_options}.")
+
+            # Determine the list of supported and unsupported archives submitted
             if Scrapers[archive].value is False:
                 unsupported.append(archive)
             else:
                 supported.append(archive)
-                
+        
+        # If any unsupported archives were submitted: assertion error      
         assert len(unsupported) == 0, f"Archives {unsupported} are not currently supported. Currently supported archives: {supported}."
     
     def _pubmed_scraper(self):

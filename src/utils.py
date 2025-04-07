@@ -5,6 +5,7 @@ import re
 import yaml
 
 from collections.abc import Mapping
+from typing import List, Union
 
 LOGGER = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
@@ -74,3 +75,14 @@ def process_doi(doi: str):
 
 def split_camel_case(name):
     return re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', name)
+
+def flatten_keywords(keywords: List[Union[str, List[str]]]) -> List[str]:
+    flattened = []
+    for item in keywords:
+        if isinstance(item, str):
+            flattened.append(item)
+        elif isinstance(item, list):
+            flattened.extend(flatten_keywords(item))  # recursive call
+        else:
+            raise ValueError(f"Unsupported type in list: {type(item)}")
+    return flattened

@@ -22,6 +22,15 @@ The database is designed to be easily updated either by scraping from online arc
 ## Features
 * Removal/cleaning functions for papers that should not be in the database.
 * Custom tags to add to the database.
+* Fix issues with inconsistent author formats
+* Remove autoreload from notebooks
+* Fix downloading filtered database with Dash app
+* Clean up notebooks and add examples
+* Clean up current database and make current
+* Config file or Docker command to specify the path to the current database
+* CI/CD
+* Redo readme
+* Type hints, doc strings, better documentation in general.
 
 ## Downloading the database
 
