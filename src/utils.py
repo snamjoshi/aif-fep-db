@@ -15,7 +15,6 @@ DOI_REGEX_PATTERN = r"^10\.\d{4,9}/[-._;()/:A-Z0-9]+$"
 
 
 def validate_tag_file(tag_file: dict):
-    # TODO: Replace this with pydantic validation
     """ Check that the loaded tag file is valid """
     
     # Assert that tag_file is a dict
@@ -82,7 +81,7 @@ def flatten_keywords(keywords: List[Union[str, List[str]]]) -> List[str]:
         if isinstance(item, str):
             flattened.append(item)
         elif isinstance(item, list):
-            flattened.extend(flatten_keywords(item))  # recursive call
+            flattened.extend(flatten_keywords(item))
         else:
             raise ValueError(f"Unsupported type in list: {type(item)}")
     return flattened
