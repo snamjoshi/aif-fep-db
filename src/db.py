@@ -24,8 +24,8 @@ class Database:
     def __init__(self) -> None:
         self.db            = None   # Database object      [pd.DataFrame]
         self.creation_time = None   # Database timestamp   [datetime.datetime]
-        self.description   = None   # Database description [int]
-        self.tag_version   = None   # Database tag version [str]
+        self.description   = None   # Database description [str]
+        self.tag_version   = None   # Database tag version [int]
         
         self.required_attributes = {"doi", "title", "authors", "year", "where_published"}
     
@@ -41,7 +41,7 @@ class Database:
             
         self.creation_time = metadata["creation_time"]
         self.description = metadata["description"]
-        # self.tag_version = metadata["tag_file_id"]
+        self.tag_version = metadata["tag_file_id"]
         self.db = database
         
         LOGGER.info(f"Database loaded from {database_path}.")  
@@ -184,13 +184,15 @@ class Database:
         LOGGER.info("Adding tags to database...")
         self.db = self.db.merge(tags, how="outer", on="doi")
         
-        # DOIs without a corresponding tag are labeleld ["untagged"]
-        n_untagged = self.db['tags'].isna().sum()
+        # DOIs without a corresponding tag are labeled ["untagged"]
+        n_untagged = self.db['tag'].isna().sum()
         
         LOGGER.info(f"{n_untagged} papers are currently untagged.")
         
-        self.db.loc[self.db['tags'].isna(), 'tags'] = ["untagged"] * n_untagged
-        self.db['tags'] = self.db['tags'].apply(lambda x: [x])
+        self.db.loc[self.db['tag'].isna(), 'tag'] = ["untagged"] * n_untagged
+        self.db['tag'] = self.db['tag'].apply(lambda x: x)
+        
+        self.db = self.db.dropna(axis=0, how="any")
         
     def _hash_tag_dict(self, tag_dict: dict) -> int:
         """ Hashes the string representation of the tag dictionary to serve as a version ID """
