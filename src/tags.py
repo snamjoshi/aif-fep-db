@@ -117,7 +117,7 @@ class Tags:
         """ Prints the current tag list for a loaded tag file """
         
         self._check_tag_exists()
-        LOGGER.info("Current tags: \n", self.tags["tag_list"])
+        LOGGER.info(f"Current tags: {self.tags['tag_list']}")
         
     def set_tag_list_category(self, category_name: str):
         """ Allows the user to set a tag category """
