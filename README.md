@@ -79,8 +79,8 @@ This is a list of items that I plan to finish before passing the project on to o
 - [X] Check remaining TODOs in codebase
 - [ ] Move stuff in `dash.ipynb` into the app layout
 - [ ] Documentation for the meaning behind each tag
-- [ ] Display timestamp and tag file hash in layout
-- [ ] About section for the app
+- [X] Display timestamp and tag file hash in layout
+- [X] About section for the app
 - [ ] Delete old files and final cleanup.
 
 ## Future planned features / fixes
