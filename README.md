@@ -66,14 +66,14 @@ The `Tags` class is used to tag papers using the DOI as the identifier. It has t
 
 This is a list of items that I plan to finish before passing the project on to others for further work.
 - [ ] Remove autoreload from notebooks
-- [ ] Fix downloading filtered database with Dash app
+- [X] Fix downloading filtered database with Dash app
 - [ ] Test workflow notebook
 - [ ] Add line in workflow notebook showing how to point the app to a database
 - [ ] Add shell script that separates building from running (or both).
 - [ ] Clean up current database and make it up to date
 - [ ] Config file or Docker command to specify the path to the current database
 - [X] Redo README
-- [ ] Type hints, doc strings, better documentation in general
+- [X] Type hints, doc strings, better documentation in general
 - [X] Clean up the interactive database file [Deleted instead]
 - [X] Double check outer requirements text
 - [X] Check remaining TODOs in codebase

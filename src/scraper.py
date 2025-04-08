@@ -17,6 +17,11 @@ logging.basicConfig(level = logging.INFO)
 
 
 class Scraper:
+    """ 
+    Scrapes papers from archives of interest and exports the resulting tables to CSV. 
+    Supported archives shown in enums.py 
+    """
+    
     def __init__(self, 
                  keywords: List[Union[str, List[str]]], 
                  start_date: str, 
@@ -30,8 +35,8 @@ class Scraper:
         
         self._check_archives()
     
-    def run(self, return_results: bool=False, outpath: str=None):
-        """ Scrapes papers from all requested archives """
+    def run(self, return_results: bool=False, outpath: str=None) -> Union[None, pd.DataFrame]:
+        """ Scrapes papers from all requested archives and assembles from a single DataFrame """
         
         df_list = []
         
@@ -72,7 +77,7 @@ class Scraper:
         
         LOGGER.info(f"Scraped tables exported to {outpath}.")
     
-    def _check_archives(self):
+    def _check_archives(self) -> None:
         """ Checks if the input archives to scrape are currently supported or not. """
         
         archive_options = list(Scrapers.__members__)
@@ -93,7 +98,7 @@ class Scraper:
         # If any unsupported archives were submitted: assertion error      
         assert len(unsupported) == 0, f"Archives {unsupported} are not currently supported. Currently supported archives: {supported}."
     
-    def _pubmed_scraper(self):
+    def _pubmed_scraper(self) -> pd.DataFrame:
         """ Scrapes papers from PubMed """
         
         # Prepare query and scrape
@@ -119,7 +124,7 @@ class Scraper:
         
         return df
     
-    def _arxiv_scraper(self):
+    def _arxiv_scraper(self) -> pd.DataFrame:
         """ Scrapes papers from ArXiv """
         
         # Prepare query and scrape
@@ -157,7 +162,7 @@ class Scraper:
     def _zenodo_scraper(self):
         raise NotImplementedError
         
-    def _process_dates(self, df: pd.DataFrame):
+    def _process_dates(self, df: pd.DataFrame) -> pd.DataFrame:
         """ Replaces date column with just year"""
         
         df["date"] = pd.to_datetime(df["date"])
@@ -165,7 +170,7 @@ class Scraper:
         
         return df
     
-    def _reorder_columns(self, df: pd.DataFrame):
+    def _reorder_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         """ Reorders and renames scraped columns """
         
         df = df[["title", "authors", "journal", "date", "doi"]]

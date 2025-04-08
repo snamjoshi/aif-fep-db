@@ -41,7 +41,9 @@ class Database:
             
         self.creation_time = metadata["creation_time"]
         self.description = metadata["description"]
-        self.tag_version = metadata["tag_file_id"]
+        
+        if "tag_file_id" in metadata:
+            self.tag_version = metadata["tag_file_id"]
         self.db = database
         
         LOGGER.info(f"Database loaded from {database_path}.")  

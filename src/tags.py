@@ -1,8 +1,6 @@
 import logging
 import yaml
 
-# from src.db import Database
-from src.interactive import InteractiveTagging
 from src.utils import validate_tag_file, write_yaml
 
 LOGGER = logging.getLogger(__name__)
@@ -11,7 +9,8 @@ logging.basicConfig(level = logging.INFO)
 
 class Tags:
     """
-    Class that loads from an existing tag file or creates a new tag file.
+    Loads an existing tag file or creates a new tag file.
+    Additional functions for associating tags with DOI and other convenience functions.
     """
     
     def __init__(self) -> None:
@@ -21,7 +20,7 @@ class Tags:
         self.category      = None
         self.tag_list      = None
     
-    def create(self):
+    def create(self) -> None:
         """ Creates an empty tag file """
         
         empty_tags_dict = {
@@ -33,7 +32,7 @@ class Tags:
         self.tags = empty_tags_dict
         LOGGER.info("New tag file created.")
     
-    def load(self, path: str):
+    def load(self, path: str) -> None:
         """ Loads a user's tag file """
         
         if not path.endswith(".yaml"):
@@ -51,7 +50,7 @@ class Tags:
         
         self._load_attributes()
         
-    def detach(self):
+    def detach(self) -> None:
         """ Detatches a loaded tag file. """
         
         self.tags          = None
@@ -61,7 +60,7 @@ class Tags:
         
         LOGGER.info("Tag file detached.")
         
-    def link_tags_to_doi(self, tag_dict_list: list, verbose: bool=True):
+    def link_tags_to_doi(self, tag_dict_list: list, verbose: bool=True) -> None:
         """ Associates tags in the tag list with a DOI """
         
         self._check_tag_exists()
@@ -105,7 +104,7 @@ class Tags:
         """ Removes one or more entries from the tagged papers list """
         raise NotImplementedError
                      
-    def save(self, outpath: str):
+    def save(self, outpath: str) -> None:
         """ Saves/exports the tag file. """
         
         self._check_tag_exists()
@@ -113,13 +112,13 @@ class Tags:
         
         LOGGER.info(f"Empty tag YAML output to {outpath}.")
     
-    def view_tag_list(self):
+    def view_tag_list(self) -> None:
         """ Prints the current tag list for a loaded tag file """
         
         self._check_tag_exists()
         LOGGER.info(f"Current tags: {self.tags['tag_list']}")
         
-    def set_tag_list_category(self, category_name: str):
+    def set_tag_list_category(self, category_name: str) -> None:
         """ Allows the user to set a tag category """
         
         self._check_tag_exists()
@@ -128,7 +127,7 @@ class Tags:
         
         LOGGER.info(f"Set {self.category} as the tag category.")
         
-    def add_to_tag_list(self, new_tags: list):
+    def add_to_tag_list(self, new_tags: list) -> None:
         """ Appends new tags to the list of possible tags."""
         
         self._check_tag_exists()
@@ -143,7 +142,7 @@ class Tags:
                 
         LOGGER.info(f"Added {new_tags} to the tag list.")
         
-    def _check_tag_exists(self):
+    def _check_tag_exists(self) -> None:
         """ Checks to see that a tag file is loaded."""
         
         if self.tags is not None:
@@ -151,7 +150,7 @@ class Tags:
         else:
             raise KeyError("No tag YAML file is loaded. Please load the tag file first using 'Tags.load()'.")
         
-    def _load_attributes(self):
+    def _load_attributes(self) -> None:
         """ Loads the table attributes """
         self._check_tag_exists()
         
