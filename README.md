@@ -25,9 +25,14 @@ This workflow is shown in detail in `examples/0_workflow.ipynb`.
 
 The most current version of the active inference database can be accessed as a `Dash` app which can be viewed in the browser. This app allows you to filter papers by column, remove papers, or select specific tags to filter down papers of interest. The filtered table can be exported to CSV.
 
-You must have Docker installed to run the app. Please follow the installation instructions on the website before proceeding. Once Docker is installed, run the shell script `sh bin/build_and_run.sh` to build and run the Docker container. If the Docker container already exists on your machine you may use `sh bin/run.sh` to just run the container.
+You must have Docker installed to run the app. Please follow the installation instructions on the website before proceeding. Once Docker is installed, run the shell script `sh bin/build_and_run.sh` to build and run the Docker container. If the Docker container already exists on your machine you may use `sh bin/run.sh` to just run the container. There is also a shell script to just build the container: `sh bin/build.sh`. The Dash app displaying the table will be accessible at: http://0.0.0.0:5000.
 
-The Dash app displaying the table will be accessible on localhost at port 5000.
+By default, the app will run using the latest version of the database. If you wish to pass a different database, then you can pass the path to this serialized database to the shell script, e.g. for either of the two shell scripts that run the container:
+
+    sh bin/run.sh data/database__2025-03-21__17:12:35.196730.pkl
+    sh bin/build_and_run.sh data/database__2025-03-21__17:12:35.196730.pkl
+
+By default, databases are assumed to be stored in `data/database`. However, in the Docker image these files are just copied directly into `/app/data` where `/app` is the working directory.
 
 ## Brief documentation
 
@@ -65,23 +70,24 @@ The `Tags` class is used to tag papers using the DOI as the identifier. It has t
 ## TODO list
 
 This is a list of items that I plan to finish before passing the project on to others for further work.
-- [ ] Remove autoreload from notebooks
-- [X] Fix downloading filtered database with Dash app
+- [ ] Clean up current database and make it up to date
+- [ ] Documentation for the meaning behind each tag
 - [ ] Test workflow notebook
 - [ ] Add line in workflow notebook showing how to point the app to a database
-- [ ] Add shell script that separates building from running (or both).
-- [ ] Clean up current database and make it up to date
-- [ ] Config file or Docker command to specify the path to the current database
+- [ ] Remove autoreload from notebooks
+- [ ] Delete old files and final cleanup.
+- [X] README: Cleanup instructions for shell scripts and how to pass in DB path
+- [X] Fix downloading filtered database with Dash app
+- [X] Add shell script that separates building from running (or both).
+- [X] Config file or Docker command to specify the path to the current database
 - [X] Redo README
 - [X] Type hints, doc strings, better documentation in general
 - [X] Clean up the interactive database file [Deleted instead]
 - [X] Double check outer requirements text
 - [X] Check remaining TODOs in codebase
-- [ ] Move stuff in `dash.ipynb` into the app layout
-- [ ] Documentation for the meaning behind each tag
+- [X] Move stuff in `dash.ipynb` into the app layout
 - [X] Display timestamp and tag file hash in layout
 - [X] About section for the app
-- [ ] Delete old files and final cleanup.
 
 ## Future planned features / fixes
 
