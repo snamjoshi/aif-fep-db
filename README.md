@@ -1,5 +1,4 @@
-# aif-fep-db
-A database of publications related to active inference and the free energy principle.
+# A database of publications related to active inference, the free energy principle, and predictive processing
 
 This tool was developed while I was writing *Fundamentals of Active Inference* and needed to do a complete literature review of all papers published around active inference, the free energy principle, Bayesian mechanics, and predictive processing. The primary purpose of this tool is to facilitate easy and flexible methods for scraping papers related to active inference and tagging them. The tool is completely general and could be used for a literature search on any area of interest.
 
@@ -73,9 +72,9 @@ This is a list of items that I plan to finish before passing the project on to o
 - [ ] Clean up current database and make it up to date
 - [ ] Documentation for the meaning behind each tag
 - [ ] Test workflow notebook
-- [ ] Add line in workflow notebook showing how to point the app to a database
 - [ ] Remove autoreload from notebooks
 - [ ] Delete old files and final cleanup.
+- [X] Add line in workflow notebook showing how to point the app to a database
 - [X] README: Cleanup instructions for shell scripts and how to pass in DB path
 - [X] Fix downloading filtered database with Dash app
 - [X] Add shell script that separates building from running (or both).

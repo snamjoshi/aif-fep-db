@@ -86,7 +86,7 @@ def create_layout(app, database: pd.DataFrame, metadata: dict, mapping: dict, ta
                     html.P("This app lets you explore and download a curated list of papers related to active inference, predictive processing, and the free energy principle."),
                     html.P("Use the dropdown to filter by tags, and download the current view using the button."),
                     html.Br(),
-                    html.P("For feature requests and bug reporting please visit the Github page: https://github.com/snamjoshi/aif-fep-db")
+                    html.P(["For feature requests and bug reporting please visit the GitHub page: ", html.A("https://github.com/snamjoshi/aif-fep-db", href="https://github.com/snamjoshi/aif-fep-db", target="_blank")])
                 ])])
         ])]
     )
