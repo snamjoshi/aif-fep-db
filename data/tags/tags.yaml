@@ -1,7 +1,6 @@
 category: all
 tag_list:
 - adaptation
-- add
 - addiction
 - aesthetic perception
 - affordances
@@ -186,7 +185,6 @@ tag_list:
 - rationality
 - reinforcement learning
 - reflex arc
-- remove
 - Renyi divergence
 - repetition priming
 - repetitive stimulus presentation
@@ -393,7 +391,7 @@ tagged_papers:
   - deep active inference
   - temporal model
   - saccades
-  - hierachical modeling
+  - hierarchical model
   - neuroanatomy
   - discrete state space / Markov decision process
 - doi: 10.3390/e24030361
@@ -415,7 +413,7 @@ tagged_papers:
   - neuroanatomy
   - depression
   - interoceptive processing
-  - hierarchical modeling
+  - hierarchical model
   - application
 - doi: 10.1162/neco_a_01529
   tag:
@@ -430,7 +428,7 @@ tagged_papers:
   - discrete state space / Markov decision process
 - doi: 10.3389/frai.2020.509354
   tag:
-  - hierachical models
+  - hierarchical model
   - saccades
   - vision
   - discrete state space / Markov decision process
@@ -447,7 +445,7 @@ tagged_papers:
   - discrete state space / Markov decision process
 - doi: 10.3389/fnsys.2021.772641
   tag:
-  - hierarchical models
+  - hierarchical model
   - decision making
   - explainability
 - doi: 10.1007/s00422-018-0785-7
@@ -526,19 +524,19 @@ tagged_papers:
   tag:
   - discrete state space / Markov decision process
   - audition
-  - hallucinations
+  - hallucination
   - schizophrenia
 - doi: 10.1016/j.heares.2020.107998
   tag:
   - audition
-  - speech recognition
+  - speech
 - doi: 10.1016/j.neunet.2021.05.010
   tag:
   - deep active inference
   - robotics
 - doi: 10.3389/fpsyg.2022.828952
   tag:
-  - interoception
+  - interoceptive processing
   - psychotherapy
 - doi: 10.1162/jocn_a_01352
   tag:
@@ -635,7 +633,7 @@ tagged_papers:
   tag:
   - proprioceptive processing
   - attention
-  - visual
+  - vision
   - multimodal integration
 - doi: 10.1016/j.neuropsychologia.2018.01.041
   tag:
@@ -649,15 +647,15 @@ tagged_papers:
   - discrete state space / Markov decision process
   - message passing
   - structure learning
-  - policy pruining
+  - policy pruning
 - doi: 10.1162/neco_a_01108
   tag:
   - Bethe free energy
-  - decision-making
+  - decision making
   - discrete state space / Markov decision process
 - doi: 10.1371/journal.pcbi.1007805
   tag:
-  - decision-making
+  - decision making
   - theory
   - discrete state space / Markov decision process
 - doi: 10.1007/s00429-012-0475-5
@@ -688,7 +686,7 @@ tagged_papers:
 - doi: 10.3389/fncom.2023.1099593
   tag:
   - learning
-  - visual
+  - vision
   - sensorimotor control
 - doi: 10.1080/17588928.2015.1020053
   tag:
@@ -709,7 +707,7 @@ tagged_papers:
 - doi: 10.1098/rsif.2017.0792
   tag:
   - Markov blankets
-  - philosphy
+  - philosophy
 - doi: 10.3389/fncom.2020.574372
   tag:
   - robotics
@@ -745,7 +743,7 @@ tagged_papers:
   - pain
 - doi: 10.1098/rsif.2017.0376
   tag:
-  - visual
+  - vision
   - uncertainty
 - doi: 10.1038/nrn3950
   tag:
@@ -764,7 +762,7 @@ tagged_papers:
 - doi: 10.1016/j.bpsc.2019.11.012
   tag:
   - depression
-  - decision-making
+  - decision making
   - discrete state space / Markov decision process
 - doi: 10.3389/fnbot.2018.00045
   tag:
@@ -786,7 +784,7 @@ tagged_papers:
   tag:
   - deep active inference
   - neuroanatomy
-  - hierarchical modeling
+  - hierarchical model
 - doi: 10.3389/fpsyg.2011.00218
   tag:
   - sensorimotor control
@@ -855,7 +853,7 @@ tagged_papers:
   - core
   - theory
   - discrete state space / Markov decision process
-  - decision-making
+  - decision making
 - doi: 10.1371/journal.pone.0277199
   tag:
   - structure learning
@@ -874,7 +872,7 @@ tagged_papers:
 - doi: 10.1017/S0140525X22002783
   tag:
   - editorial
-  - decision-making
+  - decision making
 - doi: 10.3389/fpsyg.2020.00417
   tag:
   - communication
@@ -1014,7 +1012,7 @@ tagged_papers:
   - predictive processing
   - neuroanatomy
   - evolution
-  - reflex arcs
+  - reflex arc
   - sensorimotor control
   - hierarchical model
 - doi: 10.1503/jpn.220141
@@ -1086,7 +1084,7 @@ tagged_papers:
   - attention
   - Bayesian model reduction
   - insight
-  - decision-making
+  - decision making
   - psychedelics
 - doi: 10.3389/fncom.2018.00090
   tag:
@@ -1148,7 +1146,7 @@ tagged_papers:
   - hierarchical model
 - doi: 10.3389/fpsyg.2019.00679
   tag:
-  - decision-making
+  - decision making
   - social
   - policy pruning
   - niche construction
@@ -1198,7 +1196,7 @@ tagged_papers:
 - doi: 10.1016/j.plrev.2023.06.007
   tag:
   - comment / response
-  - hierachical model
+  - hierarchical model
   - learning
 - doi: 10.1016/j.plrev.2022.08.002
   tag:
@@ -1252,7 +1250,7 @@ tagged_papers:
 - doi: 10.1016/j.plrev.2023.06.010
   tag:
   - comment / response
-  - hierachical models
+  - hierarchical model
   - learning
 - doi: 10.3389/fnins.2023.1212549
   tag:
@@ -1262,7 +1260,7 @@ tagged_papers:
   tag:
   - attention
   - metacognition
-  - hierachical model
+  - hierarchical model
   - precision
 - doi: 10.3390/e23050606
   tag:
@@ -1307,7 +1305,7 @@ tagged_papers:
   - review
 - doi: 10.3389/fpsyg.2018.00643
   tag:
-  - preocision
+  - precision
   - selfhood
   - interoceptive processing
   - attention
@@ -1321,7 +1319,7 @@ tagged_papers:
   - emotion
   - review
   - robotics
-  - human-machine interaction
+  - human-machine interface
   - brain-computer interface
 - doi: 10.3389/fpsyg.2022.867328
   tag:
@@ -1338,17 +1336,17 @@ tagged_papers:
   - psychopathology
 - doi: 10.3390/s23156873
   tag:
-  - human-machine interaction
+  - human-machine interface
 - doi: 10.3389/fnhum.2014.00160
   tag:
-  - decision-making
+  - decision making
   - social
   - communication
   - psychopathology
 - doi: 10.3389/fnbot.2020.00061
   tag:
   - social
-  - human-machine interaction
+  - human-machine interface
   - robotics
   - selfhood
 - doi: 10.1371/journal.pone.0047502
@@ -1435,7 +1433,7 @@ tagged_papers:
   tag:
   - psychopathology
   - schizophrenia
-  - hallucinations
+  - hallucination
 - doi: 10.1016/j.copsyc.2021.07.006
   tag:
   - psychopathology
@@ -1459,7 +1457,7 @@ tagged_papers:
 - doi: 10.1016/j.neubiorev.2019.04.008
   tag:
   - perception
-  - clinical neuroscience
+  - clinical psychology
   - hallucination
 - doi: 10.1016/S2215-0366(23)00146-3
   tag:
@@ -1484,9 +1482,9 @@ tagged_papers:
   tag:
   - interoceptive processing
   - exteroceptive processing
-  - halluycinations
+  - hallucination
   - brain-body interaction
-  - reflex arcs
+  - reflex arc
 - doi: 10.3390/e22050564
   tag:
   - sensorimotor control
@@ -1590,7 +1588,7 @@ tagged_papers:
 - doi: 10.1017/S0140525X22002576
   tag:
   - comment / response
-  - decision-making
+  - decision making
 - doi: 10.3390/healthcare10061092
   tag:
   - niche construction
@@ -1637,7 +1635,7 @@ tagged_papers:
   - artificial curiosity
   - motivation
   - learning
-  - decision-making
+  - decision making
 - doi: 10.3389/fnhum.2014.00450
   tag:
   - review
@@ -1651,7 +1649,7 @@ tagged_papers:
 - doi: 10.1016/j.jtbi.2019.110089
   tag:
   - Markov blankets
-  - hierarchical models
+  - hierarchical model
   - philosophy
   - systems theory
 - doi: 10.1111/ejn.14874
@@ -1661,7 +1659,7 @@ tagged_papers:
   - predictive processing
 - doi: 10.3389/fnsys.2021.786252
   tag:
-  - decision-making
+  - decision making
   - human-machine interface
   - review
   - military research
@@ -1671,7 +1669,7 @@ tagged_papers:
   - agency
   - neuroanatomy
   - precision
-  - decsion-making
+  - decision making
 - doi: 10.1111/cogs.13016
   tag:
   - child development
@@ -1700,7 +1698,7 @@ tagged_papers:
   tag:
   - review
   - perception
-  - hierachical model
+  - hierarchical model
   - attention
 - doi: 10.1159/000484353
   tag:
@@ -1749,11 +1747,11 @@ tagged_papers:
 - doi: 10.1016/j.plrev.2023.08.011
   tag:
   - vision
-  - hierachical model
+  - hierarchical model
   - learning
 - doi: 10.1016/j.tics.2019.02.005
   tag:
-  - affordance
+  - affordances
   - precision
   - neuroanatomy
   - obsessive-compulsive disorder
@@ -1786,7 +1784,7 @@ tagged_papers:
   - autopoiesis
   - agency
   - review
-  - affordance
+  - affordances
   - morphological computation
   - morphogenesis
 - doi: 10.1016/j.jtbi.2017.05.032
@@ -1895,7 +1893,7 @@ tagged_papers:
   - reinforcement learning
   - core
   - saccades
-  - visual
+  - vision
 - doi: 10.3758/s13415-020-00837-x
   tag:
   - time processing
@@ -1970,7 +1968,7 @@ tagged_papers:
   - hallucination
 - doi: 10.1098/rsif.2017.0096
   tag:
-  - affordance
+  - affordances
   - perception
 - doi: 10.1016/j.biopsycho.2020.107925
   tag:
@@ -1998,7 +1996,7 @@ tagged_papers:
 - doi: 10.1016/j.jtbi.2021.110957
   tag:
   - consciousness
-  - proective geometry
+  - projective geometry
   - theory of mind
   - organizational
   - social
@@ -2010,7 +2008,7 @@ tagged_papers:
   - attention
 - doi: 10.3389/fpsyg.2020.606174
   tag:
-  - decision-making
+  - decision making
   - social
   - organizational
 - doi: 10.1016/j.concog.2015.06.016
@@ -2044,7 +2042,7 @@ tagged_papers:
   - selfhood
   - brain-body interaction
   - social
-  - affordance
+  - affordances
 - doi: 10.1038/s41467-023-41027-w
   tag:
   - vision
@@ -2079,7 +2077,7 @@ tagged_papers:
 - doi: 10.1007/s11229-016-1239-1
   tag:
   - ecological psychology
-  - affordance
+  - affordances
   - philosophy
   - predictive processing
 - doi: 10.1038/s41598-022-22277-y
@@ -2128,7 +2126,7 @@ tagged_papers:
   - attention
 - doi: 10.3389/fnbeh.2022.962494
   tag:
-  - decision-making
+  - decision making
   - time processing
 - doi: 10.3389/fpsyg.2021.784295
   tag:
@@ -2142,7 +2140,7 @@ tagged_papers:
   - reinforcement learning
 - doi: 10.3389/fnsys.2018.00025
   tag:
-  - commentary / response
+  - comment / response
   - interoceptive processing
   - perception
 - doi: 10.1093/nc/niab013
@@ -2159,7 +2157,7 @@ tagged_papers:
 - doi: 10.1017/S0140525X19001018
   tag:
   - niche construction
-  - affodance
+  - affordances
   - culture
   - evolution
 - doi: 10.1080/17588928.2015.1051524
@@ -2173,7 +2171,7 @@ tagged_papers:
   - saccades
 - doi: 10.1162/neco_a_01102
   tag:
-  - decision-making
+  - decision making
   - movement
   - sensorimotor control
   - neuroanatomy
@@ -2201,7 +2199,7 @@ tagged_papers:
   tag:
   - motor control
   - sensorimotor control
-  - brain-computer interaction
+  - brain-computer interface
 - doi: 10.3389/fpsyg.2018.00579
   tag:
   - consciousness
@@ -2219,7 +2217,7 @@ tagged_papers:
 - doi: 10.1016/j.cognition.2022.105328
   tag:
   - agency
-  - decision-making
+  - decision making
 - doi: 10.3389/fncom.2015.00079
   tag:
   - mirror-neuron
@@ -2234,7 +2232,7 @@ tagged_papers:
 - doi: 10.1016/j.drugalcdep.2020.108208
   tag:
   - addiction
-  - decision-making
+  - decision making
   - human behavior
   - psychopathology
 - doi: 10.1016/j.tics.2020.05.011
@@ -2263,8 +2261,8 @@ tagged_papers:
   - psychotherapy
 - doi: 10.1093/cercor/bhu159
   tag:
-  - decison-making
-  - precison
+  - decision making
+  - precision
 - doi: 10.1371/journal.pone.0190429
   tag:
   - vision
@@ -2272,7 +2270,7 @@ tagged_papers:
 - doi: 10.3390/e23060783
   tag:
   - embodied cognition
-  - philsophy
+  - philosophy
   - cybernetics
   - enactivism
   - cybernetics
@@ -2324,7 +2322,7 @@ tagged_papers:
 - doi: 10.3389/fpsyg.2013.00710
   tag:
   - reinforcement learning
-  - decision-making
+  - decision making
   - human behavior
 - doi: 10.3389/fnins.2022.1033776
   tag:
@@ -2368,7 +2366,7 @@ tagged_papers:
   - synchrony
 - doi: 10.3389/fpsyg.2018.02053
   tag:
-  - decision-making
+  - decision making
   - risk
 - doi: 10.1098/rsfs.2022.0072
   tag:
@@ -2402,7 +2400,7 @@ tagged_papers:
   tag:
   - message passing
   - neuroanatomy
-  - decision-making
+  - decision making
 - doi: 10.1016/j.tics.2014.05.006
   tag:
   - forward model
@@ -2427,7 +2425,7 @@ tagged_papers:
   - learning
 - doi: 10.3389/fnhum.2016.00550
   tag:
-  - homestasis / allostasis
+  - homeostasis / allostasis
   - interoceptive processing
   - depression
   - brain-body interaction
@@ -2455,7 +2453,7 @@ tagged_papers:
   - goal-directed behavior
   - neuroimaging
   - neuroanatomy
-  - sensorimotor integration
+  - sensorimotor control
   - movement
 - doi: 10.3389/fnhum.2013.00784
   tag:
@@ -2499,7 +2497,7 @@ tagged_papers:
 - doi: 10.3389/fpsyg.2023.1206963
   tag:
   - ecosystems
-  - homeostatsis / allostasis
+  - homeostasis / allostasis
   - systems theory
   - philosophy
 - doi: 10.3389/fpsyg.2019.02688
@@ -2531,7 +2529,7 @@ tagged_papers:
 - doi: 10.3390/e23121701
   tag:
   - social
-  - community
+  - communication
   - stress
   - systems theory
   - homeostasis / allostasis
@@ -2553,7 +2551,7 @@ tagged_papers:
   - perception
 - doi: 10.1503/jpn.200032
   tag:
-  - decision-making
+  - decision making
   - emotion
   - psychopathology
 - doi: 10.3389/fncom.2022.869268
@@ -2583,9 +2581,9 @@ tagged_papers:
   - child development
 - doi: 10.1503/jpn.220226
   tag:
-  - decision-making
+  - decision making
   - depression
-  - anxeity
+  - anxiety
   - psychopathology
 - doi: 10.1093/brain/awr292
   tag:
@@ -2611,7 +2609,7 @@ tagged_papers:
   - comment / response
   - evolution
   - human behavior
-  - affordance
+  - affordances
 - doi: 10.3389/fpsyg.2019.01710
   tag:
   - uncertainty
@@ -2626,7 +2624,7 @@ tagged_papers:
   - translation process research
 - doi: 10.1177/17456916231185343
   tag:
-  - emodied cognition
+  - embodied cognition
   - brain-body interaction
   - interoceptive processing
   - predictive processing
@@ -2685,7 +2683,7 @@ tagged_papers:
   - social
 - doi: 10.1016/j.neubiorev.2023.105103
   tag:
-  - decision-making
+  - decision making
   - psychopathology
   - review
   - computational psychiatry
@@ -2729,12 +2727,12 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1073/pnas.1524685113
   tag:
-  - decision-making
+  - decision making
   - hierarchical model
   - timescales
 - doi: 10.1162/NECO_a_00699
   tag:
-  - decision-making
+  - decision making
   - psychopathology
   - belief formation
 - doi: 10.1016/j.neuroimage.2014.01.011
@@ -2758,8 +2756,8 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1371/journal.pcbi.1002327
   tag:
-  - decision-making
-  - hierachical model
+  - decision making
+  - hierarchical model
   - psychopathology
   - human behavior
 - doi: 10.3389/fpsyg.2020.603385
@@ -2810,7 +2808,7 @@ tagged_papers:
 - doi: 10.1017/S0140525X2200276X
   tag:
   - comment / response
-  - decision-making
+  - decision making
   - social
   - communication
 - doi: 10.3390/e22050552
@@ -2866,7 +2864,7 @@ tagged_papers:
 - doi: 10.3389/fpsyg.2022.865203
   tag:
   - stress
-  - decision-making
+  - decision making
   - habit learning
   - goal-directed behavior
 - doi: 10.1038/s41467-023-40141-z
@@ -2882,12 +2880,12 @@ tagged_papers:
   - consciousness
 - doi: 10.1038/s41598-022-18207-7
   tag:
-  - extroceptive processing
+  - exteroceptive processing
   - sensorimotor control
 - doi: 10.1017/S0140525X2200036X
   tag:
   - comment / response
-  - Markov bankets
+  - Markov blankets
   - philosophy
 - doi: 10.3390/e23020238
   tag:
@@ -2933,7 +2931,7 @@ tagged_papers:
   - core
 - doi: 10.3389/fpsyg.2018.02714
   tag:
-  - consciounsess
+  - consciousness
   - uncertainty
   - psychoanalysis
 - doi: 10.1371/journal.pcbi.1003094
@@ -3363,7 +3361,7 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1016/j.biosystems.2023.104927
   tag:
-  - morphology
+  - morphogenesis
   - agent-environment coupling
   - systems theory
 - doi: 10.3389/fnbeh.2014.00457
@@ -3389,7 +3387,7 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1016/j.bandc.2015.08.002
   tag:
-  - introceptive processing
+  - interoceptive processing
   - emotion
 - doi: 10.3389/fnbot.2022.1025338
   tag:
@@ -3463,11 +3461,11 @@ tagged_papers:
   - Bayesian mechanics
 - doi: 10.1371/journal.pcbi.1002911
   tag:
-  - mismatch negativty
+  - mismatch negativity
 - doi: 10.3389/fncom.2022.784967
   tag:
   - empathy
-  - mirron-neuron
+  - mirror-neuron
   - selfhood
   - social
 - doi: 10.1109/TIP.2020.2966082
@@ -3475,7 +3473,7 @@ tagged_papers:
   - signal processing
 - doi: 10.1016/j.neuroimage.2014.11.007
   tag:
-  - event-related potential
+  - event related potential
 - doi: 10.1111/j.1460-9568.2010.07435.x
   tag:
   - mirror-neuron
@@ -3489,7 +3487,7 @@ tagged_papers:
   tag:
   - comment / response
   - culture
-  - affordance
+  - affordances
   - social
 - doi: 10.1017/S0140525X22000139
   tag:
@@ -3499,7 +3497,7 @@ tagged_papers:
 - doi: 10.1093/cercor/bhaa073
   tag:
   - neuroanatomy
-  - decision-making
+  - decision making
 - doi: 10.3389/fnhum.2013.00611
   tag:
   - philosophy
@@ -3557,7 +3555,7 @@ tagged_papers:
 - doi: 10.3389/fpsyg.2016.01090
   tag:
   - affordances
-  - cultural
+  - culture
   - attention
   - agent-environment coupling
   - social
@@ -3576,9 +3574,6 @@ tagged_papers:
   tag:
   - embodied cognition
   - comment / response
-- doi: 10.1021/acsami.9b05812
-  tag:
-  - remove
 - doi: 10.1016/j.plrev.2020.04.004
   tag:
   - comment / response
@@ -3593,15 +3588,6 @@ tagged_papers:
   tag:
   - comment / response
   - culture
-- doi: 10.1016/j.chroma.2017.05.013
-  tag:
-  - remove
-- doi: 10.3390/ma16113956
-  tag:
-  - remove
-- doi: 10.1103/PhysRevE.93.020901
-  tag:
-  - remove
 - doi: 10.1016/S1474-4422(22)00137-5
   tag:
   - editorial
@@ -3792,9 +3778,6 @@ tagged_papers:
   tag:
   - editorial
   - network analysis
-- doi: 10.1109/MCG.2022.3211729
-  tag:
-  - remove
 - doi: 10.1016/j.conb.2014.05.004
   tag:
   - review
@@ -3934,16 +3917,6 @@ tagged_papers:
   tag:
   - review
   - meditation
-- doi: 10.1109/MCG.2020.2980183
-  tag:
-  - remove
-- doi: .nan
-  tag:
-  - review
-  - schizophrenia
-  - diconnection
-  - psychopathology
-  - neuroanatomy
 - doi: 10.1016/S2215-0366(14)70275-5
   tag:
   - review
@@ -4069,7 +4042,7 @@ tagged_papers:
   - review
   - neuroimaging
   - default mode network
-  - dynamic casual modeling
+  - dynamic causal modeling
   - criticality
   - self-organization
 - doi: 10.1098/rstb.2005.1622
@@ -4421,9 +4394,6 @@ tagged_papers:
   tag:
   - information theory
   - uncertainty
-- doi: 10.1136/bmj.331.7512.305
-  tag:
-  - remove
 - doi: 10.1016/j.bbr.2021.113704
   tag:
   - consciousness
@@ -4448,9 +4418,6 @@ tagged_papers:
   tag:
   - Bayesian model selection
   - goal-directed behavior
-- doi: 10.1109/TVCG.2021.3052580
-  tag:
-  - remove
 - doi: 10.1016/j.jmp.2015.11.003
   tag:
   - tutorial
@@ -4462,7 +4429,7 @@ tagged_papers:
 - doi: 10.1016/j.tics.2012.11.003
   tag:
   - comment / response
-  - autism spectrum disorders
+  - autism spectrum disorder
 - doi: 10.1016/j.neuroimage.2013.02.057
   tag:
   - comment / response
@@ -4515,9 +4482,6 @@ tagged_papers:
   tag:
   - comment / response
   - philosophy
-- doi: 10.1109/TVCG.2021.3067757
-  tag:
-  - remove
 - doi: 10.1371/journal.pcbi.1007366
   tag:
   - erratum
@@ -4598,7 +4562,7 @@ tagged_papers:
   - event related potential
 - doi: 10.1002/hbm.23839
   tag:
-  - statistical parameteric mapping
+  - statistical parametric mapping
   - neuroimaging
 - doi: 10.1006/nimg.2002.1153
   tag:
@@ -4636,9 +4600,6 @@ tagged_papers:
   tag:
   - review
   - neuroimaging
-- doi: 10.1109/TVCG.2014.30
-  tag:
-  - remove
 - doi: 10.1006/nimg.1997.0291
   tag:
   - neuroimaging
@@ -4663,9 +4624,6 @@ tagged_papers:
   tag:
   - comment / response
   - neuroanatomy
-- doi: 10.1136/bmj.318.7195.1365
-  tag:
-  - remove
 - doi: 10.1038/srep16575
   tag:
   - human behavior
@@ -4706,15 +4664,12 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1007/s10548-021-00868-8
   tag:
-  - dynamica causal modeling
+  - dynamic causal modeling
   - schizophrenia
 - doi: 10.1126/science.1202043
   tag:
   - neuroanatomy
   - mismatch negativity
-- doi: 10.1109/TVCG.2016.2518079
-  tag:
-  - remove
 - doi: 10.1523/JNEUROSCI.2987-11.2011
   tag:
   - schizophrenia
@@ -4818,17 +4773,11 @@ tagged_papers:
   - neuroimaging
   - aging
   - memory
-- doi: 10.1109/TVCG.2015.2446467
-  tag:
-  - remove
 - doi: 10.1016/j.jneumeth.2009.06.029
   tag:
   - dynamic causal modeling
   - neuroimaging
   - memory
-- doi: 10.1109/TVCG.2018.2859924
-  tag:
-  - remove
 - doi: 10.1006/nimg.2002.1091
   tag:
   - neuroimaging
@@ -4883,7 +4832,7 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1002/hbm.460010306
   tag:
-  - statistical parameteric mapping
+  - statistical parametric mapping
   - theory
 - doi: no_doi_5
   tag:
@@ -4927,7 +4876,7 @@ tagged_papers:
   - theory
 - doi: 10.1016/j.neubiorev.2015.07.006
   tag:
-  - autism spectrum disorders
+  - autism spectrum disorder
   - interoceptive processing
   - theory of mind
 - doi: 10.1002/(SICI)1097-0193(1996)4:2<140::AID-HBM5>3.0.CO;2-3
@@ -4942,7 +4891,7 @@ tagged_papers:
   - theory
 - doi: 10.1038/jcbfm.1995.45
   tag:
-  - statistical parameteric mapping
+  - statistical parametric mapping
   - editorial
   - neuroimaging
 - doi: 10.1016/s0896-6273(00)80476-6
@@ -5013,7 +4962,7 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1016/j.neuroimage.2007.02.046
   tag:
-  - dynamical causal modeling
+  - dynamic causal modeling
   - neuroimaging
   - Bayesian model selection
   - event related potential
@@ -5058,7 +5007,7 @@ tagged_papers:
 - doi: 10.1038/28389
   tag:
   - vision
-  - linguistic
+  - linguistics
   - neuroimaging
 - doi: 10.1006/nimg.1997.0265
   tag:
@@ -5144,7 +5093,7 @@ tagged_papers:
   tag:
   - neuronal dynamics
   - neuroimaging
-  - sychrony
+  - synchrony
 - doi: 10.1016/j.neuroimage.2005.05.037
   tag:
   - neuroimaging
@@ -5204,7 +5153,7 @@ tagged_papers:
 - doi: 10.1016/j.neuroimage.2008.02.005
   tag:
   - neuroimaging
-  - time series anaylsis
+  - time series analysis
   - theory
 - doi: 10.1016/s0893-6080(00)00066-6
   tag:
@@ -5213,7 +5162,7 @@ tagged_papers:
 - doi: 10.1109/TMI.2003.809140
   tag:
   - statistical parametric mapping
-  - unsuperivsed learning
+  - unsupervised learning
   - neuroimaging
   - theory
 - doi: 10.1016/S1053-8119(03)00360-4
@@ -5239,7 +5188,7 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1006/nimg.2001.1044
   tag:
-  - unsuperivsed learning
+  - unsupervised learning
   - neuroimaging
   - theory
 - doi: 10.1016/S0893-6080(00)00066-6
@@ -5281,7 +5230,7 @@ tagged_papers:
 - doi: 10.1002/(SICI)1097-0193(1996)4:4<265::AID-HBM4>3.0.CO;2-1
   tag:
   - time series analysis
-  - statistical parameteric mapping
+  - statistical parametric mapping
 - doi: 10.1002/(SICI)1097-0193(1997)5:4<264::AID-HBM11>3.0.CO;2-E
   tag:
   - neuroimaging
@@ -5314,7 +5263,7 @@ tagged_papers:
 - doi: no_doi_7
   tag:
   - non-English article
-  - Alzhiemer's disease
+  - Alzheimer's disease
   - statistical parametric mapping
   - neuronanatomy
 - doi: 10.1080/21622965.2017.1388237
@@ -5413,7 +5362,7 @@ tagged_papers:
   tag:
   - statistical parametric mapping
   - speech
-  - decision-making
+  - decision making
   - neuroimaging
 - doi: 10.1006/nimg.1999.0437
   tag:
@@ -5599,7 +5548,7 @@ tagged_papers:
   tag:
   - sleep
   - consciousness
-  - brain-machine interface
+  - brain-computer interface
 - doi: 10.1523/JNEUROSCI.1176-13.2013
   tag:
   - memory
@@ -5698,7 +5647,7 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1371/journal.pone.0015554
   tag:
-  - decision-making
+  - decision making
   - uncertainty
 - doi: 10.1006/nimg.1999.0498
   tag:
@@ -5738,13 +5687,13 @@ tagged_papers:
 - doi: 10.1371/journal.pbio.3000230
   tag:
   - neuroimaging
-  - decision-making
+  - decision making
   - social
   - navigation
 - doi: 10.1037/abn0000370
   tag:
   - interoceptive processing
-  - autism spectrum disorders
+  - autism spectrum disorder
   - psychopathology
 - doi: 10.1016/j.neuroimage.2015.03.008
   tag:
@@ -5789,7 +5738,7 @@ tagged_papers:
   - neuroimaging
   - neuronal populations
   - neurocircuitry
-  - sychrony
+  - synchrony
   - neuronal dynamics
 - doi: 10.1176/jnp.7.2.155
   tag:
@@ -5806,7 +5755,7 @@ tagged_papers:
   tag:
   - comment / response
   - morphogenesis
-  - collective behavioral
+  - collective behavior
   - systems theory
 - doi: 10.1016/j.neuroimage.2016.08.062
   tag:
@@ -5870,7 +5819,7 @@ tagged_papers:
   tag:
   - chemical reaction networks
   - systems theory
-  - homeostatis / allostasis
+  - homeostasis / allostasis
 - doi: 10.1016/j.pneurobio.2020.101821
   tag:
   - neurocircuitry
@@ -5934,14 +5883,11 @@ tagged_papers:
   - erratum
   - sleep
   - consciousness
-- doi: 10.1021/acs.analchem.8b05615
-  tag:
-  - remove
 - doi: 10.1371/journal.pbio.1002588
   tag:
   - neuroimaging
   - neuroanatomy
-  - decision-making
+  - decision making
   - navigation
 - doi: 10.1093/cercor/bhw332
   tag:
@@ -6030,11 +5976,11 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1073/pnas.1514212112
   tag:
-  - autism spectrum disorders
+  - autism spectrum disorder
   - comment / response
 - doi: 10.1080/17588928.2019.1676711
   tag:
-  - decision-making
+  - decision making
   - movement
   - neuroanatomy
   - navigation
@@ -6071,9 +6017,6 @@ tagged_papers:
   tag:
   - sensorimotor control
   - neuroimaging
-- doi: 10.1097/j.pain.0000000000002709
-  tag:
-  - remove
 - doi: 10.1002/hbm.23331
   tag:
   - dynamic causal modeling
@@ -6167,7 +6110,7 @@ tagged_papers:
   - neurocircuitry
 - doi: 10.1016/j.neuroimage.2011.01.085
   tag:
-  - dynamical causal model
+  - dynamic causal modeling
   - time series analysis
   - Bayesian filtering
 - doi: 10.1016/j.clinph.2005.01.014
@@ -6236,8 +6179,8 @@ tagged_papers:
 - doi: 10.1007/s00213-019-05300-5
   tag:
   - computational psychiatry
-  - emotions
-  - interceptive inference
+  - emotion
+  - interoceptive processing
   - psychopathology
 - doi: 10.1016/j.neuroimage.2015.05.064
   tag:
@@ -6250,7 +6193,7 @@ tagged_papers:
   - dynamic causal modeling
   - vision
   - neuroanatomy
-  - synchronization
+  - synchrony
   - neuronal dynamics
   - neuronal populations
 - doi: 10.1016/j.neuroimage.2005.03.001
@@ -6261,12 +6204,9 @@ tagged_papers:
   - psychopathology
 - doi: 10.1126/science.1094285
   tag:
-  - decision-making
+  - decision making
   - reinforcement learning
   - neuroanatomy
-- doi: 10.1109/TVCG.2022.3216712
-  tag:
-  - remove
 - doi: 10.1016/j.ijpsycho.2010.01.011
   tag:
   - skin conductance
@@ -6296,7 +6236,7 @@ tagged_papers:
 - doi: 10.1016/j.neuroimage.2003.09.052
   tag:
   - neuroimaging
-  - statistical parameteric mapping
+  - statistical parametric mapping
 - doi: 10.1016/j.neuroimage.2022.119038
   tag:
   - neuroimaging
@@ -6354,13 +6294,13 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1002/hbm.22513
   tag:
-  - reinforement learning
+  - reinforcement learning
   - neuroanatomy
   - goal-directed behavior
 - doi: 10.1007/s10339-007-0170-2
   tag:
   - review
-  - mirror-neurons
+  - mirror-neuron
   - collective behavior
   - social
 - doi: 10.1098/rspb.2000.1080
@@ -6438,7 +6378,7 @@ tagged_papers:
   - psychopathology
   - psychotherapy
   - attention
-  - decision-making
+  - decision making
 - doi: 10.1016/j.neuroimage.2014.11.027
   tag:
   - default mode network
@@ -6466,7 +6406,7 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1523/JNEUROSCI.2668-09.2009
   tag:
-  - mirror-neurons
+  - mirror-neuron
   - neuroanatomy
   - neuroimaging
 - doi: 10.1002/ana.10586
@@ -6497,10 +6437,10 @@ tagged_papers:
   tag:
   - neuroanatomy
   - learning
-  - decision-making
+  - decision making
 - doi: 10.1097/00001756-199906030-00005
   tag:
-  - autism spectrum disorders
+  - autism spectrum disorder
   - neuroimaging
   - neuroanatomy
   - social
@@ -6562,12 +6502,9 @@ tagged_papers:
   - attention
   - neuroimaging
   - neuroanatomy
-- doi: 10.1242/dmm.042713
-  tag:
-  - remove
 - doi: 10.1097/WNR.0b013e3281139ed0
   tag:
-  - mirror-neurons
+  - mirror-neuron
   - review
   - movement
   - goal-directed behavior
@@ -6622,7 +6559,7 @@ tagged_papers:
   tag:
   - schizophrenia
   - audition
-  - hallucinations
+  - hallucination
   - neuroanatomy
   - disconnection
 - doi: 10.1016/j.patter.2022.100656
@@ -6647,7 +6584,7 @@ tagged_papers:
   - neuroanatomy
 - doi: no_doi_11
   tag:
-  - decision-making
+  - decision making
   - speech
   - neuroimaging
 - doi: 10.1093/schbul/sbu080
@@ -6666,7 +6603,7 @@ tagged_papers:
   - depression
   - psychopathology
   - neuroimaging
-  - Alzhiemer's disease
+  - Alzheimer's disease
   - statistical parametric mapping
 - doi: 10.1016/j.neuroimage.2019.116435
   tag:
@@ -6725,10 +6662,10 @@ tagged_papers:
   - representation
   - neuroanatomy
   - social
-  - decision-making
+  - decision making
 - doi: 10.1098/rstb.2002.1210
   tag:
-  - autism spectrum disorders
+  - autism spectrum disorder
   - social
   - communication
 - doi: 10.1523/JNEUROSCI.20-16-06159.2000
@@ -6786,7 +6723,7 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1523/JNEUROSCI.0400-10.2010
   tag:
-  - autism spectrum disorders
+  - autism spectrum disorder
   - social
   - communication
 - doi: no_doi_12
@@ -6939,19 +6876,16 @@ tagged_papers:
   tag:
   - theory
   - neuroimaging
-  - timeseries analysis
-- doi: 10.1016/j.socscimed.2010.05.018
-  tag:
-  - remove
+  - time series analysis
 - doi: 10.1016/j.jneumeth.2009.08.005
   tag:
-  - skin condutance
-  - timeseries analysis
+  - skin conductance
+  - time series analysis
 - doi: 10.1016/j.neuroimage.2007.02.020
   tag:
   - theory
   - neuroimaging
-  - timeseries analysis
+  - time series analysis
 - doi: 10.1093/brain/115.6.1769
   tag:
   - neuroimaging
@@ -6966,7 +6900,7 @@ tagged_papers:
   - neuroanatomy
 - doi: 10.1016/j.bpsc.2016.12.009
   tag:
-  - epilsepy
+  - epilepsy
   - review
   - computational psychiatry
   - psychopathology
@@ -7032,7 +6966,7 @@ tagged_papers:
   tag:
   - consciousness
   - sensorimotor control
-  - decision-making
+  - decision making
   - neural substrate
   - neuroanatomy
 - doi: 10.1016/j.neuroimage.2008.07.041
@@ -7085,7 +7019,7 @@ tagged_papers:
   - economics
   - goal-directed behavior
   - neuroimaging
-  - decision-making
+  - decision making
 - doi: 10.1371/journal.pcbi.0030100
   tag:
   - audition
@@ -7131,9 +7065,6 @@ tagged_papers:
   - depression
   - mood
   - psychotherapy
-- doi: 10.1080/14728222.2023.2177532
-  tag:
-  - remove
 - doi: 10.1016/j.bpsc.2017.01.010
   tag:
   - neuronal dynamics
@@ -7143,18 +7074,18 @@ tagged_papers:
   tag:
   - synchrony
   - dynamic causal modeling
-  - Parkinson's diease
+  - Parkinson's disease
   - neuroimaging
   - neuroanatomy
 - doi: 10.1177/1073858412449192
   tag:
-  - neurimaging
+  - neuroimaging
   - injury
 - doi: 10.3389/fnhum.2011.00039
   tag:
   - variational inference
   - theory
-  - decision-making
+  - decision making
   - reinforcement learning
   - core
 - doi: 10.1212/wnl.52.4.816
@@ -7243,7 +7174,7 @@ tagged_papers:
 - doi: 10.1017/s003329170003806x
   tag:
   - neuroimaging
-  - statistical parametric maps
+  - statistical parametric mapping
   - depression
   - mood
 - doi: 10.1152/jn.1996.75.1.454
@@ -7322,7 +7253,7 @@ tagged_papers:
   - dynamic causal modeling
   - neuroimaging
   - theory
-  - timeseries analysis
+  - time series analysis
 - doi: 10.1093/cercor/bhaa311
   tag:
   - speech
@@ -7337,7 +7268,7 @@ tagged_papers:
   tag:
   - motivation
   - addiction
-  - decision-making
+  - decision making
 - doi: 10.1038/srep05027
   tag:
   - addiction
@@ -7349,7 +7280,7 @@ tagged_papers:
   - vision
 - doi: 10.1371/journal.pone.0015555
   tag:
-  - decision-making
+  - decision making
 - doi: 10.1523/JNEUROSCI.1194-09.2010
   tag:
   - sensorimotor control
@@ -7400,9 +7331,6 @@ tagged_papers:
   - psychopathology
   - psychedelics
   - anxiety
-- doi: 10.1007/978-3-0348-0828-6_2
-  tag:
-  - remove
 - doi: 10.1016/j.biopsycho.2013.09.010
   tag:
   - skin conductance
@@ -7450,7 +7378,7 @@ tagged_papers:
   - covid-19
 - doi: 10.7554/eLife.53900
   tag:
-  - decision-making
+  - decision making
   - vision
 - doi: 10.1093/brain/aww286
   tag:
@@ -7482,8 +7410,8 @@ tagged_papers:
   - epilepsy
 - doi: 10.1093/brain/awq332
   tag:
-  - Parkinson's diesase
-  - neuroan
+  - Parkinson's disease
+  - neuroanatomy
   - sensorimotor control
 - doi: 10.1523/JNEUROSCI.2903-08.2008
   tag:
@@ -7511,7 +7439,7 @@ tagged_papers:
   - sensorimotor control
 - doi: 10.1162/jocn_a_01728
   tag:
-  - affordance
+  - affordances
   - neuroanatomy
   - goal-directed behavior
 - doi: 10.1523/JNEUROSCI.3254-12.2012
@@ -7604,7 +7532,7 @@ tagged_papers:
 - doi: 10.1016/j.neunet.2008.08.007
   tag:
   - saccades
-  - decison-making
+  - decision making
   - vision
 - doi: 10.1016/j.brainres.2006.02.098
   tag:
@@ -7683,7 +7611,7 @@ tagged_papers:
   - neuronal gauge theory
 - doi: 10.1162/jocn_a_01557
   tag:
-  - timeseries analysis
+  - time series analysis
   - time processing
   - perception
   - neuroanatomy
@@ -7695,8 +7623,8 @@ tagged_papers:
 - doi: 10.1371/journal.pcbi.1005418
   tag:
   - human behavior
-  - goal-direction behavior
-  - decision-making
+  - goal-directed behavior
+  - decision making
   - neuroanatomy
 - doi: 10.1016/j.neuroimage.2015.11.030
   tag:
@@ -7724,7 +7652,7 @@ tagged_papers:
   - audition
 - doi: 10.1111/j.1460-9568.2005.04217.x
   tag:
-  - autism spectrum disorders
+  - autism spectrum disorder
   - memory
   - neuroanatomy
   - psychopathology
@@ -7735,7 +7663,7 @@ tagged_papers:
 - doi: 10.1093/brain/awf036
   tag:
   - Parkinson's disease
-  - neuroan
+  - neuroanatomy
   - neurocircuitry
   - vision
 - doi: 10.1093/cercor/9.1.35
@@ -7810,14 +7738,14 @@ tagged_papers:
   - nociceptive processing
 - doi: 10.3389/fpsyt.2021.706655
   tag:
-  - decision-making
+  - decision making
   - computational psychiatry
   - review
   - psychotherapy
 - doi: 10.1093/braincomms/fcab098
   tag:
   - anosognosia
-  - sensorimotor cntrol
+  - sensorimotor control
   - neuroanatomy
   - stroke
 - doi: 10.1093/cercor/bhw340
@@ -7828,7 +7756,7 @@ tagged_papers:
 - doi: 10.1016/j.neuroimage.2014.12.015
   tag:
   - neuroanatomy
-  - decision-making
+  - decision making
   - dynamic causal modeling
 - doi: 10.1016/j.neuroimage.2004.12.031
   tag:
@@ -7848,7 +7776,7 @@ tagged_papers:
   - multiple sclerosis
 - doi: 10.1155/2020/8830005
   tag:
-  - neuroan
+  - neuroanatomy
   - aging
   - meditation
 - doi: 10.3389/fneur.2017.00346
@@ -7863,7 +7791,7 @@ tagged_papers:
   - embodied cognition
   - neuroimaging
   - dynamic causal modeling
-  - precision psychiatry
+  - precision
   - brain-body interaction
 - doi: 10.1093/cercor/bhu210
   tag:
@@ -7887,7 +7815,7 @@ tagged_papers:
   - neuroimaging
 - doi: 10.1371/journal.pone.0006475
   tag:
-  - dynamic causaling modeling
+  - dynamic causal modeling
   - neuroanatomy
   - epilepsy
   - neuroimaging
@@ -7964,7 +7892,7 @@ tagged_papers:
   - psychedelics
   - selfhood
   - consciousness
-  - neuromode
+  - neuromodulation
 - doi: 10.3389/fpsyg.2020.00358
   tag:
   - meditation
@@ -8022,7 +7950,7 @@ tagged_papers:
 - doi: 10.1007/s12264-017-0101-x
   tag:
   - schizophrenia
-  - hallucinations
+  - hallucination
   - dynamic causal modeling
   - neuroimaging
   - speech
@@ -8064,7 +7992,7 @@ tagged_papers:
   - movement
   - neural dynamics
   - neurocircuitry
-  - brain-machine interface
+  - brain-computer interface
 - doi: 10.1002/hbm.25638
   tag:
   - audition
@@ -8139,7 +8067,7 @@ tagged_papers:
   - immune system
 - doi: 10.1093/schbul/sbz066
   tag:
-  - disconection
+  - disconnection
   - schizophrenia
   - psychopathology
   - neuromodulation
@@ -8167,12 +8095,12 @@ tagged_papers:
 - doi: 10.1002/hbm.24218
   tag:
   - neuroimaging
-  - timeseries analysis
+  - time series analysis
   - theory
 - doi: 10.1002/hbm.22840
   tag:
-  - autism spectrum disorders
-  - interoceptive inference
+  - autism spectrum disorder
+  - interoceptive processing
   - neuroanatomy
   - neuroimaging
   - dynamic causal modeling
@@ -8246,7 +8174,7 @@ tagged_papers:
   - neuromodulation
 - doi: 10.1073/pnas.1513752113
   tag:
-  - netowrk analysis
+  - network analysis
   - default mode network
   - neuroanatomy
   - neuroimaging
@@ -8360,7 +8288,8 @@ tagged_papers:
   - predictive coding
 - doi: 10.1002/wcs.142
   tag:
-  - predictive coding - review
+  - predictive coding 
+  - review
 - doi: 10.1523/ENEURO.0412-18.2019
   tag:
   - predictive coding
@@ -10187,9 +10116,6 @@ tagged_papers:
 - doi: 10.1017/S0140525X1700214X
   tag:
   - predictive coding
-- doi: 10.1037/a0039787
-  tag:
-  - remove
 - doi: 10.1016/j.concog.2018.06.010
   tag:
   - predictive coding
@@ -10347,7 +10273,7 @@ tagged_papers:
   tag:
   - predictive coding
   - review
-  - autism spectrum disorders
+  - autism spectrum disorder
 - doi: 10.3389/fpain.2022.966034
   tag:
   - predictive coding
@@ -10554,7 +10480,7 @@ tagged_papers:
   tag:
   - predictive coding
   - social
-  - homeostatsis / allostasis
+  - homeostasis / allostasis
   - evolution
 - doi: 10.1016/j.neubiorev.2019.04.020
   tag:
@@ -10590,7 +10516,7 @@ tagged_papers:
   tag:
   - predictive coding
   - review
-  - illusions
+  - illusion
   - perception
 - doi: 10.1016/j.ynstr.2021.100403
   tag:
@@ -11079,9 +11005,6 @@ tagged_papers:
 - doi: 10.1523/ENEURO.0229-20.2020
   tag:
   - predictive processing
-- doi: 10.1016/j.ygeno.2018.10.008
-  tag:
-  - remove
 - doi: 10.1016/j.cortex.2018.06.008
   tag:
   - predictive processing
@@ -11464,7 +11387,7 @@ tagged_papers:
   tag:
   - predictive processing
   - review
-  - anesthesia
+  - anaesthesia
   - sleep
   - consciousness
 - doi: 10.1016/j.neubiorev.2021.04.002
@@ -11722,7 +11645,7 @@ tagged_papers:
 - doi: 10.1016/j.neuroimage.2018.07.038
   tag:
   - predictive processing
-  - artifical curiosity
+  - artificial curiosity
   - memory
 - doi: 10.1016/j.cub.2012.04.026
   tag:
@@ -13039,7 +12962,7 @@ tagged_papers:
   - interoceptive processing
   - depression
   - psychopathology
-  - autism spectrum disorders
+  - autism spectrum disorder
   - anxiety
 - doi: 10.1038/s41598-023-38708-3
   tag:
@@ -13326,7 +13249,7 @@ tagged_papers:
 - doi: 10.1002/aur.2482
   tag:
   - predictive processing
-  - autism spectrum disorders
+  - autism spectrum disorder
 - doi: 10.1080/23273798.2019.1628284
   tag:
   - predictive processing
@@ -13506,7 +13429,7 @@ tagged_papers:
 - doi: 10.1016/j.bandc.2016.02.008
   tag:
   - predictive processing
-  - representations
+  - representation
   - review
 - doi: 10.1177/09567976211032676
   tag:

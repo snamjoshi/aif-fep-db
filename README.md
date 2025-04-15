@@ -69,7 +69,7 @@ The `Tags` class is used to tag papers using the DOI as the identifier. It has t
 ## TODO list
 
 This is a list of items that I plan to finish before passing the project on to others for further work.
-- [ ] Clean up current database and make it up to date
+- [X] Clean up current database and make it up to date
 - [ ] Documentation for the meaning behind each tag
 - [ ] Test workflow notebook
 - [ ] Remove autoreload from notebooks
