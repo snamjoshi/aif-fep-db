@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output, State
 from itertools import chain
 
 
-def create_layout(app, database: pd.DataFrame, metadata: dict, mapping: dict, tags: list):
+def create_layout(app, database: pd.DataFrame, metadata: dict, mapping: dict, tags: list, definitions: pd.DataFrame):
     
     creation_time = metadata["creation_time"]
     tag_version = metadata["tag_version"]
@@ -78,6 +78,29 @@ def create_layout(app, database: pd.DataFrame, metadata: dict, mapping: dict, ta
             dcc.Tab(label="Tag reference", children=[
                 html.Div([
                     html.H3("Tag reference"),
+                    html.P("The following table describes each of the available tags. Most tags are self-explanatory but all definitions are included here for completeness."),
+                    html.Br(),
+                    
+                    dash_table.DataTable(
+                        id="definitions",
+                        columns=[
+                            {"name": i, "id": i} for i in definitions.columns],
+                        data=definitions.to_dict("records"),
+                        filter_action="native",
+                        style_header = {
+                            'text_align': 'left',
+                            'backgroundColor' : 'rgb(30, 144, 255)'
+                        },
+                        style_data={
+                            'whiteSpace': 'normal',
+                            'height': 'auto',
+                            'text_align': 'left'},
+                        style_data_conditional=[
+                            {'if': {'row_index': 'odd'},
+                            'backgroundColor': 'rgb(240, 240, 240)'}
+                        ],
+                        style_as_list_view=True
+                    )
                 ])]),
             
             dcc.Tab(label="About This App", children=[

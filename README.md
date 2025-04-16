@@ -1,10 +1,10 @@
 # A database of publications related to active inference, the free energy principle, and predictive processing
 
-This tool was developed while I was writing *Fundamentals of Active Inference* and needed to do a complete literature review of all papers published around active inference, the free energy principle, Bayesian mechanics, and predictive processing. The primary purpose of this tool is to facilitate easy and flexible methods for scraping papers related to active inference and tagging them. The tool is completely general and could be used for a literature search on any area of interest.
+This tool makes it easy to scrape new papers from online archive, tag them, store them as serialized `Pandas` DataFrames, and then display them in a simple `Dash` app. Currently, the app provides a list of tagged papers relating active inference, the free energy principle, and predictive processing.
 
-Although the repo is designed around updating and maintaining a current list of tagged papers in the literature, the major programs are general enough to apply to your own project. For example, if you are writing a review on a specific area of active inference and want to have your results easily reproducible, you could use this repo to scrape the relevant papers, tag them, and then perform downstream analysis.
+This tool was developed while I was writing *Fundamentals of Active Inference* and needed to do a complete literature review of all papers published around active inference, the free energy principle, Bayesian mechanics, and predictive processing. The primary purpose of this tool is to facilitate easy and flexible methods for scraping papers related to active inference and tagging them. 
 
-You will find tools that make it easy to scrape new papers from online archive, tag them, store them as serialized `Pandas` DataFrames, and then display them in a simple `Dash` app.
+Although the repo is designed around updating and maintaining a current list of tagged papers in the literature, the tool is general and could be used for a literature search on any area of interest. For example, if you are writing a review on a specific area of active inference and want to have your results easily reproducible, you could use this repo to scrape the relevant papers, add specific tags yourself, and then perform downstream analysis.
 
 ## General workflow for updating database and tags
 
@@ -34,6 +34,8 @@ By default, the app will run using the latest version of the database. If you wi
 By default, databases are assumed to be stored in `data/database`. However, in the Docker image these files are just copied directly into `/app/data` where `/app` is the working directory.
 
 ## Brief documentation
+
+Please install all packages in `requirements.txt` into a fresh virtual environment before using this repo. Note that to just run the app all you need is Docker.
 
 There are three main classes used in this database tool. They are described below along with a brief description of the methods. For more detail on these classes, and how to use them in a workflow, see the `examples/` directory.
 
@@ -65,28 +67,6 @@ The `Tags` class is used to tag papers using the DOI as the identifier. It has t
 * `save()`: Saves (exports) the tag file as YAML.
 * `set_tag_list_category()`: Creates a new tag list category for the tag file.
 * `view_tag_list()`: Prints the current tag list for a loaded tag file.
-
-## TODO list
-
-This is a list of items that I plan to finish before passing the project on to others for further work.
-- [X] Clean up current database and make it up to date
-- [ ] Documentation for the meaning behind each tag
-- [X] Test workflow notebook
-- [X] Remove autoreload from notebooks
-- [X] Delete old files and final cleanup.
-- [X] Add line in workflow notebook showing how to point the app to a database
-- [X] README: Cleanup instructions for shell scripts and how to pass in DB path
-- [X] Fix downloading filtered database with Dash app
-- [X] Add shell script that separates building from running (or both).
-- [X] Config file or Docker command to specify the path to the current database
-- [X] Redo README
-- [X] Type hints, doc strings, better documentation in general
-- [X] Clean up the interactive database file [Deleted instead]
-- [X] Double check outer requirements text
-- [X] Check remaining TODOs in codebase
-- [X] Move stuff in `dash.ipynb` into the app layout
-- [X] Display timestamp and tag file hash in layout
-- [X] About section for the app
 
 ## Future planned features / fixes
 

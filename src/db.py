@@ -192,6 +192,7 @@ class Database:
         LOGGER.info(f"{n_untagged} papers are currently untagged.")
         
         self.db.loc[self.db['tag'].isna(), 'tag'] = ["untagged"] * n_untagged
+        self.db['tag'] = self.db['tag'].apply(lambda x: ["untagged"] if x == "untagged" else x)
         self.db['tag'] = self.db['tag'].apply(lambda x: x)
         
         self.db = self.db.dropna(axis=0, how="any")

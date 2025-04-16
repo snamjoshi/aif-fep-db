@@ -1,0 +1,232 @@
+Term,Definition
+adaptation,Adaptation of an agent to its environment
+addiction,Simulation or behavioral studies of addiction or substance abuse
+aesthetic perception,Perception of aesthetics or appreciation of beauty and art 
+affordances,Tool usage or actions for an agent that enable new states or action opportunities for optimal interaction with the environment
+agent-environment coupling,Relationship between an agent interacting with its environment
+aging,Neurobiology of aging
+Alzheimer's disease,Simulation or behavioral studies of Alzheimer's diesase
+anaesthesia,Neurobiology of anaesthesia
+animal behavior,Behavioral study involving animals
+anosognosia,Simulation or behavioral studies of anosognosia
+anticipation,Predictive processes that predict or expect future environmental states or observations
+anxiety,Neuropathology of anxiety
+apathy,Modeling disinterested states of an agent
+application,Application to real-world scenarios
+arousal,Simulation or behavioral studies of arousal
+artificial curiosity,Investigations into enabling curious-like behavior in artificial systems
+attachment theory,Simulation or behavioral studies of child-caregiver attachment behaviors in humans and animals
+attention,Modulation of precision on computational model variables or neuronal gain modulation 
+audition,Simulation or behavioral studies on the auditory sensory modality
+autism spectrum disorder,Simulation or behavioral studies of autism spectrum disorders
+autopoiesis,Investigations into self-organization and self-maintenance is biological or artificial systems
+Bayesian filtering,Bayesian approaches to filtering methods
+Bayesian model reduction,Investigations into structure learning that reduces the complexity of the model
+Bayesian model selection,Investigations into model comparison strategies
+belief formation,Simulation or behavioral studies investigating the formation of beliefs
+Bethe free energy,Computational methods that involve the Bethe assumption for the factorization of the variational density
+binocular rivalry,Simulations or behavioral studies of the binocular rivalry illusion
+bipolar disorder,Neuropathology of bipolar disorder
+borderline personality disorder,Neuropathology of borderline personality disorder
+brain-body interaction,Interaction between the brain and body
+brain-computer interface,Interfacing between a brain and computer system
+branching-time active inference,Active inference tree-based algorithms that branch from the present time point
+cancer,Applications of self-organization and the free energy principle to the collective behavior involved in cancer dynamics 
+catatonia,Neuropathology of catatonia
+chemical reaction networks,Applications of the free energy principle to chemical reaction networks
+child development,Applications of active inference to child development
+clinical psychology,General category for investigations in clinical neuropathologies
+cognitive control,Investigations into executive function control of lower-level systems
+collective behavior,Simulation or behavioral studies involving multiple agents and their interaction
+comment / response,"A journal article which is a commentary, response, or rebuttal to another journal article"
+communication,"Involving the transfer or sharing of information (observations, parameters, distributions) between agents"
+computational psychiatry,Applying computational methods to provide precise numeral characterizations of neuropathologies seen in human and animals
+consciousness,Investigations into the study of consciousness 
+continuous state space / adaptive control,"Simulations, methodologies, or applications of continuous state space active inference"
+control theory,"Relating to systems that control an external environment that they are coupled to, especially through feedback"
+core,"Core active inference, Bayesian mechanics, or free energy principle literature (formal methods, simulations)"
+covid-19,Modeling COVID-19 epidemiology with dynamic causal modeling
+criticality,Investigating self-organized systems whose behaviors change dramatically in response to small perturbations
+culture,"Social behaviors and precise regularities / shared norms (laws, beliefs, habits) in multi-agent systems"
+cybernetics,"Interactions between agent an environment or computers, especially in the context of feedback"
+decision making,Relating to processes of ranking between sequences of possible actions according to intrinsic and extrinsic values
+deep active inference,Applications of deep learning to active inference
+default mode network,Investigations into the brain in the absence of external stimuli
+degeneracy,Mechanisms of degenerate or redundant structures in the brain and behavior
+delusion,Neuropathology or simulations of false inference due to precise state priors
+depersonalization,Neuropathology of depersonalization or dissociation
+depression,Neuropathology of depression
+disconnection,Of or relating to disconnection syndromes
+discrete state space / Markov decision process,"Simulations, methodologies, or applications of discrete state space active inference formulated interms of Markov decision processes"
+down syndrome,Neuropathology of down syndrome
+dynamic causal modeling,Methodologies or applications of dynamic causal modeling for neuroimaging data
+dyslexia,Neuropathology of dyslexia
+dysmetria,Neuropathology of dysmetria
+eating disorder,Neuropathology of eating disorders
+ecological psychology,Applications or formal methods investigating agent-environment interactions that may not involve direct computations
+economics,Applications of active inference to behavioral economics or game theory
+ecosystems,Simulations or investigations of the application of the free energy principle to large-scale mult-agent systems and environment interactions
+editorial,Opinion article
+embodied cognition,Simulations or investigations into the relationship between the brain and body in cognitive processes
+embryogenesis,Applications of active infernce to embryogenesis
+emotion,Applications of active inference or predictive processing to the study of emotion
+empathy,Applications of active inference or predictive processing to models of empathy
+enactive inference,"Relating to the enactive (ecology psychology, affordances) interpretation of active inference"
+enactivism,Relating to enactive approaches to cognition
+endocrinology,Predictive processing approaches to endocrinology and immune system function
+energy homeostasis principle,Relating to the minimization in uncertainty of body energy requirements
+epilepsy,Neuropathology of epilepsy
+erratum,Errors in journal articles
+ethics,Philosophy of predictive processing relating to ethics
+event related potential,Relating to brain responses to sensory and motor stimuli
+evolution,Free energy minimization in the context of optimality in evolutionary systems
+existential threat,Predictive processing of existential threats
+expected float entropy,Relating to the minimization of expected float entropy in the context of consciousness
+expected free energy,"Formal methods, applications, and analysis of expected free energy"
+explainability,Relating to explainable generative models
+exploration,Simulations or formal methods around exploratory behavior
+exteroceptive processing,Relating to the processing sensory signals coming from the external environment
+forward model,Relating to generative models that connect actions to their intended (sensory) outcomes
+free energy of the expected future,Formal methods or applications of free energy of the expected future
+generalized free energy,Formal methods or applications of generalized free energy
+generalized predictive coding,Formal methods connecting active inference to Rao and Ballard-style predictive coding
+goal-directed behavior,Agent behaviors or actions to achieve an intended goal
+graphical models,Forney factor graph or Bayesian network representations of active inference models
+habit learning,Formal methods or applications of learning habits in active inference (E vector)
+hallucination,Neuropathology or simulations of false inferences
+headache,Predictive processing applications to sensory signals of headaches
+hierarchical Gaussian filter,Methodology and applications of the hierarchical Gaussian filter
+hierarchical model,"Simulations, methodology, or applications of models with multiple hierarchical layers"
+homeostasis / allostasis,"Simulations, formal methods, or discussion around the nature of homeostasis or allostasis"
+homeostatic reinforcement learning,Active inference and homeostatic reinforcement learning
+human behavior,Simulations of human behavior
+human-machine interface,Relating to the interface between human and machine
+Huntington's disease,Simulation or behavioral studies of Huntington's diesase
+hypnosis,Applications of predictive processing to hyponosis
+hysteria,Neuropathology of hysteria
+illusion,Simulation or study of false inferences
+immune system,Predictive processing approaches to immune system function
+information geometry,Formal methods or applications of information geometry to the free energy principle and active inference
+information seeking,Simulation and analysis of information seeking behavior of agents
+information theory,Formal methods utilizing information theory
+injury,Predictive processing applications to bodily injury
+insight,"Simulation and analysis of agent's developing ""insight"" from sensory data (structure learning)"
+integrated information theory,Analysis of the relationship between the free energy principle and integrated information theory
+intelligence,Relating to the application of predictive processing to intelligence
+interoceptive processing,Relating to the processing sensory signals coming from the body
+Kikuchi's free energy,Formal methods involving Kikuchi's free energy
+KL control,Formal methods comparing active inference to KL control
+lateralization,Of or relating to brain lateralization
+lattice theory,Formal methods around the free energy principle and lattice theory
+learning,"Formal methods, simulation, and applications of parameter learning, structure learning, or active learning in active inference"
+lesions,Neuroimaging studies focusing on lesions
+linguistics,Predictive processing approaches to linguistics
+logic,Relationship between generative models and logical reasoning
+Markov blankets,"Formal methods, analysis, and discussion of Markov blankets or ""Friston blankets"""
+meditation,Predictive processing applications to the study of meditation
+memory,Predictive processing applications to memory
+message passing,"Formal methods and simulations related to message passing, especially in a factor graph context"
+metabolism,Predictive processing applications to metabolism
+metacognition,Predictive processing approaches to metacognition
+military research,Predictive processing applications to military research
+mirror-neuron,"Simulation, modeling, and analysis of mirror neurons"
+mismatch negativity,Neuroimaging studies focusing on mismatch negativity
+mood,Predictive processing approaches to mood
+morphogenesis,Active inference and the free energy principle applications to the study of morphogenesis and collective cellular behavior
+morphological computation,Robotics approaches to body-based computation
+motivation,Predictive processing approaches to motivation
+movement,Simulation and analysis of movement and motor coordination from the perspective of active inference
+multimodal integration,Integration of multiple sensory modalities in a single generative model
+multiple sclerosis,Neuropathology of multiple sclerosis
+navigation,Active inference approaches to navigating in an enviroment
+network analysis,Formal methods or analysis relating to graph theory
+neural coding,Neuroimaging studies investigation neural response to stimuli
+neural substrate,Neural correlates of the free energy principle and active inference
+neuroanatomy,Neuroimaging studies investigating functional anatomy
+neurocircuitry,Neuroimaging studies investigating neuronal circuitry
+neurocomputation,Simulations and formal methods computationally modeling brain function
+neuroimaging,Neuroimaging study
+neuromodulation,"Neuroimaging, active inference, and computational psychiatry approaches to neuronal gain modulation (salience, attention, precision)"
+neuromorphic computing,Active inference approaches to neuromorphic computing
+neuronal dynamics,Formal methods and modeling of neuronal population activity
+neuronal gauge theory,Formal methods and theory around gauge theories in the neurosciences implied by the free energy principle
+neuronal populations,Studies related to the behavior or activity of neuronal populations
+niche construction,Agent-environment interactions studying the sculpting of an environment for the reduction of uncertainty
+nociceptive processing,Relating to the processing of pain sensation
+noise,Formal methods related to probabilistic noise or other random fluctuations
+non-English article,A journal article write in a language other than English
+normativity,Relating to normativity and belief formation in the context of ethics and social groups
+obesity,Predictive processing approaches to the study of obesity
+object localization,"Studies investigating the ability to local an object in an environment (""what"" and ""where"")"
+obsessive-compulsive disorder,Neuropathology of obsessive-compulsive disorder
+organizational,Applications of the free energy principle to the study of organized groups
+pain,Predictive processing applications to the study of pain perception
+panic disorder,Neuropathology of panic disorder
+Parkinson's disease,Simulation or behavioral studies of Parkinson's diesase
+path-integral formulation,Relating to the path-integral interpretation of Bayesian mechanics
+perception,Predictive processing approaches to perceptual processes in the brain
+philosophy,"Philosophy of predictive processing, active inference, and the free energy principle"
+placebo,Predictive processing approaches to the analysis of placebo
+policy pruning,Formal methods for reducing the complexity of policy trees for more computationally efficient decision-making
+precision,Confidence or inverse variance of probability distributions of a generative model
+predictive coding,"Theory, formal methods, and applications of predictive coding"
+predictive processing,"Theory, formal methods, and applications of predictive processing"
+projective geometry,Formal methods or applications of projective geometry to active inference and the free energy principle
+proprioceptive processing,Relating to the processing of sensory signals relating to the awareness of body position in 3D space
+psychedelics,Predictive processing analysis of the effects of psychedelics on cognition
+psychoanalysis,Exploratory connections between active inference and psychoanalysis
+psychogenic tremor,Neuropathology of psychogenic tremor
+psychopathology,Articles exploring human and animal pathologies
+psychophysiology,Interaction between psychological states and the body
+psychotherapy,Active inference applications to psychotherapy
+quantum mechanics,Applications of the free energy principle to quantum mechanics
+redundancy,Formal methods and analysis of redundancy mechanisms in the brain
+rationality,Applications of active inference and predictive processing to rationality
+reinforcement learning,Active inference and reinforcement learning
+reflex arc,"Simulation, analysis, and formal methods around reflex arcs"
+Renyi divergence,Formal methods in active inference relating to the Renyi divergence
+repetition priming,Neuroimaging and behavioral studies related to repetition priming
+repetitive stimulus presentation,Neuroimaging and behavioral studies related to repetitive stimulus presentation
+representation,Theory and philosophy around neural representation
+resilience,Investigations into properties of resiliance in nervous systems
+review,Review article
+risk,Formal methods or analysis of risk and uncertainty in decision-making processes
+robotics,Active inference applications to robotics
+saccades,"Simulations or analysis of saccadic eye movement, especially relating to salience and attention"
+salience,Investigations into actions that select uncertainty-resolving features of the environment
+scene construction,Formal methods and analysis of scene construction
+schizophrenia,Neuropathology of schizophrenia
+selfhood,"Philosophy, formal methods, or theory around the neuroscientific basis of selfhood"
+self-regulation,Formal methods and theory related to regulation of internal system properties in self-organized systems
+sensorimotor control,Interaction between sensory system and output motor commands
+signal processing,Formal methods or simulations using signal processing
+skin conductance,Neuroimaging or behavioral studies measuring skin conductance
+sleep,Predictive processing or active inference applications to the study of sleep
+social,General category for the investigation of social systems in humans and animals
+sophisticated inference,Active inference simulations utilizing sophisticated inference
+sophisticated learning,Learning processes relying on sophisticated inference
+speech,Predictive processing approaches to the study of speech production and comprehension
+statistical parametric mapping,Methodology and applications of statistical parameteric mapping
+stress,Predictive processing applications to the study of stress
+stroke,Predictive processing applications to the study of stroke
+structure learning,Formal methods for learning the structure of a generative model through variational free energy minimization
+surprisal,Formal methods and analysis of surprisal (negative log model evidence)
+synesthesia,Predictive processing applications to the study of synesthesia
+synchrony,"Formal methods, theory, and applications to the study of synchronized and coordinated behaviors in multi-agent systems"
+synthetic biology,Intersection of active inference / the free energy principle and synthetic biology
+systems theory,Relating to the interactions between dynamical systems
+temporal model,Simultion studies involving time-indexed variables
+theory,Formal methods or theory papers
+theory of computation,Formal methods or applications of the theory of computation
+theory of mind,Predictive processing applications to theory of mind
+Tourette syndrome,Neuropathology of Tourette syndrome
+timescales,Simulations or theory relating to separation of timescales
+time processing,Simulation or neurobiology of time processing
+time series analysis,Simulations or theory relating to time series data
+translation process research,Analysis of human cognitive behaviors in translation studies
+tutorial,Tutorials on active inference or the free energy principle
+uncertainty,Studies investigating the role of uncertainty in inference processes
+unsupervised learning,Formal methods in machine learning or active inference concerned with unsupervised learning
+variational inference,Formal methods concerned with variational Bayesian inference
+vision,Predictive processing approaches to vision
+world model learning,Simulations investigating the development of rich generative models that reflect the external complexities of the environment
